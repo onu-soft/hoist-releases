@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "- 토렌트 기능 추가 — 사이드바 '토렌트'에서 마그넷 링크·.torrent 파일로 다운로드(진행률·속도·피어 표시, 일시정지/재개/제거, 완료 시 폴더 열기). 설정에서 저장 폴더 및 다운로드/업로드 속도 제한(KB/s, 0=무제한, 즉시 적용) 지정",
-  "pub_date": "2026-08-03T09:40:04Z",
+  "version": "0.3.1",
+  "notes": "- 토렌트 목록 유지 — 앱을 껐다 켜도 받던 토렌트가 이어받기로 복원됩니다\n- `.torrent` 파일 열기 — Finder에서 '다음으로 열기 → Hoist'로 바로 추가됩니다\n- 진행 표시 — 사이드바와 Dock 아이콘에 다운로드 중·완료 개수 배지, 완료 시 시스템 알림(설정에서 끄기 가능)\n- 다운로드 속도 표시 안정화 — 속도가 '—'로 깜빡이던 문제 개선\n- 업데이트 알림 창 정리 — 새 기능 목록을 더 보기 좋게 표시",
+  "pub_date": "2026-08-03T23:23:47Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJ3K2YwWkZaUVNOWmJ0aC9PZzFrSldFSFdQVUt2QW52SkFtbmVRV3RtRlBwM2Y1VTUxV2xMR3JYZkdOa0dtdVhqeU1vZHpIYVBRZ3Jpc2p0OXViREFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQ5OTgyCWZpbGU6SG9pc3QuYXBwLnRhci5negowUHRNblRQYzRleDN6ejF3UU5CcG9nMjFVTk1hS1ZhaTNPTFlSRmtJZ0V3TzgzVkZpSzA1MnFKTDQ0cnlmT2ZDZ2NxdEFvOGN1eUQ1b25YVzhuUXlEQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.0/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDF5SjQ3R2hNcDZQM1FCelp1aXVjOHlZakk4N3lBTENMUXRWMDVUNzd5T0wzZmV6TEtpaTQ0cVZlMTNPVkJlbUQ2MzV3WUdWTTg1cWt3bGZqU2d2YmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1Nzk5NDA0CWZpbGU6SG9pc3QuYXBwLnRhci5negpVM1llSDl6NVUzK1VodEYwUkpMZW94OFpWWmZjV2xwWkF0dmxzcGU1b3Z1Vk14aFFSNWxhWFRSd3laWm5hM3BIbzBCdTFGZXNPSlQwUnU3WUxGNFlEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.1/Hoist.app.tar.gz"
     }
   }
 }
