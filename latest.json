@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
-  "notes": "## [v0.1.0] — 2026-08-03\n- 첫 릴리스 🎉\n- 듀얼 페인 파일 매니저 (로컬 볼륨/디스크 탐색, 복사·이동·이름변경·휴지통)\n- 원격 파일시스템 연결: SFTP · FTP/FTPS · S3/B2 · Dropbox · Google Drive · OneDrive\n- OS 키체인 기반 연결 비밀 암호화 저장\n- 자동 업데이트 지원 (백그라운드 확인 → 설치 → 재시작)",
-  "pub_date": "2026-08-03T04:02:12Z",
+  "version": "0.1.1",
+  "notes": "## [v0.1.1] — 2026-08-03\n- macOS 코드사인 + 공증(notarization) 적용 — 이제 Gatekeeper 경고 없이 바로 설치·실행됩니다\n- 새 앱 아이콘 적용",
+  "pub_date": "2026-08-03T05:11:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9aaE8rMzdTQkN6enVKZGF6dExNaTdiL1NWcmRlUWM2QmhCTkZYN1AwbDd2ek1FM1g4cTcydHVjSDZtL2gvQkJsYmdTanJONk42Qm9SeWxZN3FtRUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzI5NzMyCWZpbGU6SG9pc3QuYXBwLnRhci5nego5bGVZb3N6WnBKQ0lkWnZOeWJldjRPUG94YkxVVUxBK1locFZhdDdpTWkzVFpIWW9OU24wSGtMd1pLdzQ4azkyZEx0eW4vbzJlM2lpbXV2bVdBbkFCUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.1.0/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBMcHVZdmRFRmQ0NVdYNmdMcTlGQ1habk1CVGd0cXZXZk82SkUvVFNvRnZxQklLZDZHK09ISmZ4cFNZd0R3eEliUURrenpBUGRQYTVib3JFTG1ic3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzMzODg0CWZpbGU6SG9pc3QuYXBwLnRhci5negptbCtkMUVReXVpWm9NQ3lxaXhZRnpzU2xoWW1CcnNnaEdoa2VBck4wci8zQzd3N2FHV0hXdDRqdVM5Wkg0a2NiWWVGYkprYkd0VXVoU3BaQ3RkM1VBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.1.1/Hoist.app.tar.gz"
     }
   }
 }
