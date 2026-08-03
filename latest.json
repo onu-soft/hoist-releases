@@ -1,11 +1,11 @@
 {
-  "version": "0.2.1",
-  "notes": "- 업데이트 알림을 사이드바 하단 표시로 변경 — 자동 팝업 대신 클릭하면 상세 (주기적·창 포커스 시 자동 확인 → 재시작 없이 감지)\n- 파일 복사/이동 진행률을 용량(바이트) 기준으로 실시간 표시\n- 앱 실행 시 창이 확장되는 애니메이션 제거 — 준비되면 바로 최대화된 상태로 표시",
-  "pub_date": "2026-08-03T06:18:18Z",
+  "version": "0.2.2",
+  "notes": "- 드래그드롭 복사/이동 시 대상에 같은 이름이 있으면 물어봄 — 덮어쓰기 · 둘 다 보관 · 건너뛰기\n- 이동 단축키를 OS 표준으로 통일 — macOS ⌘, Windows Shift (기본은 복사)",
+  "pub_date": "2026-08-03T06:28:16Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFwZXVSdVdkOG9JYWtxNHl2dG1kZmJ6UmwwYmRacVJtYTN1ZXV3RzNrclJCV09nRnBSaDJDaDg2U3R6K2pHa0crc0lMVFlMRzFUUXhTcnd6MW01bUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzM3ODcyCWZpbGU6SG9pc3QuYXBwLnRhci5negpXRFVOemt6anBxSFNkWjR0MlVaTGc5Z2dsNzNjNTN5eWxteUFBdDZxTGdqQW05ZSt5ZXQ3a0JpNnRwOEgxbjdSNzhoQkpwTytBeS9PZVhML3l5ckVCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.1/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhaWW8raURpa1VDVmpyZHZQWVcvSGZTVVFIODdxTFd0S2lqMC9ucDlEUTN5K0FYZDUwbm5mcTIxVENpQUxrQzZQNThuaUhoS3N0RGJzUmVHd2VPNFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzM4NDY5CWZpbGU6SG9pc3QuYXBwLnRhci5negpBRlpJTlpaanlzQlZVY2ZFNzhDdC90RitGVjM4Y2k1OVQ4MEZSMWdaYjh4Y1Y4NHNMUmozZEVjQk12YXdKNVBIYXJuMUhVY3NLYVJmZVFmTDB1YTlCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.2/Hoist.app.tar.gz"
     }
   }
 }
