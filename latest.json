@@ -1,11 +1,11 @@
 {
-  "version": "0.2.7",
-  "notes": "- 업데이트 알림 창 여백 개선\n- FTP 원격 목록에서 같은 파일이 중복 표시되던 문제 수정",
-  "pub_date": "2026-08-03T08:07:31Z",
+  "version": "0.2.8",
+  "notes": "- 설정 화면 추가 (사이드바 하단 ⚙ 설정) — 로그 저장 여부·상세도, 저장 위치 지정/열기, 로그 삭제\n- 원격(FTP) 연결이 서버 유휴 타임아웃(421)으로 끊겼을 때 자동 재접속 후 재시도",
+  "pub_date": "2026-08-03T08:27:40Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNGbis0U2FmUnJSZm1IK1JHVGk4U2RDbXVuRVNzc2VwMm1telZHUENOejJGYTBOb3ZYTzdKd0NuZlZxRWovUFFMRmtPM2ExbmZ0NkN2K2Y2SklBblFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQ0NDI0CWZpbGU6SG9pc3QuYXBwLnRhci5negp4S0VpMHJmTTRhcUFGNmh1dC9ObngzRU93QUErL2FnZjRyanM4UDZmelJrOThleW9wRjhaQ0NRTWhiblhWNTU0eU1iNk5tT1dXQ2xGbEZJZmNucWpEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.7/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHkrRVRoSE56aWVVc1RFTEs2b0U4VXRFVlQvQnhFSGFPa3NmRXc5ckhoUEg5SEJUOW5jRWhhbnpPOXN6OEdYSnJPb2NsQzAwb2VsRHhXRURYa1dEMnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQ2MTUwCWZpbGU6SG9pc3QuYXBwLnRhci5negpNZEdhQUxSeUFyNUNUb1J3QUZXTlh4VDdsWXVOYTBSMW9CNENHVWVGNmhJWVZqbmNvWkZaUXRpQUpYamg2NlZUVFVDZjZIN1hVOEFYKyt2bkUvN2NEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.8/Hoist.app.tar.gz"
     }
   }
 }
