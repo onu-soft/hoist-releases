@@ -1,11 +1,11 @@
 {
-  "version": "0.2.5",
-  "notes": "- 앱 아이콘을 솔리드 컬러로 정리 (디자인 정책 — 그라디언트 제거)",
-  "pub_date": "2026-08-03T07:20:19Z",
+  "version": "0.2.6",
+  "notes": "- 파일에서 Shift + ↑/↓ 로 여러 개 범위 선택\n- 진단용 파일 로그 추가 (~/Library/Logs/com.airly.hoist/hoist.log)",
+  "pub_date": "2026-08-03T07:56:13Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtrL05Cb0lqNUY4LzE5TmI4NkgzUWthQ0FsdzRlK1d4NGs2cmlhUHphNTUyS29lejhhM25uaWhxVVliaEtBMEx4ZlNFRDFZL0dBUUl0dGtZQ0lXZFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQxNTkyCWZpbGU6SG9pc3QuYXBwLnRhci5negpCMnVGVExqakg2RGlpczdqZHo2cHlTaTlVb3VvK0dCTVBSOTMvQ29mbjRNb0hDcnVnSzF0b1EyWGxORmh2ZytJUmNBMm1ybHo0aTNIajV1RnZnT2xCUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.5/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDgyL3BsSitCL1lnRzVKRkNtdk9iTmV1V1VTcWpib2xxUmxRanNWNEN5QTZ5UlVpeFFtTDhodk1ud2tVZHJWTlpQTXdmTUdxZUpKbnFVODBCend5N0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQzNzQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negp6WmhPMmJGemxLZHBUUEZvZm8vR1l5WXl3bmtGS0czVXpVSXFJTnNCUXF6cUxCb1R2dVZwQ3hSREI4bi9sUHhxaDEwREJKME9LT1VxcG5aR2JDeXRDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.6/Hoist.app.tar.gz"
     }
   }
 }
