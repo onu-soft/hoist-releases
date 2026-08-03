@@ -1,11 +1,11 @@
 {
-  "version": "0.2.9",
-  "notes": "- 파일 전송(복사·이동·업로드)이 끝나면 그 폴더를 보고 있는 화면을 자동 새로고침 — 새 파일이 바로 표시(이동은 원본에서 사라짐). 다른 폴더로 이동했으면 갱신하지 않음",
-  "pub_date": "2026-08-03T08:56:51Z",
+  "version": "0.2.10",
+  "notes": "- 리스트 뷰에서 창이 좁아지면 컬럼(크기·변경일시)이 잘리지 않고 좌우 스크롤 — ForkLift처럼 스크롤해서 모든 컬럼 확인",
+  "pub_date": "2026-08-03T09:05:51Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDQ3ekFvU3lMZ094ckV5d0ZTWTRucEJmc0pESDlNT2lQcTFvR1M2empmbFY1N3JUUWR0ODFsSDBxTlArZmpLeXFMRmFFS2J5SW9SL2VuZVd0blJ0WmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQ3Mzg0CWZpbGU6SG9pc3QuYXBwLnRhci5negp6Y01PaCtzSVhzOUVFRlMxSWh1ODQ0dmxzRzJjRFMvWjNWbGkyRFh3c2NqMmtmdWFkWlEvYnJaME1oUEdtVFVOUks5blhNV1Y1ckdEVVVXaHovajVEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.9/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNmVEkwMTgwWk1JRXpWVmgyNk9YaDg3Q0hrWnFvNDdoVG9STzJGOTI1QWtYaTk0ZXdDL1ZSYzB3MnRNSSt0QWpUeC93MkgzcDFVaDhHVFd1VWM5SndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQ3OTI5CWZpbGU6SG9pc3QuYXBwLnRhci5negpNTjlMVENxMmlXMlNldERVa3NkbWlTK0dBb1VpSDJXbU1QWDB5dkVmM1NoM0R4RVExa1BtRzk1cWtST2VoTEt5RlRHajlWQkdoOEFscnovSjQ3dDVBdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.10/Hoist.app.tar.gz"
     }
   }
 }
