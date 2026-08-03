@@ -1,11 +1,11 @@
 {
-  "version": "0.2.6",
-  "notes": "- 파일에서 Shift + ↑/↓ 로 여러 개 범위 선택\n- 진단용 파일 로그 추가 (~/Library/Logs/com.airly.hoist/hoist.log)",
-  "pub_date": "2026-08-03T07:56:13Z",
+  "version": "0.2.7",
+  "notes": "- 업데이트 알림 창 여백 개선\n- FTP 원격 목록에서 같은 파일이 중복 표시되던 문제 수정",
+  "pub_date": "2026-08-03T08:07:31Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDgyL3BsSitCL1lnRzVKRkNtdk9iTmV1V1VTcWpib2xxUmxRanNWNEN5QTZ5UlVpeFFtTDhodk1ud2tVZHJWTlpQTXdmTUdxZUpKbnFVODBCend5N0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQzNzQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negp6WmhPMmJGemxLZHBUUEZvZm8vR1l5WXl3bmtGS0czVXpVSXFJTnNCUXF6cUxCb1R2dVZwQ3hSREI4bi9sUHhxaDEwREJKME9LT1VxcG5aR2JDeXRDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.6/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNGbis0U2FmUnJSZm1IK1JHVGk4U2RDbXVuRVNzc2VwMm1telZHUENOejJGYTBOb3ZYTzdKd0NuZlZxRWovUFFMRmtPM2ExbmZ0NkN2K2Y2SklBblFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQ0NDI0CWZpbGU6SG9pc3QuYXBwLnRhci5negp4S0VpMHJmTTRhcUFGNmh1dC9ObngzRU93QUErL2FnZjRyanM4UDZmelJrOThleW9wRjhaQ0NRTWhiblhWNTU0eU1iNk5tT1dXQ2xGbEZJZmNucWpEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.7/Hoist.app.tar.gz"
     }
   }
 }
