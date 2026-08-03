@@ -1,11 +1,11 @@
 {
-  "version": "0.1.1",
-  "notes": "## [v0.1.1] — 2026-08-03\n- macOS 코드사인 + 공증(notarization) 적용 — 이제 Gatekeeper 경고 없이 바로 설치·실행됩니다\n- 새 앱 아이콘 적용",
-  "pub_date": "2026-08-03T05:11:44Z",
+  "version": "0.2.0",
+  "notes": "- 드래그드롭으로 파일·폴더 복사/이동 — 다른 페인이나 폴더로 끌어다 놓기 (⌘ 누르고 드래그하면 이동)\n- 여러 파일 선택 후 함께 드래그 (⌘ 클릭으로 하나씩 추가 · ⇧ 클릭으로 범위 선택)\n- 사이드바 '디바이스'에서 볼륨 추출(eject) 버튼\n- 업데이트 알림의 릴리스 노트를 보기 좋게 표시",
+  "pub_date": "2026-08-03T05:53:55Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBMcHVZdmRFRmQ0NVdYNmdMcTlGQ1habk1CVGd0cXZXZk82SkUvVFNvRnZxQklLZDZHK09ISmZ4cFNZd0R3eEliUURrenpBUGRQYTVib3JFTG1ic3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzMzODg0CWZpbGU6SG9pc3QuYXBwLnRhci5negptbCtkMUVReXVpWm9NQ3lxaXhZRnpzU2xoWW1CcnNnaEdoa2VBck4wci8zQzd3N2FHV0hXdDRqdVM5Wkg0a2NiWWVGYkprYkd0VXVoU3BaQ3RkM1VBZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.1.1/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlncit4S1l6S3lvV00xQ2R4RTFpZ21TT0lFOHVEQU5PNy9ydkFBNXk4MU9RbnNiTU81SUZVQm5zcGZic2VBTkV6cTA2M280YncrbVlRREpNL0h1SlFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzM2NDEzCWZpbGU6SG9pc3QuYXBwLnRhci5negpoV3hKMEY2WTgwN3B1TCtpZXMySmxsbmVic21sSzZWdHBuUjFMSENxVlZITjRsbHpUTytvZy9jcCtGZFltRFowMHkrZkdkMDliNTlxSGs1U1czc2xEUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.0/Hoist.app.tar.gz"
     }
   }
 }
