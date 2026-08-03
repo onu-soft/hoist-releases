@@ -1,11 +1,11 @@
 {
-  "version": "0.2.3",
-  "notes": "- 원격(NAS) 업로드 중에도 같은 서버를 바로 탐색 가능 — 전송용 별도 연결 사용(탐색이 안 막힘)\n- 원격 전송(SFTP/FTP) 진행률을 용량(바이트) 기준으로 실시간 표시",
-  "pub_date": "2026-08-03T06:55:46Z",
+  "version": "0.2.4",
+  "notes": "- 업데이트 알림 창 디자인 개선 + 전체 UI 그라디언트 제거(솔리드 컬러로 통일, 가독성)\n- 전송 취소 시 '취소 중…' 즉시 표시 — 버튼이 눌렸는지 바로 확인 가능",
+  "pub_date": "2026-08-03T07:12:33Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNUMTJUZTRIQmlCYVNQSnZJWVoyV3NYRmphb1hWMUdrclpKT3NSUVpCUmtkc2xmNDA1TUxpSDYvVGRsVmhCdFF1SVpsRGJieTZwRlB3c1NYUUJENVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQwMTI1CWZpbGU6SG9pc3QuYXBwLnRhci5negpmOWRDNENGNXVHN1lYUXY3VnVYdHV4OWg2angxVEhpT2NhSGRnY1JHYWJNSzBkeGdRRDV2M090aHlNSUpmYUdMMnIyNlF3OGc4eFJMUGdxbzRFRGNEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.3/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZ1TVd2ZS92R1VoRXJ2cG5WajhqZFd2R0k4OFVLM2YxQmRLdkZDRnJqTEs5UXpsQWN4ajdZditYNFhPUjl4RVRTRXJMQTh0Wk5aQWY0M3htU1ZJQ1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzQxMTMxCWZpbGU6SG9pc3QuYXBwLnRhci5negp4Z2lxeCtLcUhxQmt6VlFGQ1dEaDlRNGhvZEF4am42elJkYnBVblhQdjh6elJJaDVhNi9uU1E4UTQ5OForUGlJYS9ZK3J5THNycEV3NlF4cUhmckdBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.2.4/Hoist.app.tar.gz"
     }
   }
 }
