@@ -1,15 +1,15 @@
 {
-  "version": "0.3.46",
-  "notes": "- **동영상 빨리 넘길 때 버벅임 수정** — 미디어 서버가 요청마다 파일 끝까지 스트리밍하던 것을 구간(8MB) 단위로 잘라 보내도록 바꿔, 탐색 시 화면이 부드럽게 넘어감(불필요한 데이터 전송·CPU 사용 대폭 감소)\n- **시스템 RAM 에 안 맞는 큰 모델 자동 제외** — llama3.3(70B) 처럼 메모리를 크게(수십 GB) 먹는 모델은 번역 모델 **선택 목록에서 빠지고**, 이미 선택돼 있으면 실행 시 자동 해제(앱·동영상이 메모리 부족으로 깨지는 것 방지). 설치 목록엔 크기와 함께 '너무 큼' 표시로 남아 삭제 가능\n- **영화 정보 한국어 번역 안정화** — 줄거리가 번역되다 원문으로 남던 문제 수정. 번역에는 **가벼운 이미지 모델(qwen2.5vl 등)을 우선** 사용해 큰 모델이 메모리를 잡아먹지 않도록 함\n- **'다른 앱으로 열기' 오류 수정** — 특정 앱(예: Movist Pro)으로 열 때 'Not allowed to open path' 오류가 나던 문제 해결\n- 모델 삭제 버튼 문구 정리 ('정말 삭제?' → '삭제 확인')",
-  "pub_date": "2026-08-04T16:49:23Z",
+  "version": "0.3.47",
+  "notes": "- **🚨 앱이 닫히지 않던 문제 긴급 수정** — 번역을 사용한 뒤 앱을 닫을 때, 종료 시 번역 모델을 내리는 처리가 Ollama 응답을 기다리며 앱 닫기를 막던 문제 해결. 이제 종료 정리는 **최대 2초만** 시도하고 무조건 앱을 닫음",
+  "pub_date": "2026-08-04T17:01:01Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHc4eThXL3ZQUmZobDNGWFExZis4MzVBTzdBeFVYQkpQTGlISXhpYjJIRUNjZCtteEh5U1g0d1owNi90b2x5SW9qU29EbTRUdnNuekJleTBTcDFJbndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODYyMTI5CWZpbGU6SG9pc3QuYXBwLnRhci5negptTzIwblZ5SXY1MDNDUko1cjZ1eVQzd0JGR3I2aWYxWDdOTWJJTTRLSE90OXd1eVN2RzhlenVrcUZZSElSNCtaNDEzS3B2dmxnK01OY3psN3NTNTJEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.46/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVWUldrZVF2Y2hBaGJXaCtWbWJ1NnRtLy8xS0JMYWg0cXN4Y0ZyQ1l1ZFloRzZMS2FTYm9FVDVOUXhMUDFXTXlRRmpNTzUzUUxoNWRPeXpzVWpLK2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODYyODMwCWZpbGU6SG9pc3QuYXBwLnRhci5negpuMlZaU3hyTFlKc09SVVRTQVQwTDdaZlJBd0d5RG1RalhoSHFrMlBtMVduTEdmLytwMkVnUnAxSXV5UDNqbW1iMFYrRExhU0RyK3VOajdwQndqaEVCZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.47/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHc4eThXL3ZQUmZobDNGWFExZis4MzVBTzdBeFVYQkpQTGlISXhpYjJIRUNjZCtteEh5U1g0d1owNi90b2x5SW9qU29EbTRUdnNuekJleTBTcDFJbndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODYyMTI5CWZpbGU6SG9pc3QuYXBwLnRhci5negptTzIwblZ5SXY1MDNDUko1cjZ1eVQzd0JGR3I2aWYxWDdOTWJJTTRLSE90OXd1eVN2RzhlenVrcUZZSElSNCtaNDEzS3B2dmxnK01OY3psN3NTNTJEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.46/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVWUldrZVF2Y2hBaGJXaCtWbWJ1NnRtLy8xS0JMYWg0cXN4Y0ZyQ1l1ZFloRzZMS2FTYm9FVDVOUXhMUDFXTXlRRmpNTzUzUUxoNWRPeXpzVWpLK2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODYyODMwCWZpbGU6SG9pc3QuYXBwLnRhci5negpuMlZaU3hyTFlKc09SVVRTQVQwTDdaZlJBd0d5RG1RalhoSHFrMlBtMVduTEdmLytwMkVnUnAxSXV5UDNqbW1iMFYrRExhU0RyK3VOajdwQndqaEVCZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.47/Hoist.app.tar.gz"
     }
   }
 }
