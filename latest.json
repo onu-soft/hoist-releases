@@ -1,15 +1,15 @@
 {
-  "version": "0.3.28",
-  "notes": "- 원격(NAS)→로컬 복사 진행률을 전송량(용량)으로 표시 — 개수(0/3)만 나오던 것을 'X GB / Y GB'로 (덮어쓰기·건너뛰기·둘 다 보관 충돌 처리도 함께 적용)\n- 전체화면 이미지·PDF 뷰어의 별도 닫기(×) 버튼 제거 — macOS 창 닫기(빨간 버튼)를 누르면 앱이 종료되지 않고 그 뷰어만 닫힘",
-  "pub_date": "2026-08-04T10:32:20Z",
+  "version": "0.3.29",
+  "notes": "- 이미지·PDF 전체화면 뷰어 상단(제목 영역)을 드래그해서 창을 옮길 수 있음 — 컨트롤이 보일 때도 동작하도록 수정\n- 파일 목록 헤더에서 '크기'·'변경일시' 열 경계를 드래그해 열 너비 조절(설정 저장)",
+  "pub_date": "2026-08-04T10:52:11Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtzYmU1SjYrMXhPSjRNaW1hdUxLY2JtSWlTNzd2dDNmUVBPSXdBVG82OVZ5ZGxORWZxY0tHbkRPZ1VaZFFidjBLN3loV2prazE2WUluSWtWcU50Y3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODM5NTA2CWZpbGU6SG9pc3QuYXBwLnRhci5negpkNW9OdlFyR2pRTzVYMGw0bEVwSnB2TGVxNTNPYmFIWUhNakk5bFpKVExVRlh1OXdBWTdYcU1lMXNnV2dPYVljUGVqTmZ3anhjNGt1WXBBRFU1ZFFDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.28/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV1QndlcGlOZWl4aEduYWY2VFlnUDVKRHYzTDQrYXg4M1FhZFUyaEY2ZDNSdnlaVy9oSGtZSktCcW1iZjlIMkZsSkV1c1pOeE44VVRRa3YrMEZHbFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQwNzAzCWZpbGU6SG9pc3QuYXBwLnRhci5negpBaFYxOVp6dmJ0Tm4rWUFNNXRzbzU1S25oU3hHRVNrdnFzVU1ZWjIzeXlhRFp4eWZINisxYzlzY3g3cktCbGNJaW5DcjloM2ovK1I5QkhKeGdHbVpBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.29/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtzYmU1SjYrMXhPSjRNaW1hdUxLY2JtSWlTNzd2dDNmUVBPSXdBVG82OVZ5ZGxORWZxY0tHbkRPZ1VaZFFidjBLN3loV2prazE2WUluSWtWcU50Y3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODM5NTA2CWZpbGU6SG9pc3QuYXBwLnRhci5negpkNW9OdlFyR2pRTzVYMGw0bEVwSnB2TGVxNTNPYmFIWUhNakk5bFpKVExVRlh1OXdBWTdYcU1lMXNnV2dPYVljUGVqTmZ3anhjNGt1WXBBRFU1ZFFDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.28/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV1QndlcGlOZWl4aEduYWY2VFlnUDVKRHYzTDQrYXg4M1FhZFUyaEY2ZDNSdnlaVy9oSGtZSktCcW1iZjlIMkZsSkV1c1pOeE44VVRRa3YrMEZHbFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQwNzAzCWZpbGU6SG9pc3QuYXBwLnRhci5negpBaFYxOVp6dmJ0Tm4rWUFNNXRzbzU1S25oU3hHRVNrdnFzVU1ZWjIzeXlhRFp4eWZINisxYzlzY3g3cktCbGNJaW5DcjloM2ovK1I5QkhKeGdHbVpBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.29/Hoist.app.tar.gz"
     }
   }
 }
