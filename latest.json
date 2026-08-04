@@ -1,15 +1,15 @@
 {
-  "version": "0.3.25",
-  "notes": "- PDF 뷰어 추가 — PDF를 더블클릭하면 앱 안에서 바로 보기(페이지 연속 표시 · ⌘+/− 또는 Ctrl+휠로 확대 · Esc 닫기). 원격·압축 안의 PDF도 지원\n- 전반 글씨를 조금 더 또렷·굵게(medium) 조정",
-  "pub_date": "2026-08-04T09:38:43Z",
+  "version": "0.3.26",
+  "notes": "- 라이트 모드 글자 가독성 개선 — 흐리게 보이던 회색 텍스트(사이드바 섹션 헤더·부제·날짜·크기·버전)를 더 진하게 조정\n- 전체화면 이미지 뷰어 닫기(×) 버튼을 더 잘 보이게(호버 시 빨강) + 누르면 미리보기까지 함께 닫혀 파일 목록으로 복귀",
+  "pub_date": "2026-08-04T09:56:13Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdkY013T3d6b1lxbmFXTzdCZTk3ZW1CcXo2Qlg2OEREc0tselB4L3lCRTNWeU9ZTlpiNzZqem1kQTR1VXVEMkQ1eGtlWGlsWmNvbitHRFdtbWo3RUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODM2Mjk0CWZpbGU6SG9pc3QuYXBwLnRhci5nego5Vm4rTnB2eTBIQzZyY0dIMHlpNytMSkJpYzlBWnoxL2ZxNHZEUHVtUHZaR0J5U0VyOWxwSXpiMEpPRGpQYUJPeWhYaU01aExvVXFzM0dDNGpPYWdBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.25/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHloZjRNdW13YUtuR1VEZ2VzYnhzQStOOVJ4VEp0aFlQdFFMVXoxdnlMSm96TExHU2lYRGlRVVFwYjJWQmtSQ25Lb0RBTEdnM0ZUMUs3U1UwRTdocUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODM3MzQyCWZpbGU6SG9pc3QuYXBwLnRhci5negpjR00vQjhVSzB2bEdIQURoV0UwbStadzNoRmgwVW56VkswOGdWSlhrUUNlcXNNRGFKNmtYcXFaT2s0c0U3ZENUcEdtNis2aFB2cUVGT0JiUU01VHFEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.26/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdkY013T3d6b1lxbmFXTzdCZTk3ZW1CcXo2Qlg2OEREc0tselB4L3lCRTNWeU9ZTlpiNzZqem1kQTR1VXVEMkQ1eGtlWGlsWmNvbitHRFdtbWo3RUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODM2Mjk0CWZpbGU6SG9pc3QuYXBwLnRhci5nego5Vm4rTnB2eTBIQzZyY0dIMHlpNytMSkJpYzlBWnoxL2ZxNHZEUHVtUHZaR0J5U0VyOWxwSXpiMEpPRGpQYUJPeWhYaU01aExvVXFzM0dDNGpPYWdBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.25/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHloZjRNdW13YUtuR1VEZ2VzYnhzQStOOVJ4VEp0aFlQdFFMVXoxdnlMSm96TExHU2lYRGlRVVFwYjJWQmtSQ25Lb0RBTEdnM0ZUMUs3U1UwRTdocUFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODM3MzQyCWZpbGU6SG9pc3QuYXBwLnRhci5negpjR00vQjhVSzB2bEdIQURoV0UwbStadzNoRmgwVW56VkswOGdWSlhrUUNlcXNNRGFKNmtYcXFaT2s0c0U3ZENUcEdtNis2aFB2cUVGT0JiUU01VHFEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.26/Hoist.app.tar.gz"
     }
   }
 }
