@@ -1,15 +1,15 @@
 {
-  "version": "0.3.38",
-  "notes": "- 번역 위치 표시 — 이미지 번역 결과에서 원문 옆 📍 버튼을 누르면 이미지에서 그 글자의 위치를 하이라이트(qwen2.5vl의 좌표 인식 활용). 한 장 보기에서 동작, 위치는 근사치\n- 동영상 자막 자동 로드 — 영상과 같은 이름의 자막(.srt/.vtt)이 같은 폴더에 있으면 자동으로 불러와 표시(.srt는 자동 변환). 여러 언어 자막이면 재생 컨트롤에서 선택",
-  "pub_date": "2026-08-04T13:18:50Z",
+  "version": "0.3.39",
+  "notes": "- 내장 동영상 플레이어 2단계 — ffmpeg 로 **MKV·AVI 등도 내장 재생**. ffmpeg 가 있으면 모든 동영상을 HLS 로 변환해 재생(H.264 는 재인코딩 없이 remux 라 빠름), 탐색·자막 그대로. 시스템 ffmpeg 자동 감지(없으면 'ffmpeg 받기'로 1회 다운로드) — 앱 용량은 그대로\n- 번역 속도 개선(2패스) — 번역을 **먼저 빠르게 표시**하고, 글자 위치(📍)는 **백그라운드로 분석**해 완료된 것만 원문 옆에 버튼이 나타남. 버튼을 누르면 이미지에서 해당 위치를 하이라이트",
+  "pub_date": "2026-08-04T13:44:30Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJPZ2lFM3haOW1oK0FEUjJBR2tyT1pKcnJqSWlpQ1gyUldCRkd4TXRTUzFBemhsem4zVlQ0dzFOVkVYT2w3NUxzcjJlZWZlbXl4K1dSMVhtZDBMVlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQ5NTAzCWZpbGU6SG9pc3QuYXBwLnRhci5negp6REIyZVNVenBiWEJGQml6clFnTGN0QkFlTEcra0IrK0puUU1nM0tDcG0rRkNjZ0ZHeDV5ZWczQk83LzJSZHhYOFV4MXJzbEZFc0RTY2ZOek1TVElBZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.38/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlCcWgwU1VVNlJNOWZZUHU3dkVLS1V5emRQVGNVR1g0eTR1ZDA2V2paN0ZscVhXZTNJRk5Wb3hFeVpwTkMwYlArTFdsVWZVaVZlVi83aGVnMkVjSkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODUxMDM1CWZpbGU6SG9pc3QuYXBwLnRhci5nego5dlA0WWJmWVM3N0pHS0ZXdE1wd3NuWDNXMWdYdVljRnZwOFd6ZHZTT2NIcTU2V2lOOThYanJvcHgrSDNjRlBoU2RWYjUzUkVjaGpxVVpWQVVielZDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.39/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJPZ2lFM3haOW1oK0FEUjJBR2tyT1pKcnJqSWlpQ1gyUldCRkd4TXRTUzFBemhsem4zVlQ0dzFOVkVYT2w3NUxzcjJlZWZlbXl4K1dSMVhtZDBMVlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQ5NTAzCWZpbGU6SG9pc3QuYXBwLnRhci5negp6REIyZVNVenBiWEJGQml6clFnTGN0QkFlTEcra0IrK0puUU1nM0tDcG0rRkNjZ0ZHeDV5ZWczQk83LzJSZHhYOFV4MXJzbEZFc0RTY2ZOek1TVElBZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.38/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlCcWgwU1VVNlJNOWZZUHU3dkVLS1V5emRQVGNVR1g0eTR1ZDA2V2paN0ZscVhXZTNJRk5Wb3hFeVpwTkMwYlArTFdsVWZVaVZlVi83aGVnMkVjSkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODUxMDM1CWZpbGU6SG9pc3QuYXBwLnRhci5nego5dlA0WWJmWVM3N0pHS0ZXdE1wd3NuWDNXMWdYdVljRnZwOFd6ZHZTT2NIcTU2V2lOOThYanJvcHgrSDNjRlBoU2RWYjUzUkVjaGpxVVpWQVVielZDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.39/Hoist.app.tar.gz"
     }
   }
 }
