@@ -1,15 +1,15 @@
 {
-  "version": "0.3.14",
-  "notes": "- 토렌트 다운로드 시 토렌트별 폴더 자동 생성 — 여러 파일 토렌트는 그 이름의 폴더 안에 저장(표준 방식). 이전엔 폴더 없이 저장 폴더에 바로 풀리던 문제\n- 토렌트 '폴더 열기' — Finder 대신 Hoist 안에서 그 저장 폴더로 바로 이동\n- 폴더별 정렬 기억 — Finder처럼 폴더마다 마지막 정렬(이름·크기·수정일 / 오름·내림)을 기억해 다시 열면 그대로 표시\n- Dock 아이콘 토렌트 배지 — 앱을 켜면 저장된 토렌트를 바로 불러와(이어받기도 재개) 토렌트 화면을 열지 않아도 배지가 표시됨\n- 설정 창 높이 고정 — 좌측 카테고리(토렌트·파일·단축키·로그)를 바꿔도 창 높이가 튀지 않음",
-  "pub_date": "2026-08-04T04:35:41Z",
+  "version": "0.3.15",
+  "notes": "- 상단 도구막대 빈 영역을 드래그해서 창 이동 — 툴바의 빈 곳을 잡고 끌면 창이 움직입니다(버튼·검색창은 그대로 동작). macOS 창 이동을 타이틀바처럼 사용",
+  "pub_date": "2026-08-04T04:46:59Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdLbGFhSWpFdTJzMjVYSlJIQmhQdlJ2WWdXUjVrVXRZUEtGWUUrUUZ6NDYxZ2NKWWNCZ0dndVlnN2poKzhTMXZUaUhISVg5ZGVXY1ZxU014Q0ZsZmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODE4MTEyCWZpbGU6SG9pc3QuYXBwLnRhci5negpCQitIZFRtc2RHSGxqSS9WeWZjWVdQTjVvV2pERWNlNDhvU1owNUY5dDFPOTd0aDQ0bnNVWll1RXBJdGhWWUMxUFlaY3p6SElxOW5Rc2VUWXpzcHlEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.14/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHczL0d2UlVWL2hSZ1RRYkhiWEYvWWJ3Y3FPcUR0bnp5UGlZTXJLQ2VjRG5JMWJwcWRzUHpQM202QnRWYUowaFdLQlM2K1dhVGxtUEtsc3RiQUFHSVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODE4NzkwCWZpbGU6SG9pc3QuYXBwLnRhci5negoxUUlBOVFvem1jbVVHSTFHcUNGWUxKZTVsUU8wL01jeWN3djlwbS9nakJYQ0pMbU9QbHlSZnRCSU5wN05KQjNobTlKQ0VnaXY5blo4dkkvT29NcUREQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.15/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdLbGFhSWpFdTJzMjVYSlJIQmhQdlJ2WWdXUjVrVXRZUEtGWUUrUUZ6NDYxZ2NKWWNCZ0dndVlnN2poKzhTMXZUaUhISVg5ZGVXY1ZxU014Q0ZsZmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODE4MTEyCWZpbGU6SG9pc3QuYXBwLnRhci5negpCQitIZFRtc2RHSGxqSS9WeWZjWVdQTjVvV2pERWNlNDhvU1owNUY5dDFPOTd0aDQ0bnNVWll1RXBJdGhWWUMxUFlaY3p6SElxOW5Rc2VUWXpzcHlEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.14/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHczL0d2UlVWL2hSZ1RRYkhiWEYvWWJ3Y3FPcUR0bnp5UGlZTXJLQ2VjRG5JMWJwcWRzUHpQM202QnRWYUowaFdLQlM2K1dhVGxtUEtsc3RiQUFHSVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODE4NzkwCWZpbGU6SG9pc3QuYXBwLnRhci5negoxUUlBOVFvem1jbVVHSTFHcUNGWUxKZTVsUU8wL01jeWN3djlwbS9nakJYQ0pMbU9QbHlSZnRCSU5wN05KQjNobTlKQ0VnaXY5blo4dkkvT29NcUREQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.15/Hoist.app.tar.gz"
     }
   }
 }
