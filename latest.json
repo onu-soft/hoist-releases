@@ -1,15 +1,15 @@
 {
-  "version": "0.3.10",
-  "notes": "- 즐겨찾기 편집 — 사이드바 즐겨찾기에 폴더 추가(+ 버튼)·이름 변경(더블클릭)·삭제(호버 시 ×)\n- 파일 정렬 기본값 설정 추가 — 설정에서 이름·크기·수정일 / 오름·내림차순을 지정(현재 화면에도 즉시 반영)",
-  "pub_date": "2026-08-04T01:55:07Z",
+  "version": "0.3.12",
+  "notes": "- 원격(FTP) 폴더에 파일이 있는데 목록이 비어 보이던 문제 수정 — 폴더로 이동 후 MLSD(기계 판독) 우선 조회 + 관대한 LIST 파싱으로, 서버·응답 형식 차이(그룹 컬럼 생략·권한 표기·로케일 등)와 무관하게 목록 표시\n- 파일 태그(Finder 태그) 기능 추가 — 설정 > 파일에서 켜면(기본 꺼짐) 파일에 색상 태그(우클릭 메뉴)를 달고, 목록에 색 점 표시, 사이드바에서 색을 눌러 현재 폴더를 그 태그로 필터. macOS Finder 태그와 양방향 연동(Finder에서 단 태그도 그대로 보임)\n- 즐겨찾기 전체 편집 — 기본 제공 항목(홈·다운로드 등)도 이름 변경·삭제 가능 (이전에 추가한 즐겨찾기는 그대로 보존)\n- 설정 화면 리뉴얼 — 좌측 카테고리 탭(토렌트·파일·단축키·로그)으로 정리해 스크롤 없이 원하는 항목으로 바로 이동",
+  "pub_date": "2026-08-04T02:40:10Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDM0Kzk4c2ZpTFdWbDlvVHg4bEZ1Y1hmcm1Ic3ZrbTJaYmc4VW9sNXRQTDJRdFJjQlA2amxBTDY0QWxHMUNpNnNFY2RqS2wzS3c2RlplbzN1WDZibmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA4NDc0CWZpbGU6SG9pc3QuYXBwLnRhci5negp1MWFKd2l4VVQ4aGNtKzhkcnJLaWVoazVvWlM2NzJENk9ya0lYUHBvT2xFR3prN3RIMGxIYkd4eEpCZkYxSFBoZ0cxdzVIUlUxd1pxR2tIRk9ocUFBQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.10/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlKdSsxSjlBemRJTEc1VlVNMjIrak01WWQ0RWdkWnNXNmlLRW5VZC9PL2VNU1hkMEMxdTRCV3h6Z0IxekplQU9SWnJZMnZhVFBVZkxNUDA4cTNLYkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODEzMTQxCWZpbGU6SG9pc3QuYXBwLnRhci5negpBTUtENzlZWXVkVS9PU0tDdjVVcVBBMkhkRXVSVTc2cWtOQWhtaTZ2dGlyd1V1VFdWcTJYUStNbitMKzI3K3pCdmtuU1dtdWIvemtkWUd0R3kvQUdEUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.12/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDM0Kzk4c2ZpTFdWbDlvVHg4bEZ1Y1hmcm1Ic3ZrbTJaYmc4VW9sNXRQTDJRdFJjQlA2amxBTDY0QWxHMUNpNnNFY2RqS2wzS3c2RlplbzN1WDZibmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA4NDc0CWZpbGU6SG9pc3QuYXBwLnRhci5negp1MWFKd2l4VVQ4aGNtKzhkcnJLaWVoazVvWlM2NzJENk9ya0lYUHBvT2xFR3prN3RIMGxIYkd4eEpCZkYxSFBoZ0cxdzVIUlUxd1pxR2tIRk9ocUFBQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.10/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlKdSsxSjlBemRJTEc1VlVNMjIrak01WWQ0RWdkWnNXNmlLRW5VZC9PL2VNU1hkMEMxdTRCV3h6Z0IxekplQU9SWnJZMnZhVFBVZkxNUDA4cTNLYkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODEzMTQxCWZpbGU6SG9pc3QuYXBwLnRhci5negpBTUtENzlZWXVkVS9PU0tDdjVVcVBBMkhkRXVSVTc2cWtOQWhtaTZ2dGlyd1V1VFdWcTJYUStNbitMKzI3K3pCdmtuU1dtdWIvemtkWUd0R3kvQUdEUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.12/Hoist.app.tar.gz"
     }
   }
 }
