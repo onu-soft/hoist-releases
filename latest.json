@@ -1,15 +1,15 @@
 {
-  "version": "0.3.34",
-  "notes": "- 번역 모델 다운로드 개선 — 이미지 모델과 문서 모델을 동시에 받을 수 있음(한쪽 받는 중에도 다른 쪽 다운로드 가능). 또한 다운로드 중 설정을 닫거나 다른 화면으로 이동해도 멈추지 않고 계속 진행되고, 설정을 다시 열면 진행 상황이 그대로 이어져 보임",
-  "pub_date": "2026-08-04T11:54:50Z",
+  "version": "0.3.35",
+  "notes": "- 파일 목록 열 너비 조절 방식 개선 — 각 열의 오른쪽 경계를 드래그해 그 열을 넓히면 오른쪽 열들이 밀리고, 전체가 페인보다 넓어지면 좌우 스크롤. '이름' 열도 직접 넓힐 수 있음(좌·우 페인 각각 독립)\n- 번역 대폭 개선:\n  - 일본어·중국어·영어에 강한 **qwen2.5vl** 모델을 추천 최상단에 (기존 minicpm-v는 일본어 인식이 약한 것으로 확인 — 일본 만화는 qwen2.5vl 권장). 모델 목록에 언어 강점 표시\n  - 번역 결과를 '원문 → 번역' 형식으로 표시(읽은 원문 아래에 번역)\n  - 번역 패널을 이미지와 겹치지 않는 **별도 영역(오른쪽 분할)**으로 분리\n  - **페이지를 넘기면 자동으로 번역** (번역 패널이 열려 있을 때)\n- 설치된 번역 모델 **삭제** 기능 — 설정 > 번역에서 모델별 '삭제'(두 번 눌러 확인). 카탈로그에 없는 기존 모델도 목록에 나와 삭제 가능",
+  "pub_date": "2026-08-04T12:39:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDkraXBNUVQ4MXVmV2pjUmtiWGR1RlZYWTFiMGljWUc1MzlRNG5MQTJwbEpML0ZOVktlcmFYTkF1VFF0VmRBMnppWmhCbTIwcG5nRlR3UHlxc0NEaEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQ0NDYxCWZpbGU6SG9pc3QuYXBwLnRhci5negpGeXVocUM4TG1EUUFhK1M4LzQyS0dDTWJHK3Q4TE1ZS2hVYk4zaFROWnlGZytJVFIwaHdjOUx4bU1Ib1FDQnB5aXora3REaUZBdWJkeE94b3pNN2JCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.34/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhGcnc3QitwaGJwUlZnQWVzMmVLRmlzM0Z0c3VXaGd5RFM4ZlV1YlpRNjFnejBKMk1OREI2aUh2YjVhRzVQWUVPOEtFeG1ranVOd2grOUllV0ZhYmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQ3MTA1CWZpbGU6SG9pc3QuYXBwLnRhci5negpqNFR2eXNnWktGU0xONGZjajRkMUYvZmIwc09UQTBhVUdzVW1WNlZtVllaRG4yZ0pEMkVDY0d5MHVkdXVXMzQzNVFTa3Vpci9YTXNQNENBME9tMlRDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.35/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDkraXBNUVQ4MXVmV2pjUmtiWGR1RlZYWTFiMGljWUc1MzlRNG5MQTJwbEpML0ZOVktlcmFYTkF1VFF0VmRBMnppWmhCbTIwcG5nRlR3UHlxc0NEaEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQ0NDYxCWZpbGU6SG9pc3QuYXBwLnRhci5negpGeXVocUM4TG1EUUFhK1M4LzQyS0dDTWJHK3Q4TE1ZS2hVYk4zaFROWnlGZytJVFIwaHdjOUx4bU1Ib1FDQnB5aXora3REaUZBdWJkeE94b3pNN2JCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.34/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhGcnc3QitwaGJwUlZnQWVzMmVLRmlzM0Z0c3VXaGd5RFM4ZlV1YlpRNjFnejBKMk1OREI2aUh2YjVhRzVQWUVPOEtFeG1ranVOd2grOUllV0ZhYmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQ3MTA1CWZpbGU6SG9pc3QuYXBwLnRhci5negpqNFR2eXNnWktGU0xONGZjajRkMUYvZmIwc09UQTBhVUdzVW1WNlZtVllaRG4yZ0pEMkVDY0d5MHVkdXVXMzQzNVFTa3Vpci9YTXNQNENBME9tMlRDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.35/Hoist.app.tar.gz"
     }
   }
 }
