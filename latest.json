@@ -1,11 +1,11 @@
 {
-  "version": "0.3.2",
-  "notes": "- 사이드바 '설정' 옆에 현재 앱 버전 표시",
-  "pub_date": "2026-08-04T00:14:02Z",
+  "version": "0.3.3",
+  "notes": "- `.torrent` 더블클릭이 막히던 문제 수정 — 파일 타입을 표준(BitTorrent 문서)으로 선언해 Gatekeeper 차단 없이 열립니다\n- magnet 링크를 Hoist로 열기 지원 — 브라우저에서 magnet 링크를 누르면 Hoist로 추가할 수 있습니다",
+  "pub_date": "2026-08-04T00:42:36Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJ4RGM3RzZLeko0a3ZvS01HZHdpRHhxWTZCamMvWkQrSU9NU2hrQ29QZzliUGVUL291cUNYZVc4TnhPeFNwNGZvODB6R29tVGR0SzVUSWUvMyt3WndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODAyNDE0CWZpbGU6SG9pc3QuYXBwLnRhci5negpSNmxCNnVodXhBckVWV1hrNmVPWjZTWm4xM0h3Q0dVMkVhc0lSVHlocDR3Z2wvSUNRSUJkYkR1eWNqcWpSZUJwbFhNSkk2YzM4N1hQOTVXRk5rMWdCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.2/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhKOUJMNFArTWgwVE9OWnBKcnBHcGpVdHh1VnRZS3hoY1Z2V1E4OHJCQ3dGc09jaG9lbEY1eFZjeWx1YVdMZSswMkxUYnRVaGhKNitUUmRqcFU1V0F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA0MTI5CWZpbGU6SG9pc3QuYXBwLnRhci5negpTcXVKR3FOZkpMSEQrOVRVRUpkdWJKeFpVOC9FRlE3S3J5RXJmMUZsTm12MnQzeUd2RG5UMXVCYjM2TXpOQjhXOTdCcFQvWVpVWVgvSGh2VHl0dGJBUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.3/Hoist.app.tar.gz"
     }
   }
 }
