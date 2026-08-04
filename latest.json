@@ -1,15 +1,15 @@
 {
-  "version": "0.3.30",
-  "notes": "- 로컬 LLM 번역 추가 — 설정 > 번역에서 Ollama(내 컴퓨터에서 도는 무료 LLM)를 연결하면, 이미지·PDF 뷰어에서 '번역' 버튼으로 지금 보이는 화면을 번역(인터넷·과금 없음). 하드웨어(RAM)에 맞는 추천 모델 안내 포함\n  - 이미지 뷰어: 보이는 페이지(만화 포함)를 비전 모델로 읽어 번역 (단축키 T)\n  - PDF 뷰어: 보이는 쪽의 텍스트를 번역, 스캔본(글자 없는 이미지)은 비전 모델로 번역\n- 이미지 뷰어에 위아래 여백 추가 — 화면에 꽉 차 답답하던 것 개선\n- 만화 모드에 '첫 페이지' 이동 버튼 추가 (단축키 Home)",
-  "pub_date": "2026-08-04T11:15:47Z",
+  "version": "0.3.31",
+  "notes": "- 파일 목록 헤더 열 너비 조절 개선 — 열 사이 경계(옅은 구분선)를 좌우로 드래그해 '크기'·'변경일시' 너비 조절. 이전엔 마지막 열 핸들이 오른쪽 끝에 붙어 잘 안 잡히던 문제 수정(그립 넓힘·항상 보이는 경계선)",
+  "pub_date": "2026-08-04T11:23:39Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJDRlNTQnFsYTVuVFg5UUo4ZWgvUkE1TFVYSk9rSnFubzNCcWVRQ3hHK2s5RE1oY2ZoalVvT3kydi85blAvU1RYQjFjYndsTzQrQTVGUUtJWlZpSEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQyMTE3CWZpbGU6SG9pc3QuYXBwLnRhci5negpFdVptYmVpZDFOTlJNcENqZFJZZTZLb3I5em9zY0xlMnBWU01FTXJlRTlNSG1LUGt6dWVRZksvMXZYaUVmSStkaXVvcHdua1UrL3RabG55aks5NzJEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.30/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdLVnpzZ2dpK1FPdjVMOXNoSTZiQUpUVzh1Zk13eGxUZ2pJN2lCdytwMjVGQ2pTUy84cGJ0MDRxb08wYUdrVTVRSy9TWStGYTlwMGljcER1d29xTHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQyNTg0CWZpbGU6SG9pc3QuYXBwLnRhci5negpJcUtNcnFFQUFxZVltSTVnY042U0U5VFRGd1dUSjhtN2ljaWlrb2hqdUx4MWVETGUzUnRPWGZobjdneDZCTi9DUjRCQVgxQmlOSmFFaDgwMldLdEdCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.31/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJDRlNTQnFsYTVuVFg5UUo4ZWgvUkE1TFVYSk9rSnFubzNCcWVRQ3hHK2s5RE1oY2ZoalVvT3kydi85blAvU1RYQjFjYndsTzQrQTVGUUtJWlZpSEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQyMTE3CWZpbGU6SG9pc3QuYXBwLnRhci5negpFdVptYmVpZDFOTlJNcENqZFJZZTZLb3I5em9zY0xlMnBWU01FTXJlRTlNSG1LUGt6dWVRZksvMXZYaUVmSStkaXVvcHdua1UrL3RabG55aks5NzJEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.30/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdLVnpzZ2dpK1FPdjVMOXNoSTZiQUpUVzh1Zk13eGxUZ2pJN2lCdytwMjVGQ2pTUy84cGJ0MDRxb08wYUdrVTVRSy9TWStGYTlwMGljcER1d29xTHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODQyNTg0CWZpbGU6SG9pc3QuYXBwLnRhci5negpJcUtNcnFFQUFxZVltSTVnY042U0U5VFRGd1dUSjhtN2ljaWlrb2hqdUx4MWVETGUzUnRPWGZobjdneDZCTi9DUjRCQVgxQmlOSmFFaDgwMldLdEdCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.31/Hoist.app.tar.gz"
     }
   }
 }
