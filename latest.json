@@ -1,15 +1,15 @@
 {
-  "version": "0.3.47",
-  "notes": "- **🚨 앱이 닫히지 않던 문제 긴급 수정** — 번역을 사용한 뒤 앱을 닫을 때, 종료 시 번역 모델을 내리는 처리가 Ollama 응답을 기다리며 앱 닫기를 막던 문제 해결. 이제 종료 정리는 **최대 2초만** 시도하고 무조건 앱을 닫음",
-  "pub_date": "2026-08-04T17:01:01Z",
+  "version": "0.3.48",
+  "notes": "- **🚨 창 닫기 버튼이 앱을 안 닫던 문제 해결 (진짜 원인)** — 창 닫기 권한(core:window:allow-close)이 앱 설정에 빠져 있어, 빨간 닫기 버튼을 눌러도 창이 닫히지 않던 문제를 수정. 이제 닫기 버튼으로 정상 종료됨 (라이브 검증 완료)",
+  "pub_date": "2026-08-04T17:22:10Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVWUldrZVF2Y2hBaGJXaCtWbWJ1NnRtLy8xS0JMYWg0cXN4Y0ZyQ1l1ZFloRzZMS2FTYm9FVDVOUXhMUDFXTXlRRmpNTzUzUUxoNWRPeXpzVWpLK2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODYyODMwCWZpbGU6SG9pc3QuYXBwLnRhci5negpuMlZaU3hyTFlKc09SVVRTQVQwTDdaZlJBd0d5RG1RalhoSHFrMlBtMVduTEdmLytwMkVnUnAxSXV5UDNqbW1iMFYrRExhU0RyK3VOajdwQndqaEVCZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.47/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDgwcU96ZkFRbFpOUkR5K1NmeU5MNzVDRmk4UkVSVTAwUjNzUXQwbW4vT0Njblo4TktONWtMRzd0NUJSaUpOWFhPLytwNGJMSTNJcWF0QUlEMXdiN1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODY0MDk3CWZpbGU6SG9pc3QuYXBwLnRhci5nego3M0xlY1R5Y3IwV0htdERSQlN1QUZyVTljSko1R0xzU3hoUnAxWXh6RVZFZUN4dmV2L283ZW5EZUI0cWJBVkJrYWlBd1lTMjZIR3Z3bDQvam4yYTVDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.48/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVWUldrZVF2Y2hBaGJXaCtWbWJ1NnRtLy8xS0JMYWg0cXN4Y0ZyQ1l1ZFloRzZMS2FTYm9FVDVOUXhMUDFXTXlRRmpNTzUzUUxoNWRPeXpzVWpLK2dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODYyODMwCWZpbGU6SG9pc3QuYXBwLnRhci5negpuMlZaU3hyTFlKc09SVVRTQVQwTDdaZlJBd0d5RG1RalhoSHFrMlBtMVduTEdmLytwMkVnUnAxSXV5UDNqbW1iMFYrRExhU0RyK3VOajdwQndqaEVCZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.47/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDgwcU96ZkFRbFpOUkR5K1NmeU5MNzVDRmk4UkVSVTAwUjNzUXQwbW4vT0Njblo4TktONWtMRzd0NUJSaUpOWFhPLytwNGJMSTNJcWF0QUlEMXdiN1F3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODY0MDk3CWZpbGU6SG9pc3QuYXBwLnRhci5nego3M0xlY1R5Y3IwV0htdERSQlN1QUZyVTljSko1R0xzU3hoUnAxWXh6RVZFZUN4dmV2L283ZW5EZUI0cWJBVkJrYWlBd1lTMjZIR3Z3bDQvam4yYTVDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.48/Hoist.app.tar.gz"
     }
   }
 }
