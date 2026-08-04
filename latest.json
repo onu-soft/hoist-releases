@@ -1,11 +1,15 @@
 {
-  "version": "0.3.7",
-  "notes": "- 완료된 토렌트를 진행 중 항목과 한눈에 구별되게 재디자인 — 초록 강조 카드 · 체크 · '폴더 열기' 강조\n- 완전 삭제 단축키 추가 — macOS `⌘⌥⌫`, Windows `Shift+Delete` (휴지통 거치지 않고 즉시 삭제, 복구 불가 경고)",
-  "pub_date": "2026-08-04T01:20:56Z",
+  "version": "0.3.8",
+  "notes": "- 다른 맥에서 실행되지 않던 문제 수정 — 개발 맥의 Homebrew OpenSSL에 의존해 다른 맥에서 실행 즉시 종료되던 문제. OpenSSL을 앱에 정적 내장해 시스템 라이브러리 없이도 실행됩니다\n- 유니버설 빌드(Apple Silicon + Intel)로 전환 — 두 종류 맥 모두 지원\n- 사이드바 토렌트 배지를 진행 중·일시정지·완료 개수로 구분 표시",
+  "pub_date": "2026-08-04T01:37:51Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlEWFBiZWszdUNGSjlNZjZacWhVSktTQ3RJaGhQclhtVlg1L2RqSXFKUGdGZUc1SjhqVmhCS0pBdTJ3T1RwMkxPSUJ0eElkSkIvM2VCNzlwbGxlSXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA2NDI0CWZpbGU6SG9pc3QuYXBwLnRhci5negpWb1Arc2hSb2lPYVNENXNCVXFuNkQrbm91WXdTSzdFOG10Y2paRU9BZUNWNXErOFFOTklFOGZnU0VTWWxUWlFLWmdoeWZOU2ZYZVZiR2FQZEVteldDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.7/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVZbjh0U21Wc3RwNzFNcHl0cHRWMkM2c1lmK3JGRXhzK2tubHB4REhoclg0OEhKdVpTZzl1OWVVZERUZE5PY2JFY0VkdmZxV1FIOUdNM00vNkUwWUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3NDQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpoT3ZCOGtrNmF2UWFWM1l3L0NwL1ozK2FZRlU2RzRsd0tUejZhWGdteFE3OU44bFNDbjdGMmZwSjMvZG1XdWI4VUxVT3Z2c1BuTjQwclduV1hoaTdCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.8/Hoist.app.tar.gz"
+    },
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVZbjh0U21Wc3RwNzFNcHl0cHRWMkM2c1lmK3JGRXhzK2tubHB4REhoclg0OEhKdVpTZzl1OWVVZERUZE5PY2JFY0VkdmZxV1FIOUdNM00vNkUwWUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3NDQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpoT3ZCOGtrNmF2UWFWM1l3L0NwL1ozK2FZRlU2RzRsd0tUejZhWGdteFE3OU44bFNDbjdGMmZwSjMvZG1XdWI4VUxVT3Z2c1BuTjQwclduV1hoaTdCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.8/Hoist.app.tar.gz"
     }
   }
 }
