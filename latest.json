@@ -1,15 +1,15 @@
 {
-  "version": "0.3.44",
-  "notes": "- **동영상 재생 중 까만 화면 수정** — 내장 미디어 서버가 요청을 동시에 처리하도록 바꿔, 재생 중 탐색할 때 화면이 검게 멈추던 문제 해결(단일 처리 → 요청별 병렬 처리)\n- **번역 후 LLM 메모리 절약** — 영화 정보 자동 번역은 끝나면 모델을 즉시 메모리에서 내려(keep_alive 0), 큰 번역 모델이 계속 상주해 RAM 을 크게 잡아먹던 문제 완화. (팁: 설정 > 번역 모델을 가벼운 qwen2.5vl:7b 로 두면 메모리 훨씬 적게 씀)\n- **연결 실패 시 입력 유지** — 서버 연결에 실패해도 입력한 주소·계정이 사라지지 않고 그대로 남아 다시 시도 가능(성공하면 창이 닫히고, 실패는 토스트로만 안내). 연결 중에는 '연결 중…' 표시",
-  "pub_date": "2026-08-04T15:57:05Z",
+  "version": "0.3.45",
+  "notes": "- **LLM 메모리 자동 회수** — 번역에 쓴 모델을 ① 앱 종료 시 즉시 내리고 ② 5분간 안 쓰면 자동으로 내려 RAM 을 회수. 이전 세션이 비정상 종료돼 모델이 남아 있으면 다음 실행 시 정리. (Ollama 데몬은 그대로 두고 **모델만** 내림 — 다른 앱에 영향 없음)\n- **영화 정보 '번역 중'이 안 끝나던 문제 개선** — 영화마다 번역 모델을 다시 불러오느라 느리던 것을 고쳐 연속 번역이 빨라짐. 번역이 오래 걸려도 원문이 먼저 보이고 표시가 멈춘 것처럼 남지 않음. (팁: 번역이 느리면 설정 > 번역 모델을 **qwen2.5vl:7b** 같은 가벼운 모델로 바꾸면 훨씬 빠릅니다)",
+  "pub_date": "2026-08-04T16:12:12Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDE3T0tmdk1YaXBid3pDTGRMcStHd1NyL0EyUVg4SDU5SUZoNUtaT013a3FJSnhlb3VyYXFPQk13MnZLUWl4MkZnMC8vUWJ0amJaMWcwbEVuZkxwbVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODU4OTk2CWZpbGU6SG9pc3QuYXBwLnRhci5negovU2NtZkdOVkpGbGRSbmJVS0xCZjJmZjNaYzB1aFBMUlFEVnBqemoxQ1JYV056NEpva3g3MWxGSE9Vb0tBTHZ4K3JYckJEdjh5dEJJVTJNOXIwZDFCZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.44/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlORDNGMFRmYjIvNEtPMFU5dlczWElacWw4bFBaRWVXTUdXcmhQNU91QndWY24zK0VDU2NWQWRSbmtnd1crcHpMczJodTBiVWc2YW1XVEN3aUltN0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODU5OTAxCWZpbGU6SG9pc3QuYXBwLnRhci5nego3Q3ZCck52ZTVyQVIzcitOd05YV3hVL3pEakdPY0xMRGRaaVRqelVIZ2pERFpXZ1doMFZMY1p0bWFoOUgzZ05jeXFQSm91SUxpTnR2M1JZUEVCSStBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.45/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDE3T0tmdk1YaXBid3pDTGRMcStHd1NyL0EyUVg4SDU5SUZoNUtaT013a3FJSnhlb3VyYXFPQk13MnZLUWl4MkZnMC8vUWJ0amJaMWcwbEVuZkxwbVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODU4OTk2CWZpbGU6SG9pc3QuYXBwLnRhci5negovU2NtZkdOVkpGbGRSbmJVS0xCZjJmZjNaYzB1aFBMUlFEVnBqemoxQ1JYV056NEpva3g3MWxGSE9Vb0tBTHZ4K3JYckJEdjh5dEJJVTJNOXIwZDFCZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.44/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlORDNGMFRmYjIvNEtPMFU5dlczWElacWw4bFBaRWVXTUdXcmhQNU91QndWY24zK0VDU2NWQWRSbmtnd1crcHpMczJodTBiVWc2YW1XVEN3aUltN0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODU5OTAxCWZpbGU6SG9pc3QuYXBwLnRhci5nego3Q3ZCck52ZTVyQVIzcitOd05YV3hVL3pEakdPY0xMRGRaaVRqelVIZ2pERFpXZ1doMFZMY1p0bWFoOUgzZ05jeXFQSm91SUxpTnR2M1JZUEVCSStBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.45/Hoist.app.tar.gz"
     }
   }
 }
