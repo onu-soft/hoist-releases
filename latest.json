@@ -1,15 +1,15 @@
 {
-  "version": "0.3.9",
-  "notes": "- 단축키 설정 추가 — 설정 > 단축키에서 모든 단축키를 한눈에 보고 원하는 키로 변경(커스터마이즈)·개별/전체 기본값 복원\n- 토렌트 '파일 삭제' 버튼 추가 — '제거'(목록에서만)와 별도로, 다운로드한 파일까지 삭제(2번 눌러 확인)",
-  "pub_date": "2026-08-04T01:47:06Z",
+  "version": "0.3.10",
+  "notes": "- 즐겨찾기 편집 — 사이드바 즐겨찾기에 폴더 추가(+ 버튼)·이름 변경(더블클릭)·삭제(호버 시 ×)\n- 파일 정렬 기본값 설정 추가 — 설정에서 이름·크기·수정일 / 오름·내림차순을 지정(현재 화면에도 즉시 반영)",
+  "pub_date": "2026-08-04T01:55:07Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhHS09rbllKYzVvMEoxS0dHN1BXUWRwU1pNeFpDTFRERzJsREpZWXZrZHVOMVI0MXkyNGxNRFBWUUp5OUFBZ0ltTC9lTEwyUDc3V0cvdy83ZmNuVXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3OTkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpuRmxSZjJWcEJUelA1T1JhSzkwTmZtRWRsdGZiR283aytxZ0poL0tkaThvdTUrR3gvY0NCYU42YnNjNXVaajRyNlNlNmtCOW41dmRESGJMQ096ZjhBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.9/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDM0Kzk4c2ZpTFdWbDlvVHg4bEZ1Y1hmcm1Ic3ZrbTJaYmc4VW9sNXRQTDJRdFJjQlA2amxBTDY0QWxHMUNpNnNFY2RqS2wzS3c2RlplbzN1WDZibmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA4NDc0CWZpbGU6SG9pc3QuYXBwLnRhci5negp1MWFKd2l4VVQ4aGNtKzhkcnJLaWVoazVvWlM2NzJENk9ya0lYUHBvT2xFR3prN3RIMGxIYkd4eEpCZkYxSFBoZ0cxdzVIUlUxd1pxR2tIRk9ocUFBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.10/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhHS09rbllKYzVvMEoxS0dHN1BXUWRwU1pNeFpDTFRERzJsREpZWXZrZHVOMVI0MXkyNGxNRFBWUUp5OUFBZ0ltTC9lTEwyUDc3V0cvdy83ZmNuVXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3OTkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpuRmxSZjJWcEJUelA1T1JhSzkwTmZtRWRsdGZiR283aytxZ0poL0tkaThvdTUrR3gvY0NCYU42YnNjNXVaajRyNlNlNmtCOW41dmRESGJMQ096ZjhBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.9/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDM0Kzk4c2ZpTFdWbDlvVHg4bEZ1Y1hmcm1Ic3ZrbTJaYmc4VW9sNXRQTDJRdFJjQlA2amxBTDY0QWxHMUNpNnNFY2RqS2wzS3c2RlplbzN1WDZibmdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA4NDc0CWZpbGU6SG9pc3QuYXBwLnRhci5negp1MWFKd2l4VVQ4aGNtKzhkcnJLaWVoazVvWlM2NzJENk9ya0lYUHBvT2xFR3prN3RIMGxIYkd4eEpCZkYxSFBoZ0cxdzVIUlUxd1pxR2tIRk9ocUFBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.10/Hoist.app.tar.gz"
     }
   }
 }
