@@ -1,11 +1,11 @@
 {
-  "version": "0.3.6",
-  "notes": "- Dock 아이콘 배지 수정 — 다운로드 중·완료 개수가 Dock 앱 아이콘에도 표시됩니다 (macOS 배지 라벨 방식으로 교정)",
-  "pub_date": "2026-08-04T01:02:47Z",
+  "version": "0.3.7",
+  "notes": "- 완료된 토렌트를 진행 중 항목과 한눈에 구별되게 재디자인 — 초록 강조 카드 · 체크 · '폴더 열기' 강조\n- 완전 삭제 단축키 추가 — macOS `⌘⌥⌫`, Windows `Shift+Delete` (휴지통 거치지 않고 즉시 삭제, 복구 불가 경고)",
+  "pub_date": "2026-08-04T01:20:56Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlPa0tSRFhjNEZHSU1jNzdHNlZTTFpEYi80ZGF5MFlEdlE3NjhReEU3QitqZm5TWHRBejh2QnJGL1JxUVJvRWpHZFRueGI1a0tCVzRsNzNDRlUxeGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA1MzM5CWZpbGU6SG9pc3QuYXBwLnRhci5negpvamdNSWZkRVZMZlh5a1Zoa0VRcWFVQVVOR3pOY3lzZUZ4R1ZxRUVWdXhGbExIQTJYVjgrUncyU3J5WjJvdGs5Mkd6R0NVUWJ0dTZjbTRWN1FONnNEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.6/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlEWFBiZWszdUNGSjlNZjZacWhVSktTQ3RJaGhQclhtVlg1L2RqSXFKUGdGZUc1SjhqVmhCS0pBdTJ3T1RwMkxPSUJ0eElkSkIvM2VCNzlwbGxlSXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA2NDI0CWZpbGU6SG9pc3QuYXBwLnRhci5negpWb1Arc2hSb2lPYVNENXNCVXFuNkQrbm91WXdTSzdFOG10Y2paRU9BZUNWNXErOFFOTklFOGZnU0VTWWxUWlFLWmdoeWZOU2ZYZVZiR2FQZEVteldDdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.7/Hoist.app.tar.gz"
     }
   }
 }
