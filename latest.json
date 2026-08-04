@@ -1,15 +1,15 @@
 {
-  "version": "0.3.21",
-  "notes": "- 파일 압축/해제 기능 추가 — 우클릭으로 선택한 파일·폴더를 ZIP 또는 7Z으로 압축, 압축파일은 우클릭 '압축 풀기'로 그 자리에 해제\n- 압축파일을 더블클릭하면 안의 파일 목록을 폴더처럼 탐색 — 내부 이미지도 바로 미리보기로 열림 (zip · 7z · tar · gz · bz2 · xz 지원, rar은 해제·탐색만)\n- 설정 > 파일에 '압축 파일 열기: 내장 / 시스템 기본 앱' 추가 — 시스템 앱을 고르면 압축파일을 지정 앱으로 엶",
-  "pub_date": "2026-08-04T08:28:08Z",
+  "version": "0.3.22",
+  "notes": "- 이미지 미리보기를 ← →로 넘기면 원본 파일 목록에서 그 파일이 선택되고 해당 위치로 스크롤됨\n- 전체화면 이미지 뷰어에서 상단 영역을 드래그해 창을 이동할 수 있음\n- 만화책 두 장 모드에서 표지(한 장) 페이지가 작게 줄어들던 문제 수정 — 한 장짜리 페이지는 화면에 꽉 차게 표시",
+  "pub_date": "2026-08-04T08:52:28Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhXaWtNM2VJS3VLMEh1Sy93QTd6NVp3TzhhTFF0Qnd2R0gxTFBqcGhqNWZuLzlnaFpMVW1nWUNWU1RYQ0psYXc4T3dhbVorOUV3eVdWVW5JTGV6WWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODMyMDU5CWZpbGU6SG9pc3QuYXBwLnRhci5negpQaUw1UkxlYVQ1bW1KTDg4ZjlNOGdVMTJyZHJBMjMzZzlWSkRQYVpIMUlpaHljclprMk5wYXdTOVZhVWx1YkVyTS80U2RwaUJrY3RwdHQzMGRhcWtBdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.21/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdFOUdkdDVYMnFsTTZENzA2d1NPSFFweWwwUFdZei9aTG13bXhUQmZBQXJkKzhuSlVoeHVRZ3lFUEdYYnZhZEtMTFV4MVBmMlFkRFUzQVNtK05oOFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODMzNTE4CWZpbGU6SG9pc3QuYXBwLnRhci5negorYmkyL1ZwQlJ3Y3JQY1ZGbmt5YTdMcVF5VHljSUFrR1pzdU55WElVS0VjQ0xJK3JNeG9ERXBOT2FMTDNHeE5mMmZ6NzZOdy92YVRZTVdLNjhzUlJBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.22/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhXaWtNM2VJS3VLMEh1Sy93QTd6NVp3TzhhTFF0Qnd2R0gxTFBqcGhqNWZuLzlnaFpMVW1nWUNWU1RYQ0psYXc4T3dhbVorOUV3eVdWVW5JTGV6WWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODMyMDU5CWZpbGU6SG9pc3QuYXBwLnRhci5negpQaUw1UkxlYVQ1bW1KTDg4ZjlNOGdVMTJyZHJBMjMzZzlWSkRQYVpIMUlpaHljclprMk5wYXdTOVZhVWx1YkVyTS80U2RwaUJrY3RwdHQzMGRhcWtBdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.21/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdFOUdkdDVYMnFsTTZENzA2d1NPSFFweWwwUFdZei9aTG13bXhUQmZBQXJkKzhuSlVoeHVRZ3lFUEdYYnZhZEtMTFV4MVBmMlFkRFUzQVNtK05oOFFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODMzNTE4CWZpbGU6SG9pc3QuYXBwLnRhci5negorYmkyL1ZwQlJ3Y3JQY1ZGbmt5YTdMcVF5VHljSUFrR1pzdU55WElVS0VjQ0xJK3JNeG9ERXBOT2FMTDNHeE5mMmZ6NzZOdy92YVRZTVdLNjhzUlJBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.22/Hoist.app.tar.gz"
     }
   }
 }
