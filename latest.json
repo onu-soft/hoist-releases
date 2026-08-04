@@ -1,11 +1,11 @@
 {
-  "version": "0.3.4",
-  "notes": "- 파일 목록에서 `.torrent`를 열면 화면 전환 없이 그 자리에서 토렌트에 바로 등록 (사이드바 배지로 확인)",
-  "pub_date": "2026-08-04T00:51:36Z",
+  "version": "0.3.5",
+  "notes": "- 설정 > 토렌트에 '기본 토렌트 앱으로 지정' 버튼 — 한 번 누르면 `.torrent` 더블클릭과 magnet 링크가 Hoist로 열립니다",
+  "pub_date": "2026-08-04T00:58:30Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9yL2l0Z3A0YVR1OU51VkhrSHVtN0ZIcmdYemR4U3lxZlJEY2g5TUx6b2RBTFJrUU1XU0pnY05zOElBTWQvV1NxUXIxeFlGUnVWdXZ5K1NwaUxwM0E4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA0Njc3CWZpbGU6SG9pc3QuYXBwLnRhci5negpkb1VvOUh6Sno3ZmNZWnAyN1MvSjNWTkd0ZVBtRGR6Vkw3VjJiODZDa2JYcjEvV2w0anlIZkhtY09VYnl5Tmh4TEltMi9uOGNMUDIwcjFzdXFSNGZCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.4/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDF0WElHMTl6RS9ZWDF3cTJybk9VbTJkajM1NGNhOXRIdGhRZ0h6dHQzZzBlMWdMQzFycVRHc1lsZElUYTRQTktuWTMvbW4rVVkrZWtPblhvNFRYTFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA1MDgyCWZpbGU6SG9pc3QuYXBwLnRhci5negpKeEE4L29kQm9VcVArdmJmUjFlQmhIcTBtaXl1STByTUJVU2tVR3ZCYURCTVNPK0JpNzJuS2Y4RytqU0FUaDdOOUdrUGhQeHdnT3ZEeG9uNWdBODNCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.5/Hoist.app.tar.gz"
     }
   }
 }
