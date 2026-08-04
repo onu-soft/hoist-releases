@@ -1,11 +1,11 @@
 {
-  "version": "0.3.5",
-  "notes": "- 설정 > 토렌트에 '기본 토렌트 앱으로 지정' 버튼 — 한 번 누르면 `.torrent` 더블클릭과 magnet 링크가 Hoist로 열립니다",
-  "pub_date": "2026-08-04T00:58:30Z",
+  "version": "0.3.6",
+  "notes": "- Dock 아이콘 배지 수정 — 다운로드 중·완료 개수가 Dock 앱 아이콘에도 표시됩니다 (macOS 배지 라벨 방식으로 교정)",
+  "pub_date": "2026-08-04T01:02:47Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDF0WElHMTl6RS9ZWDF3cTJybk9VbTJkajM1NGNhOXRIdGhRZ0h6dHQzZzBlMWdMQzFycVRHc1lsZElUYTRQTktuWTMvbW4rVVkrZWtPblhvNFRYTFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA1MDgyCWZpbGU6SG9pc3QuYXBwLnRhci5negpKeEE4L29kQm9VcVArdmJmUjFlQmhIcTBtaXl1STByTUJVU2tVR3ZCYURCTVNPK0JpNzJuS2Y4RytqU0FUaDdOOUdrUGhQeHdnT3ZEeG9uNWdBODNCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.5/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlPa0tSRFhjNEZHSU1jNzdHNlZTTFpEYi80ZGF5MFlEdlE3NjhReEU3QitqZm5TWHRBejh2QnJGL1JxUVJvRWpHZFRueGI1a0tCVzRsNzNDRlUxeGc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA1MzM5CWZpbGU6SG9pc3QuYXBwLnRhci5negpvamdNSWZkRVZMZlh5a1Zoa0VRcWFVQVVOR3pOY3lzZUZ4R1ZxRUVWdXhGbExIQTJYVjgrUncyU3J5WjJvdGs5Mkd6R0NVUWJ0dTZjbTRWN1FONnNEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.6/Hoist.app.tar.gz"
     }
   }
 }
