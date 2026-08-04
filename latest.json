@@ -1,15 +1,15 @@
 {
-  "version": "0.3.8",
-  "notes": "- 다른 맥에서 실행되지 않던 문제 수정 — 개발 맥의 Homebrew OpenSSL에 의존해 다른 맥에서 실행 즉시 종료되던 문제. OpenSSL을 앱에 정적 내장해 시스템 라이브러리 없이도 실행됩니다\n- 유니버설 빌드(Apple Silicon + Intel)로 전환 — 두 종류 맥 모두 지원\n- 사이드바 토렌트 배지를 진행 중·일시정지·완료 개수로 구분 표시",
-  "pub_date": "2026-08-04T01:37:51Z",
+  "version": "0.3.9",
+  "notes": "- 단축키 설정 추가 — 설정 > 단축키에서 모든 단축키를 한눈에 보고 원하는 키로 변경(커스터마이즈)·개별/전체 기본값 복원\n- 토렌트 '파일 삭제' 버튼 추가 — '제거'(목록에서만)와 별도로, 다운로드한 파일까지 삭제(2번 눌러 확인)",
+  "pub_date": "2026-08-04T01:47:06Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVZbjh0U21Wc3RwNzFNcHl0cHRWMkM2c1lmK3JGRXhzK2tubHB4REhoclg0OEhKdVpTZzl1OWVVZERUZE5PY2JFY0VkdmZxV1FIOUdNM00vNkUwWUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3NDQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpoT3ZCOGtrNmF2UWFWM1l3L0NwL1ozK2FZRlU2RzRsd0tUejZhWGdteFE3OU44bFNDbjdGMmZwSjMvZG1XdWI4VUxVT3Z2c1BuTjQwclduV1hoaTdCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.8/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhHS09rbllKYzVvMEoxS0dHN1BXUWRwU1pNeFpDTFRERzJsREpZWXZrZHVOMVI0MXkyNGxNRFBWUUp5OUFBZ0ltTC9lTEwyUDc3V0cvdy83ZmNuVXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3OTkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpuRmxSZjJWcEJUelA1T1JhSzkwTmZtRWRsdGZiR283aytxZ0poL0tkaThvdTUrR3gvY0NCYU42YnNjNXVaajRyNlNlNmtCOW41dmRESGJMQ096ZjhBUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.9/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVZbjh0U21Wc3RwNzFNcHl0cHRWMkM2c1lmK3JGRXhzK2tubHB4REhoclg0OEhKdVpTZzl1OWVVZERUZE5PY2JFY0VkdmZxV1FIOUdNM00vNkUwWUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3NDQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpoT3ZCOGtrNmF2UWFWM1l3L0NwL1ozK2FZRlU2RzRsd0tUejZhWGdteFE3OU44bFNDbjdGMmZwSjMvZG1XdWI4VUxVT3Z2c1BuTjQwclduV1hoaTdCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.8/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhHS09rbllKYzVvMEoxS0dHN1BXUWRwU1pNeFpDTFRERzJsREpZWXZrZHVOMVI0MXkyNGxNRFBWUUp5OUFBZ0ltTC9lTEwyUDc3V0cvdy83ZmNuVXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODA3OTkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpuRmxSZjJWcEJUelA1T1JhSzkwTmZtRWRsdGZiR283aytxZ0poL0tkaThvdTUrR3gvY0NCYU42YnNjNXVaajRyNlNlNmtCOW41dmRESGJMQ096ZjhBUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.9/Hoist.app.tar.gz"
     }
   }
 }
