@@ -1,15 +1,15 @@
 {
-  "version": "0.3.53",
-  "notes": "- **영화·드라마 정보를 파일 정보 아래로** — 맨 오른쪽에 260px 짜리 별도 패널로 떠 있던 것을, 늘 비어 있던 **파일 정보 아래 공간**으로 옮겼다. 그만큼 파일 목록이 넓어진다. 포스터가 잘려 나오던 문제(제목 아트가 날아감)도 함께 수정하고, 평점을 눈에 띄는 칩으로, 라벨 톤을 파일 정보와 통일했다. 인스펙터 위쪽 여백도 줄여 내용이 위로 올라온다",
-  "pub_date": "2026-08-05T04:44:23Z",
+  "version": "0.3.54",
+  "notes": "- **동영상 음량 조절기가 떨리던 문제 수정** — PiP 버튼 근처에 마우스를 두면 옆의 음량 컨트롤이 좌우로 덜덜 떨렸다. 마우스를 올렸을 때만 슬라이더를 펼치는 방식이라, 펼쳐지는 만큼 음량 아이콘이 왼쪽으로 밀려 포인터에서 벗어나고 → 접히고 → 다시 포인터 아래로 돌아와 펼쳐지길 무한 반복한 것. 이제 음량 슬라이더가 **항상 같은 크기로 보여** 흔들릴 여지가 없다(페인 미리보기·전체화면 모두)",
+  "pub_date": "2026-08-05T04:59:52Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtEVXJ2SmNLdnNoSi9hQ3V3NzVhdzRyanhOaDVHOW9ERTlsTFJaUkJlYTlHazVEVytXNjVGbm1PNFlmYUh3ZllxWXQ0ZW1vRW5UYlBPQWNnaEFOK1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1MDMzCWZpbGU6SG9pc3QuYXBwLnRhci5negpmTFBGSmEybWFaakhVWHBycmZheGZBTmM2cjh5R0w3YnZlT1dtc0FuMThxYUdFaVFETE82SlZFVUxsZEZ3NEp4TXVTdTBaWXJyakNXNEg4QXJZSEJCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.53/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBFQzdDVHZiYzYyY0lyUGdmNE5CRCswWC8raXI3V1lWVElaeGUveElzUHZlL3p5VHk1Uit2azAyTUxvOEZMamRIVS9VcVd4V25NOUMxMEo5eElldUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1OTYyCWZpbGU6SG9pc3QuYXBwLnRhci5negpyZUViZFBmaVBZaDJQWUhTNmVxazlYMWdibGxTS25vWXFWSnB2NFV0MnJLbnhscDlMWDRoVEUrVjdtd0dycEhsaWtYcHFpMTI3bzFESFc5OSthR2JEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.54/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtEVXJ2SmNLdnNoSi9hQ3V3NzVhdzRyanhOaDVHOW9ERTlsTFJaUkJlYTlHazVEVytXNjVGbm1PNFlmYUh3ZllxWXQ0ZW1vRW5UYlBPQWNnaEFOK1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1MDMzCWZpbGU6SG9pc3QuYXBwLnRhci5negpmTFBGSmEybWFaakhVWHBycmZheGZBTmM2cjh5R0w3YnZlT1dtc0FuMThxYUdFaVFETE82SlZFVUxsZEZ3NEp4TXVTdTBaWXJyakNXNEg4QXJZSEJCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.53/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBFQzdDVHZiYzYyY0lyUGdmNE5CRCswWC8raXI3V1lWVElaeGUveElzUHZlL3p5VHk1Uit2azAyTUxvOEZMamRIVS9VcVd4V25NOUMxMEo5eElldUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1OTYyCWZpbGU6SG9pc3QuYXBwLnRhci5negpyZUViZFBmaVBZaDJQWUhTNmVxazlYMWdibGxTS25vWXFWSnB2NFV0MnJLbnhscDlMWDRoVEUrVjdtd0dycEhsaWtYcHFpMTI3bzFESFc5OSthR2JEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.54/Hoist.app.tar.gz"
     }
   }
 }
