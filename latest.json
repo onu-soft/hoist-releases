@@ -1,15 +1,15 @@
 {
-  "version": "0.3.49",
-  "notes": "- **압축파일 안의 앱·폴더 복사 수정** — .tar.bz2 등 압축파일 안의 `앱(.app)`이나 폴더를 밖으로 복사하면 '경로 없음' 오류가 나거나 0바이트 빈 파일만 복사되던 문제 해결. 이제 폴더·번들도 통째로 정상 복사됨(라이브 검증: FileZilla.app 44MB 정상 복사)",
-  "pub_date": "2026-08-04T17:43:35Z",
+  "version": "0.3.50",
+  "notes": "- **파인더·탐색기와 복사/붙여넣기 연동** — 파인더(또는 윈도우 탐색기)에서 파일을 복사한 뒤 Hoist 에서 **⌘V** 하면 그대로 붙여넣어진다(반대 방향도 동일 — Hoist 에서 ⌘C 한 파일을 파인더에서 ⌘V). 예전에는 아무 반응이 없었음. **⌘⌥V** 는 파인더와 똑같이 '항목 여기로 이동'(복사 대신 이동). 윈도우는 탐색기의 **Ctrl+X(잘라내기)** 표시까지 읽어 이동으로 처리. 우클릭 메뉴에도 '붙여넣기 / 항목 여기로 이동' 추가\n- **MKV 등 변환 재생에서 재생바가 바로 나옴** — 변환(HLS) 재생을 라이브 방송으로 인식해 변환이 다 끝날 때까지 재생바·PiP 스크러버가 안 보이던 문제 해결. 이제 **재생 시작과 동시에 전체 길이의 재생바**가 뜨고, 아직 변환 안 된 뒷부분으로도 바로 탐색된다(그 지점부터 변환 재시작). 재생 지점보다 너무 앞서가면 변환을 잠시 멈춰 CPU·배터리도 아낀다\n- **한글(HWP) 문서 내장 뷰어 — 원본 모양 그대로** — 한글 프로그램 없이 **구버전 `.hwp`(HWP 5.x)** 와 **신버전 `.hwpx`** 를 연다. 글자만 뽑는 게 아니라 **표(행·열 병합 포함)·굵게/기울임/밑줄/글자 크기·색·문단 정렬·그림**까지 원본에 가깝게 재현. **문서 안 찾기(⌘F, 결과 이동 ‹ ›)·확대 축소(⌘±)·밝은 종이/어두운 배경 전환·본문 전체 복사** 지원. 확장자가 아니라 **파일 내용으로 형식을 판별**해, `.hwpx` 로 저장된 구버전 파일도 정상으로 열림. 암호·배포용 문서는 안내 후 한글에서 열기. 설정 > 파일에서 **내장 뷰어 / 시스템 기본 앱** 선택(기본 내장 뷰어)\n- **목록에서 바로 이름 변경** — 파인더처럼, 선택된 항목을 **잠깐 뒤 다시 클릭**하면 그 자리에서 이름을 고칠 수 있다(확장자 앞까지 자동 선택, 폴더는 이름 전체). 빠른 더블클릭은 그대로 '열기'. Enter 로 확정, Esc 로 취소. F2·우클릭 '이름 변경'도 같은 방식\n- **우클릭 '파일 경로 복사'** — 선택한 파일의 전체 경로를 클립보드로(여러 개면 줄바꿈으로 구분)\n- **문서 목차 패널** — 한글 뷰어와 PDF 뷰어 왼쪽에 **목차**가 나온다. 항목을 누르면 그 위치로 바로 이동하고, 스크롤하면 지금 보고 있는 항목이 표시된다. 툴바 버튼으로 **숨기기/보이기**(다음에 열 때도 유지). PDF 는 문서에 저장된 북마크를, 한글은 문서에 쓰인 제목 표기(`Ⅰ.` `1.` `가.` `□` 등)를 읽어 만든다\n- **동영상 플레이어 컨트롤 새 디자인** — 웹브라우저 기본 컨트롤 대신 **Hoist 디자인의 자체 재생바**를 쓴다. 재생/일시정지, 10초 앞뒤로, 남은 시간, 음량(아이콘에 올리면 슬라이더가 펼쳐짐), **자막 선택**, PiP, 확대를 한 줄에 정리. 진행바는 버퍼링 구간까지 함께 보여 준다\n- **파일 아이콘 확대 + 확장자 표시** — 목록·아이콘 뷰의 파일 아이콘을 키우고, 아이콘 안에 **확장자 글자**(MKV·PDF·XLSX…)를 또렷하게 넣어 종류를 한눈에 구분\n- **설정 > 업데이트 — 변경 내역 목록** — 지금까지의 모든 버전과 무엇이 바뀌었는지를 앱 안에서 확인. '지금 확인' 버튼으로 업데이트 즉시 점검",
+  "pub_date": "2026-08-05T03:36:55Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhHeGZMYUpUSk45U2tDTG1iaGdUYU9nNTRQZ2ZGdTJzaWxZK0UwQi9Gdy8ycE9GUTMzc3AvNmNIV3JTNXlRajllMTd2TUtBVFFpRTIyL0pNdDVQU1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODY1Mzg2CWZpbGU6SG9pc3QuYXBwLnRhci5negpVZDFRWk53SVNpUWlUeXJOckQwL2hRV2ZDemdNOEZKQnk3NGNMVjJ2cXNKRzZpeW1MRHFXSWZ6MHZlejdwOHNSMExsWWJEZzh0dmRLWFY3eXFySjBDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.49/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHduSEhpZXdDYmpjTVkzUWlMdThWd0docWZvNC9aQ3dxejJ6Um5GSnZmNGpaZURiU2VBa2phOVJXSUtYblFDK3ErSTVtWHpmMHFLOWh1bS8zYkVXSXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTAxMDE1CWZpbGU6SG9pc3QuYXBwLnRhci5negoyZ3YrdFlpU3liYlRERVVidyt1a3BKRFVYYmdVSi9hME5lQ0I2NlRacWIvMmpVOVFrYXZ0bHk3T1RSb3BReGNJa1VhSXJVaVRuY1Y3d2Z1c0c1a1dDdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.50/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhHeGZMYUpUSk45U2tDTG1iaGdUYU9nNTRQZ2ZGdTJzaWxZK0UwQi9Gdy8ycE9GUTMzc3AvNmNIV3JTNXlRajllMTd2TUtBVFFpRTIyL0pNdDVQU1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1ODY1Mzg2CWZpbGU6SG9pc3QuYXBwLnRhci5negpVZDFRWk53SVNpUWlUeXJOckQwL2hRV2ZDemdNOEZKQnk3NGNMVjJ2cXNKRzZpeW1MRHFXSWZ6MHZlejdwOHNSMExsWWJEZzh0dmRLWFY3eXFySjBDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.49/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHduSEhpZXdDYmpjTVkzUWlMdThWd0docWZvNC9aQ3dxejJ6Um5GSnZmNGpaZURiU2VBa2phOVJXSUtYblFDK3ErSTVtWHpmMHFLOWh1bS8zYkVXSXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTAxMDE1CWZpbGU6SG9pc3QuYXBwLnRhci5negoyZ3YrdFlpU3liYlRERVVidyt1a3BKRFVYYmdVSi9hME5lQ0I2NlRacWIvMmpVOVFrYXZ0bHk3T1RSb3BReGNJa1VhSXJVaVRuY1Y3d2Z1c0c1a1dDdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.50/Hoist.app.tar.gz"
     }
   }
 }
