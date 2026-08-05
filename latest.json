@@ -1,15 +1,15 @@
 {
-  "version": "0.3.52",
-  "notes": "- **압축 풀기 결과가 파인더와 같아짐** — 압축 안에 항목이 하나뿐이면 **그 이름 그대로** 풀린다. 예전엔 압축파일 이름으로 폴더를 한 겹 더 씌워서, `FileZilla_3.70.6_macos-arm64.app.tar.bz2` 를 풀면 `FileZilla_3.70.6_macos-arm64.app` 이라는 **가짜 앱 번들 폴더**가 생기고 그 안에 진짜 `FileZilla.app` 이 들어 있었다(파인더가 깨진 앱으로 인식). 이제 `FileZilla.app` 이 바로 나온다. 항목이 여럿이면 예전처럼 압축파일 이름 폴더로 묶어 파일이 흩어지지 않게 한다 — macOS 기본 압축 유틸리티와 같은 규칙\n- **압축 안 파일 미리보기 덮어쓰기 수정** — 서로 다른 압축파일 안의 **같은 이름 파일**(a.txt 등)을 열면 임시 파일이 서로 덮어써지던 문제 해결\n- **한글 미리보기 화면 깨짐 수정** — 페인이 좁으면 문서의 표·그림이 종이 밖으로 삐져나가 글자가 잘리던 문제 해결. 이제 **비율 그대로 축소**해 폭에 맞춘다. 폭이 좁을 때 툴바 버튼이 전부 잘려 **닫기 버튼까지 사라지던 문제**도 함께 수정(확대·닫기는 항상 보인다)\n- **미리보기는 한 번에 하나만** — 이미지·한글·PDF·동영상 중 무엇을 열든 페인에 떠 있던 기존 미리보기를 닫고 새로 띄운다(예전엔 겹쳐 그려져 나중에 연 것이 안 보였다)\n- **지원 macOS 버전 명시(14.0)** — 예전엔 선언이 없어 macOS 기본값(10.13)이 박혔고, 실제로 못 돌리는 맥에서도 설치된 뒤 빈 창만 뜰 수 있었다. 이제 macOS 가 미리 안내한다",
-  "pub_date": "2026-08-05T04:27:27Z",
+  "version": "0.3.53",
+  "notes": "- **영화·드라마 정보를 파일 정보 아래로** — 맨 오른쪽에 260px 짜리 별도 패널로 떠 있던 것을, 늘 비어 있던 **파일 정보 아래 공간**으로 옮겼다. 그만큼 파일 목록이 넓어진다. 포스터가 잘려 나오던 문제(제목 아트가 날아감)도 함께 수정하고, 평점을 눈에 띄는 칩으로, 라벨 톤을 파일 정보와 통일했다. 인스펙터 위쪽 여백도 줄여 내용이 위로 올라온다",
+  "pub_date": "2026-08-05T04:44:23Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlObDRadlc1NWxzL091WUJIWk4wTVN3dEk5d2toT2tYSWxaODQ3TDhXUkNYZkVUcDdaazNPQStxL25RR0JlNEJZNktpYWtmYldLWDFiUUlBemdCMUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA0MDE0CWZpbGU6SG9pc3QuYXBwLnRhci5negpaVjVaMlpRcUdjZFNZUE9GMlUwZmVoNlhySXZ5Z2JOOFZRVlhEdXhSd0ZDUDA5TERGL0d1VDBxNVExVyt0UlpPdDY3eHJTQ2FRdVd3RDB4aXhKd2VDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.52/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtEVXJ2SmNLdnNoSi9hQ3V3NzVhdzRyanhOaDVHOW9ERTlsTFJaUkJlYTlHazVEVytXNjVGbm1PNFlmYUh3ZllxWXQ0ZW1vRW5UYlBPQWNnaEFOK1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1MDMzCWZpbGU6SG9pc3QuYXBwLnRhci5negpmTFBGSmEybWFaakhVWHBycmZheGZBTmM2cjh5R0w3YnZlT1dtc0FuMThxYUdFaVFETE82SlZFVUxsZEZ3NEp4TXVTdTBaWXJyakNXNEg4QXJZSEJCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.53/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlObDRadlc1NWxzL091WUJIWk4wTVN3dEk5d2toT2tYSWxaODQ3TDhXUkNYZkVUcDdaazNPQStxL25RR0JlNEJZNktpYWtmYldLWDFiUUlBemdCMUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA0MDE0CWZpbGU6SG9pc3QuYXBwLnRhci5negpaVjVaMlpRcUdjZFNZUE9GMlUwZmVoNlhySXZ5Z2JOOFZRVlhEdXhSd0ZDUDA5TERGL0d1VDBxNVExVyt0UlpPdDY3eHJTQ2FRdVd3RDB4aXhKd2VDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.52/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtEVXJ2SmNLdnNoSi9hQ3V3NzVhdzRyanhOaDVHOW9ERTlsTFJaUkJlYTlHazVEVytXNjVGbm1PNFlmYUh3ZllxWXQ0ZW1vRW5UYlBPQWNnaEFOK1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1OTA1MDMzCWZpbGU6SG9pc3QuYXBwLnRhci5negpmTFBGSmEybWFaakhVWHBycmZheGZBTmM2cjh5R0w3YnZlT1dtc0FuMThxYUdFaVFETE82SlZFVUxsZEZ3NEp4TXVTdTBaWXJyakNXNEg4QXJZSEJCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.53/Hoist.app.tar.gz"
     }
   }
 }
