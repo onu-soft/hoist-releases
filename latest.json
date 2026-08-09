@@ -1,19 +1,19 @@
 {
-  "version": "0.3.60",
-  "notes": "- **두 손가락 스와이프가 좌우 스크롤과 겹치던 문제 해결** — 컬럼이 넓어 목록이 좌우로 스크롤될 때, 훑어보려 해도 폴더가 바뀌어 버렸다. 이제 **툭 튕기듯 빠르게 밀면 이동**하고, **천천히 밀면 좌우 스크롤**로 남는다(macOS 와 같은 방식). 가로로 볼 내용이 남아 있으면 끝까지 스크롤한 뒤 다시 튕겨야 이동한다\n- **Windows — 즐겨찾기 이름이 전체 경로로 보이던 문제 수정** — 사이드바 즐겨찾기가 `Desktop` 대신 `C:\\Users\\사용자\\Desktop` 처럼 경로가 통째로 나왔다(맥은 정상). 이미 그렇게 저장된 항목도 앱을 켜면 폴더 이름으로 정리된다 — 직접 붙여 둔 이름은 그대로 남는다",
-  "pub_date": "2026-08-09T13:55:18Z",
+  "version": "0.3.61",
+  "notes": "- **앱을 켤 때 예전에 남은 임시 파일 정리** — 영상을 변환해 재생하거나 압축 파일을 열면 임시 파일이 생기는데, 평소에는 다 쓰고 지우지만 앱이 강제로 종료되면 그대로 남았다(변환 조각은 수백 MB 가 되기도 한다). 이제 앱을 켤 때 **오래된 것만** 정리한다 — 다른 창에서 지금 보고 있는 영상은 건드리지 않는다\n- **복사를 취소하면 목적지를 원래대로 되돌린다** — 예전에는 취소해도 그때까지 복사된 파일이 목적지에 그대로 남아, 어디까지 복사됐는지 모른 채 직접 지워야 했다. 이제 **이번 복사로 새로 생긴 것만** 정리한다. 원래 있던 파일과 덮어쓴 파일은 건드리지 않고(되돌릴 수 없으므로), **이동(잘라내기)은 정리하지 않는다** — 원본이 이미 옮겨져 목적지를 지우면 파일이 사라지기 때문\n- **원격 전송을 취소하면 받다 만 파일이 남던 문제 수정** — SFTP·FTP·클라우드에서 받는 도중 취소하면 **쓰다 만 반쪽 파일**이 목적지에 남았다. 크기만 작을 뿐 온전한 파일처럼 보여서, 영상이나 압축파일은 열어 보기 전까지 깨진 걸 알 수 없었다. 이제 중단되면 그 파일을 지운다",
+  "pub_date": "2026-08-09T14:12:37Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBOak9DSGs1RjBZUlZ5TU1abCtWaWs1YWkxZ3gxbUp5SGFpOGd3RlRYdCtoc2ZtVy9vejB0azNNc05ES3FHTGNQb2ZPRWJhWU05dG13Tk5rdVpsMnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgzNTM4CWZpbGU6SG9pc3QuYXBwLnRhci5negpXS1g1aDFmL280VEphR29RR240RlRzYllkU2JqbDh6Uzd3a2FJaFIrVXFhQlhqenF5S3pRUmFFYU5vb1pvTisyWTk0REtSSVhpTWpkZHFLWW5NVjZEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.60/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHcvMTlDby9UdU96YXE1MWtjZUZ4eFBKVjFSVVZXdThpR0s4ZXBiY2tuV2pJREpETEJISGF4SkJxZDZLaEZ1MkdmTFNCRTg3aTJTUlpxeXhxQlNJTlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mjg0NjIxCWZpbGU6SG9pc3QuYXBwLnRhci5negpCaWFIL1hOWGVLNTMyZnY4MEFETldmOFVTTWYwZ2V1aTNUZDR3cjdQRE52WFhvQkl6ZUxzT2hlOUFuOTcvMy9pMVRmWHNiWkxpMEowb3pCYlBJU1FCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.61/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBOak9DSGs1RjBZUlZ5TU1abCtWaWs1YWkxZ3gxbUp5SGFpOGd3RlRYdCtoc2ZtVy9vejB0azNNc05ES3FHTGNQb2ZPRWJhWU05dG13Tk5rdVpsMnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgzNTM4CWZpbGU6SG9pc3QuYXBwLnRhci5negpXS1g1aDFmL280VEphR29RR240RlRzYllkU2JqbDh6Uzd3a2FJaFIrVXFhQlhqenF5S3pRUmFFYU5vb1pvTisyWTk0REtSSVhpTWpkZHFLWW5NVjZEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.60/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHcvMTlDby9UdU96YXE1MWtjZUZ4eFBKVjFSVVZXdThpR0s4ZXBiY2tuV2pJREpETEJISGF4SkJxZDZLaEZ1MkdmTFNCRTg3aTJTUlpxeXhxQlNJTlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mjg0NjIxCWZpbGU6SG9pc3QuYXBwLnRhci5negpCaWFIL1hOWGVLNTMyZnY4MEFETldmOFVTTWYwZ2V1aTNUZDR3cjdQRE52WFhvQkl6ZUxzT2hlOUFuOTcvMy9pMVRmWHNiWkxpMEowb3pCYlBJU1FCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.61/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdYVEhHa1p5VzJxd1poSEhtSWFzTHhvbmhNSUtyY0JTNkxSQ1UxWXBsWkFSNHl2aWJ5eHVpdXJjVUJ1S1NWWjdFUktBa0FLenVHaGd3S0c0eEQ1eXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgzNzE2CWZpbGU6SG9pc3RfMC4zLjYwX3g2NC1zZXR1cC5leGUKMndkMUtsblNrenJ6VmNhUTNjbmVRUzkxVXo5dDF1Q0E2a3VZRjhEL2ZLRVBmSWVjd3loaVdZa3Z1Q293dCt3NnhRZ3h3djVrU01xMGlPS0RwN1dyQVE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.60/Hoist_0.3.60_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNyaDZDdHJmS21uWForMGpXS1FjYklqVmZIV2pjNjNtcjJSRlAzZXJNNlJPamw1WGt1TjJvb01lTXBwckRJWm91cWk5QUZteGQwTW00K0ZpVlhiWUFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mjg0NzU1CWZpbGU6SG9pc3RfMC4zLjYxX3g2NC1zZXR1cC5leGUKWEN1WHB5OTV1NzdwbzZSUUxuTGlNQ3dEWXprSHpTSTVSVFdDczJvN25xUUI3Tk1vdVptTkpzQVI3L1ZaN2Fsa3JXeUpyTzBRc01GcEtvNjZwYzVmQUE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.61/Hoist_0.3.61_x64-setup.exe"
     }
   }
 }
