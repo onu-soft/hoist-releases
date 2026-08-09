@@ -1,15 +1,19 @@
 {
-  "version": "0.3.56",
-  "notes": "- **mkv·avi 원격 영상도 기다림 없이 재생** — 지난 버전에서 mp4 는 바로 재생됐지만, mkv·avi 처럼 **변환이 필요한 형식**은 여전히 파일을 통째로 내려받은 뒤에야 시작됐다(1.4GB 짜리를 열면 100MB 를 받고도 화면이 안 나왔다). 이제 필요한 구간만 읽어가며 변환해 **누르면 바로 재생**된다\n- **상위 폴더로 나오면 그 위치로 스크롤** — 방금 나온 폴더가 선택되기는 했는데 목록은 맨 위에 머물러 있어, 항목이 많은 폴더에서는 어디로 돌아왔는지 찾아야 했다. 이제 그 폴더가 화면 가운데로 온다(뒤로 가기도 동일). 방향키로 한 칸씩 옮길 때는 예전처럼 최소한만 움직인다",
-  "pub_date": "2026-08-09T10:54:46Z",
+  "version": "0.3.58",
+  "notes": "- **원격지 동영상이 재생되지 않던 문제 해결 (FTP)** — 용량이 큰 mp4가 멀쩡한 파일인데도 \"재생할 수 없는 동영상입니다\"로 뜨던 문제. Hoist가 파일 중간을 읽으려 할 때 **서버가 위치 지정을 무시하고 파일 맨 앞을 돌려주고** 있었다(FTP 명령을 보내는 순서 문제로, 서버는 요청을 받아들인 척하고 실제로는 버렸다). 응답이 정상처럼 보여 오류 기록조차 남지 않았다. 이제 명령 순서를 바로잡아 **1시간 이상짜리 대용량 영상도 바로 재생되고, 중간 아무 지점으로나 건너뛸 수 있다**. 위치 지정이 정말 안 되는 서버는 자동으로 내려받기 방식으로 전환해, 깨진 화면 대신 조금 기다리면 재생된다\n- **두 손가락으로 뒤로/앞으로** — 파일 목록에서 트랙패드를 **두 손가락으로 좌우로 밀면** 뒤로·앞으로 이동한다(오른쪽으로 밀면 뒤로). 세로로 훑을 때 손가락이 좌우로 조금 흔들리는 정도로는 넘어가지 않고, 한 번 밀 때 한 칸만 이동한다. 비교 모드에서는 좌우 목록이 함께 움직인다",
+  "pub_date": "2026-08-09T13:04:27Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtUQUJLeG1FRU5kK09pN2hkVFpuSEhRaStmYzNxMUVKcW8yUDVKV1g5cWxVSm9wZzNjYzJ5QnZHTjJaS3p3cDVQb3N3MkdJekgrblYzZzlIRmQxV3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjcyODU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpHZ2Y5YkZJcndqelNXanZtZkw1U01xeWszUDRGWVJaeUF5ZWlxZWJGaHZTTTBIVkJIL0hXaU9CL3F0dWNHK2lOM055SkNpSnEyWDNXZm5CaFZRS0hCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.56/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBORzNNOXZBSlJIZng0empvT2VLUE9zZ3loNlc0RWRjN0JZMkptVzdmcUthZ0tMT3FSbTJrcE9GZFNlbHMxNWpjbUJrSVM4b0RCenNGMTQzaXA5bHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mjc4NzQzCWZpbGU6SG9pc3QuYXBwLnRhci5negoxWnA4ZFVQbXVFRS9hditCNlNRT0crRTU1VFN5Q01ORnNOOWZ0SEtQYmh6RFFrZ1BFbnY2TUVwR2s1VDZPT0Y0elJNMnYrVXBoNEJkZDZiVGYyZFlCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.58/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtUQUJLeG1FRU5kK09pN2hkVFpuSEhRaStmYzNxMUVKcW8yUDVKV1g5cWxVSm9wZzNjYzJ5QnZHTjJaS3p3cDVQb3N3MkdJekgrblYzZzlIRmQxV3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjcyODU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpHZ2Y5YkZJcndqelNXanZtZkw1U01xeWszUDRGWVJaeUF5ZWlxZWJGaHZTTTBIVkJIL0hXaU9CL3F0dWNHK2lOM055SkNpSnEyWDNXZm5CaFZRS0hCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.56/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBORzNNOXZBSlJIZng0empvT2VLUE9zZ3loNlc0RWRjN0JZMkptVzdmcUthZ0tMT3FSbTJrcE9GZFNlbHMxNWpjbUJrSVM4b0RCenNGMTQzaXA5bHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2Mjc4NzQzCWZpbGU6SG9pc3QuYXBwLnRhci5negoxWnA4ZFVQbXVFRS9hditCNlNRT0crRTU1VFN5Q01ORnNOOWZ0SEtQYmh6RFFrZ1BFbnY2TUVwR2s1VDZPT0Y0elJNMnYrVXBoNEJkZDZiVGYyZFlCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.58/Hoist.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHliVVZaMnZsYjYvRWdJbGFrbHZxWlltNkt1ako2MlVCbk5aQ05kMWdkczlNa29nSTNvU2p2bmxNRHpkbkhXb0QrZGQ3T0JwUDZJQzhrUlEyYkFINUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgwNjY0CWZpbGU6SG9pc3RfMC4zLjU4X3g2NC1zZXR1cC5leGUKMGpoNGxJWGRSaWRaZVBwQTNabmJTK1FENldYRkc2K1ZoZUFVUXVMN3lKdkJPdXJ6VjBjd1FTcmpMSlVIcU1OM3hqcTJUbnk4ZnhnSTdpb2pFSEV4QWc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.58/Hoist_0.3.58_x64-setup.exe"
     }
   }
 }
