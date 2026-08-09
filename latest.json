@@ -1,15 +1,15 @@
 {
-  "version": "0.3.55",
-  "notes": "- **폴더 비교 기능 추가** — 툴바의 겹친 두 원(◎) 버튼을 누르면 좌우 페인이 그대로 비교 화면이 된다. 한쪽에만 있는 파일 자리에는 빈 줄이 들어가 **좌우가 같은 높이로 정렬**되고, 각 행에 색점과 배지(◀ 왼쪽만 · ▶ 오른쪽만 · ≠ 다름 · → 왼쪽이 최신)가 붙는다. 하위 폴더까지 훑으면 폴더에 `3◀ 1≠` 같은 요약 배지가 떠서 **어느 폴더 안에 차이가 있는지** 바로 보인다. 비교 중에는 좌우가 **함께 움직이고**(폴더 진입·상위·뒤로/앞으로·단축키), 실수로 파일이 바뀌지 않도록 이름 변경·삭제·드래그가 잠긴다\n- **비교 결과로 바로 동기화** — '새 것만 오른쪽으로', '오른쪽을 왼쪽과 똑같이(삭제 포함)' 같은 방식을 고르면 **무엇이 복사·덮어쓰기·삭제되는지 목록으로 먼저 보여 준다.** 실행하면 덮어쓰거나 지운 파일을 대상 폴더에 보관해 두고, **되돌리기 한 번으로 전부 원상 복구**된다. 되돌리기를 꺼도 삭제는 휴지통으로 간다\n- **파일 내용 비교** — 비교 화면에서 파일을 더블클릭하면 좌우 나란히 **텍스트 diff**(바뀐 단어까지 강조)가 열린다. 이미지는 **다른 픽셀만 주황으로 표시**하고 몇 퍼센트가 다른지 알려 준다. 압축 파일 안과 폴더도 비교할 수 있다\n- **원격 동영상이 기다림 없이 바로 재생** — 예전에는 SFTP·FTP·클라우드의 영상을 **통째로 내려받은 뒤에야** 재생이 시작돼, 큰 파일은 한참 기다려야 했다. 이제 필요한 구간만 받아 **누르면 바로 재생**되고, 재생바를 끌면 그 지점부터 이어진다\n- **자막 형식 확대 — SMI 지원** — 한국어 자막의 표준인 **SMI(SAMI)** 와 ASS/SSA, SUB 를 추가로 읽는다(기존 SRT·VTT). **CP949 인코딩을 자동으로 감지**해 글자가 깨지지 않는다. **원격 영상의 자막도** 이제 함께 뜬다(예전에는 로컬 파일만 찾아, 원격에서는 자막 버튼 자체가 보이지 않았다)\n- **자막 모양을 마음대로** — 자막 버튼 메뉴에서 크기·위치·글자색·배경(기본 투명)·외곽선을 조절한다. **자막을 마우스로 끌어서** 위치를 옮길 수도 있다(그냥 누르면 평소처럼 재생/일시정지)\n- **재생 시작 화면** — 원격 영상을 열 때 잠깐 보이던 검은 사각형 대신, Hoist 로고와 파일명이 뜬다\n- **폴더를 옮기면 검색어가 초기화** — 검색으로 목록을 걸러 둔 채 폴더에 들어가면 그 검색어가 그대로 남아, 새 폴더가 **텅 빈 것처럼** 보이던 문제 해결\n- **상위 폴더로 나오면 방금 있던 폴더가 선택됨** — 목록 맨 위로 튀지 않고 그 자리에서 이어서 볼 수 있다(뒤로 가기도 동일)\n- **용량 표시가 어긋나던 문제 수정** — 왼쪽 사이드바의 디스크 여유 공간과 파일 목록 아래 표시가 서로 다른 값을 보여 주던 문제(파일을 복사·삭제한 뒤 한쪽만 갱신됐다). 이제 항상 같은 시점의 값을 보여 준다\n- **홈 폴더 밖의 이미지도 미리보기** — 예전에는 홈·볼륨·임시 폴더 밖에 있는 이미지가 표시되지 않았다",
-  "pub_date": "2026-08-09T06:12:30Z",
+  "version": "0.3.56",
+  "notes": "- **mkv·avi 원격 영상도 기다림 없이 재생** — 지난 버전에서 mp4 는 바로 재생됐지만, mkv·avi 처럼 **변환이 필요한 형식**은 여전히 파일을 통째로 내려받은 뒤에야 시작됐다(1.4GB 짜리를 열면 100MB 를 받고도 화면이 안 나왔다). 이제 필요한 구간만 읽어가며 변환해 **누르면 바로 재생**된다\n- **상위 폴더로 나오면 그 위치로 스크롤** — 방금 나온 폴더가 선택되기는 했는데 목록은 맨 위에 머물러 있어, 항목이 많은 폴더에서는 어디로 돌아왔는지 찾아야 했다. 이제 그 폴더가 화면 가운데로 온다(뒤로 가기도 동일). 방향키로 한 칸씩 옮길 때는 예전처럼 최소한만 움직인다",
+  "pub_date": "2026-08-09T10:54:46Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDROMVZDY1luc3hLT1lwQXpoRnV0OWNDRzRiZzNOS21RdW44NThib3FiYk9JVjZ2QWtUbHZpdGVmTVZhU1lFVGNCQ21zc1FGWk4wUXYrS214WWpXZkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjU1OTIzCWZpbGU6SG9pc3QuYXBwLnRhci5negpPcFNhWkduL2VFY0Y0TU03cGdvQjljcnFrNDhMQVR0SkFQcVF3S1VOaS91K3F6b0lMNXh4dXhueWw1V1hQaW1DWEYvTTU3Y21ieGgxWmpkTTc2M1BDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.55/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtUQUJLeG1FRU5kK09pN2hkVFpuSEhRaStmYzNxMUVKcW8yUDVKV1g5cWxVSm9wZzNjYzJ5QnZHTjJaS3p3cDVQb3N3MkdJekgrblYzZzlIRmQxV3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjcyODU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpHZ2Y5YkZJcndqelNXanZtZkw1U01xeWszUDRGWVJaeUF5ZWlxZWJGaHZTTTBIVkJIL0hXaU9CL3F0dWNHK2lOM055SkNpSnEyWDNXZm5CaFZRS0hCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.56/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDROMVZDY1luc3hLT1lwQXpoRnV0OWNDRzRiZzNOS21RdW44NThib3FiYk9JVjZ2QWtUbHZpdGVmTVZhU1lFVGNCQ21zc1FGWk4wUXYrS214WWpXZkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjU1OTIzCWZpbGU6SG9pc3QuYXBwLnRhci5negpPcFNhWkduL2VFY0Y0TU03cGdvQjljcnFrNDhMQVR0SkFQcVF3S1VOaS91K3F6b0lMNXh4dXhueWw1V1hQaW1DWEYvTTU3Y21ieGgxWmpkTTc2M1BDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.55/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtUQUJLeG1FRU5kK09pN2hkVFpuSEhRaStmYzNxMUVKcW8yUDVKV1g5cWxVSm9wZzNjYzJ5QnZHTjJaS3p3cDVQb3N3MkdJekgrblYzZzlIRmQxV3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjcyODU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpHZ2Y5YkZJcndqelNXanZtZkw1U01xeWszUDRGWVJaeUF5ZWlxZWJGaHZTTTBIVkJIL0hXaU9CL3F0dWNHK2lOM055SkNpSnEyWDNXZm5CaFZRS0hCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.56/Hoist.app.tar.gz"
     }
   }
 }
