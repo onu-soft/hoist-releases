@@ -1,19 +1,19 @@
 {
-  "version": "0.3.59",
-  "notes": "- **원격지 동영상이 재생되지 않던 문제 해결** — 멀쩡한 mp4가 \"재생할 수 없는 동영상입니다\"로 뜨던 문제. 원인이 두 겹이었다. ① 동영상은 **재생에 필요한 색인이 파일 맨 끝**에 들어 있는 경우가 흔한데(웹 최적화를 하지 않은 인코딩), 플레이어가 그 끝부분을 요청하면 Hoist가 **파일 앞부분을 대신 돌려주고** 있었다. ② FTP에서는 파일 중간을 읽으려 할 때 **서버가 위치 지정을 무시하고 늘 파일 맨 앞을 돌려줬다**(명령을 보내는 순서 문제로, 서버는 요청을 받아들인 척하고 실제로는 버렸다). 응답이 정상처럼 보여 오류 기록조차 남지 않았다. 이제 **1시간 이상짜리 대용량 원격 영상도 바로 재생되고, 중간 아무 지점으로나 건너뛸 수 있다**. 위치 지정이 정말 안 되는 서버는 자동으로 내려받기 방식으로 전환해, 깨진 화면 대신 조금 기다리면 재생된다\n- **재생 실패 시 자동 변환이 동작하지 않던 문제 수정** — 원격 영상은 재생이 실패해도 **변환을 시도조차 하지 않은 채** \"변환에 실패했습니다\"라고만 표시했다. 이제 실제로 변환으로 넘어가 재생을 이어 간다. 변환 도구(ffmpeg)가 없을 때는 그 사실을 정확히 알려 준다\n- **동영상 이어보기** — 보던 영상을 다시 열면 **마지막에 본 위치부터** 이어진다. 화면 위에 `12:34 부터 이어봅니다` 안내가 잠깐 뜨고, 처음부터 보고 싶으면 그 자리에서 바로 되돌릴 수 있다. 이제 막 시작한 영상(30초 미만)이나 끝까지 본 영상은 기억하지 않아, 다음에 열면 처음부터 나온다. 원격지 영상도 **다시 접속한 뒤까지** 이어진다\n- **두 손가락으로 뒤로/앞으로** — 파일 목록에서 트랙패드를 **두 손가락으로 좌우로 밀면** 뒤로·앞으로 이동한다(오른쪽으로 밀면 뒤로). 툭 튕기듯 빠르게 밀어도, 느긋하게 밀어도 자연스럽게 인식하고 **연달아 여러 번 밀면 민 만큼 이동한다**. 세로로 훑을 때 손가락이 좌우로 흔들리는 정도로는 넘어가지 않는다. 비교 모드에서는 좌우 목록이 함께 움직인다\n- **설정이 날아가지 않게 — 저장 방식을 로컬 DB로 교체** — 즐겨찾기·연결 정보·창 배치·자막 설정 등 앱이 기억하는 값을 모두 **파일 하나(`hoist.db`)** 에 담는다. 예전 방식은 저장 공간이 5MB로 묶여 있었고, 브라우저 데이터가 정리되면 **즐겨찾기와 연결 정보까지 함께 사라질** 수 있었다. 이제 그럴 일이 없고 용량 걱정도 없다. 기존 설정은 **처음 실행할 때 자동으로 옮겨진다**(따로 할 일 없음). 비밀번호는 예전처럼 macOS 키체인에 그대로 둔다",
-  "pub_date": "2026-08-09T13:23:16Z",
+  "version": "0.3.60",
+  "notes": "- **두 손가락 스와이프가 좌우 스크롤과 겹치던 문제 해결** — 컬럼이 넓어 목록이 좌우로 스크롤될 때, 훑어보려 해도 폴더가 바뀌어 버렸다. 이제 **툭 튕기듯 빠르게 밀면 이동**하고, **천천히 밀면 좌우 스크롤**로 남는다(macOS 와 같은 방식). 가로로 볼 내용이 남아 있으면 끝까지 스크롤한 뒤 다시 튕겨야 이동한다\n- **Windows — 즐겨찾기 이름이 전체 경로로 보이던 문제 수정** — 사이드바 즐겨찾기가 `Desktop` 대신 `C:\\Users\\사용자\\Desktop` 처럼 경로가 통째로 나왔다(맥은 정상). 이미 그렇게 저장된 항목도 앱을 켜면 폴더 이름으로 정리된다 — 직접 붙여 둔 이름은 그대로 남는다",
+  "pub_date": "2026-08-09T13:55:18Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdLektUd0h5YnpZYS9wVUt4VEhnR2U1cHVkNDh6SHJ3QmRHUG1QeU8vd21yK1ZxQStuMEFPajJpU0hlS3V5TkxvbC9wemJRU3lhNUk5KzRNbXlUNndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgxMDAwCWZpbGU6SG9pc3QuYXBwLnRhci5negpaRzgzODNnRnNsT1JSeHhzeEYxSElDT2JBMVVHYXFydEpWNmxUNkY2RTN1WHFQcTJxc1NHd1owNUNIdHRkNmsrS2Y1VlpHRG81MTZVTEtKNlhxbVpEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.59/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBOak9DSGs1RjBZUlZ5TU1abCtWaWs1YWkxZ3gxbUp5SGFpOGd3RlRYdCtoc2ZtVy9vejB0azNNc05ES3FHTGNQb2ZPRWJhWU05dG13Tk5rdVpsMnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgzNTM4CWZpbGU6SG9pc3QuYXBwLnRhci5negpXS1g1aDFmL280VEphR29RR240RlRzYllkU2JqbDh6Uzd3a2FJaFIrVXFhQlhqenF5S3pRUmFFYU5vb1pvTisyWTk0REtSSVhpTWpkZHFLWW5NVjZEdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.60/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdLektUd0h5YnpZYS9wVUt4VEhnR2U1cHVkNDh6SHJ3QmRHUG1QeU8vd21yK1ZxQStuMEFPajJpU0hlS3V5TkxvbC9wemJRU3lhNUk5KzRNbXlUNndRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgxMDAwCWZpbGU6SG9pc3QuYXBwLnRhci5negpaRzgzODNnRnNsT1JSeHhzeEYxSElDT2JBMVVHYXFydEpWNmxUNkY2RTN1WHFQcTJxc1NHd1owNUNIdHRkNmsrS2Y1VlpHRG81MTZVTEtKNlhxbVpEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.59/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBOak9DSGs1RjBZUlZ5TU1abCtWaWs1YWkxZ3gxbUp5SGFpOGd3RlRYdCtoc2ZtVy9vejB0azNNc05ES3FHTGNQb2ZPRWJhWU05dG13Tk5rdVpsMnc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgzNTM4CWZpbGU6SG9pc3QuYXBwLnRhci5negpXS1g1aDFmL280VEphR29RR240RlRzYllkU2JqbDh6Uzd3a2FJaFIrVXFhQlhqenF5S3pRUmFFYU5vb1pvTisyWTk0REtSSVhpTWpkZHFLWW5NVjZEdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.60/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBlSHpOR3Q0dldVSHN1OVdJcU9UWC9YbzAxcG1HSFVmUHVGTW1mL2l1RG9kZGladjAwWU1wejRwbm8wYzl4T0c4ckdMNUE2T1AzejlPcXJyQjlEeEFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgxNzk0CWZpbGU6SG9pc3RfMC4zLjU5X3g2NC1zZXR1cC5leGUKU0JBdytPeEdYbjhpYllML0FiK2sreVVTUklBbzlSM2xlNGlTYkVwb1g1Z1FwK3d1bElSUXI1aXpmenpqR0tUa25JSTZyOXFjaTZ2MHpKdTNQaHlCQnc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.59/Hoist_0.3.59_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdYVEhHa1p5VzJxd1poSEhtSWFzTHhvbmhNSUtyY0JTNkxSQ1UxWXBsWkFSNHl2aWJ5eHVpdXJjVUJ1S1NWWjdFUktBa0FLenVHaGd3S0c0eEQ1eXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MjgzNzE2CWZpbGU6SG9pc3RfMC4zLjYwX3g2NC1zZXR1cC5leGUKMndkMUtsblNrenJ6VmNhUTNjbmVRUzkxVXo5dDF1Q0E2a3VZRjhEL2ZLRVBmSWVjd3loaVdZa3Z1Q293dCt3NnhRZ3h3djVrU01xMGlPS0RwN1dyQVE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.60/Hoist_0.3.60_x64-setup.exe"
     }
   }
 }
