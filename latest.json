@@ -1,19 +1,19 @@
 {
-  "version": "0.3.86",
-  "notes": "- 🚨 **큰 파일을 원격에서 받을 때 조각으로 나눠 여러 연결로 동시에 받는다** — 연결 하나가 못 내던 속도를 넷이서 낸다\n  - 실측(NAS FTP)이 이 기능의 이유다. 복사 한 건이 **1.3MB/s 에 고정**돼 있었는데, 같은 시각 같은 서버에서 재생 스트림은 **3.79MB/s**, 기계 전체로는 **9.0MB/s** 를 받고 있었다. 토렌트를 꺼도 검색을 멈춰도 1.3 은 안 움직였다 — 회선도 서버도 여유가 있는데 **연결 하나가 못 낸 것**이었다\n  - 64MB 넘는 파일은 **네 조각**으로 나눠 받는다(서버가 동시 연결을 막으면 그만큼만, 하나뿐이면 예전 그대로)\n  - 🚨 **조용한 손상을 막는 것이 먼저다.** `REST`(중간부터 받기)를 수락해 놓고 무시하고 파일 앞을 주는 서버가 실제로 있다 — 그러면 크기는 정확히 맞고 내용만 썩는다. 그래서 나누기 전에 앞 64바이트와 한가운데 64바이트를 비교해 **오프셋이 진짜 듣는지 확인**하고, 아니면 조각내기를 포기한다. 판정은 서버 성질이라 연결마다 한 번만 잰다\n  - ⚠️ 평문 FTP 만 나눈다. FTPS 는 데이터 채널 암호화 때문에 명령 순서를 우리가 잡을 수 없어 오프셋을 믿을 수 없다(SFTP·클라우드는 아직 그대로)\n  - **연결이 끊겨도 받다 만 자리부터 잇는다** — 예전에는 처음부터 다시 받았다. 조각 하나가 연속 3번(통틀어 20번) 실패하면 그 전송을 접는다\n  - 받는 동안에는 `.hoist-part` 이름을 쓰고 다 받으면 이름을 바꾼다. 자리를 미리 잡는 방식이라, 도중에 앱이 죽으면 **크기가 다 찬 파일**이 남아 다 받은 것처럼 보이기 때문이다\n  - 조각내기가 실패하면 **예전 방식으로 다시 받는다** — 새 방식이 안 되는 서버에서 복사가 아예 안 되면 그건 기능이 아니라 사고다\n  - 시험은 **가짜 FTP 서버**를 세워서 한다(외부 서버 없이). 네 조각 결과가 원본과 바이트 하나까지 같은지 · 오프셋 거짓말쟁이를 걸러 내는지 · 중간에 끊어도 다시 받은 바이트 없이 완주하는지 · 취소하면 반쪽 파일을 안 남기는지",
-  "pub_date": "2026-08-14T15:03:29Z",
+  "version": "0.3.87",
+  "notes": "- **동영상을 디스플레이에 꽉 채워 볼 수 있다** — 창 크기와 상관없이 화면 전체를 씁니다\n  - 컨트롤바의 단추 · **F** · 화면 두 번 누르기로 켜고 끄고, **Esc** 로 나옵니다(VLC·IINA·유튜브와 같은 규칙)\n  - 채우는 방식(맞춤·채우기·늘이기)과 비율은 그대로 고를 수 있고, 비율에 16:10 · 21:9 · 2.39:1 · 5:4 를 더했습니다\n- 🚨 **토렌트와 원격 복사·이동이 회선을 나눠 쓴다** — 한쪽이 다른 쪽을 굶기지 않는다\n  - 한쪽이 덜 쓰면 남는 몫을 다른 쪽이 가져간다. 재생(영상·사진·PDF)은 제한하지 않는다\n  - 상대 서버가 느려서 느린 것이면 조이지 않는다 — 조여도 안 나아지면 곧바로 푼다\n- 🚨 **끌어다 놓기로 한 복사가 사라지지 않는다** — 폴더 위에 연달아 놓으면 앞의 것이 조용히 없어졌다\n- 🚨 **원격 영상·사진·PDF 를 통째로 받지 않고 바로 연다** — '내려받는 중' 줄이 서지 않고, 되돌아와 볼 때 즉시 뜬다\n  - PDF 는 첫 쪽까지 38.9초 → 22.5초(47.9MB 기준)\n- 🚨 **빠르게 더블클릭해도 '내려받기' 로 새지 않는다** — 한 번 누르면 한 판만 연다\n- **회선이 느릴 때 버퍼링 안내가 화면을 덮고 깜빡이지 않는다** — 사실을 한 줄로 알리고 **내려받아서 보기**를 준다\n  - 눌러도 아무 일도 안 일어나던 '기다리지 않기' 단추는 없앴다\n- **오른쪽 페인에서 검색칸을 눌러도 활성 페인이 왼쪽으로 튀지 않는다**\n- **사이드바의 연결 표시(녹색 원)가 실제 연결 상태를 따라간다**\n- **비밀번호 채우기(Bitwarden)가 Apple Silicon 에서 Rosetta 없이 돈다** — macOS 가 Hoist 를 Intel 앱으로 알리던 것도 함께 사라진다\n  - 이미 받아 두셨다면 설정에서 **다시 받기**를 한 번 눌러 주세요",
+  "pub_date": "2026-08-18T12:58:26Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9OL0VFYnA1RXc0b0U4aWdhblhJOEtoOWlRUHJ6VnIwVWJOQTJZSU44OTBid25ibTZPazY2U2QyVzZDTFZiUVBkL3d1Y2hLeTNCN1h0U3J3VXNLYUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzE5MzA1CWZpbGU6SG9pc3QuYXBwLnRhci5negpvWlQyYkluek5nT05MalhHc3NSV1ZWQng2dEIrL0NWRTVNd2t5WHhDdlF1cEg1cUNIdERoaWdBenIyOXZpS0huWGRMRS9kMkpyUUlrcjhiSzZNWUZDQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.86/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVGOEFOT0ltRldxaHExMm9uNmVLdU1ZNDVtRjk1V3NxYmFOaXFiblpaNS9iWVF2dWUvU2laTDZTbDY0K1lQaVIzSE1XZlltTC9yTFBKSEZsRkRtakEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDU3MjUwCWZpbGU6SG9pc3QuYXBwLnRhci5negpsZDNYMmFmWFZmeDM0QlFNVVROU3oyU0MrcGJpUi9FSmkyOE4ranZtWEtValA4WUhmM24yNUhwdy9RK2FqK1c3ZFE4NHJtV3I0azhSVUlnWEJCR1RBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.87/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9OL0VFYnA1RXc0b0U4aWdhblhJOEtoOWlRUHJ6VnIwVWJOQTJZSU44OTBid25ibTZPazY2U2QyVzZDTFZiUVBkL3d1Y2hLeTNCN1h0U3J3VXNLYUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzE5MzA1CWZpbGU6SG9pc3QuYXBwLnRhci5negpvWlQyYkluek5nT05MalhHc3NSV1ZWQng2dEIrL0NWRTVNd2t5WHhDdlF1cEg1cUNIdERoaWdBenIyOXZpS0huWGRMRS9kMkpyUUlrcjhiSzZNWUZDQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.86/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVGOEFOT0ltRldxaHExMm9uNmVLdU1ZNDVtRjk1V3NxYmFOaXFiblpaNS9iWVF2dWUvU2laTDZTbDY0K1lQaVIzSE1XZlltTC9yTFBKSEZsRkRtakEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDU3MjUwCWZpbGU6SG9pc3QuYXBwLnRhci5negpsZDNYMmFmWFZmeDM0QlFNVVROU3oyU0MrcGJpUi9FSmkyOE4ranZtWEtValA4WUhmM24yNUhwdy9RK2FqK1c3ZFE4NHJtV3I0azhSVUlnWEJCR1RBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.87/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHk1UkxJQmZlbEdhallTR2JmQUpFYWR6cGgwY0ljRE9nNkNTRkZHUFlON3JJSE5YWGFHWDBoc2dGQWsyK2VPc0JGOXNHSjAzSkw2TGVJZmExQWJWdHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NzE5Nzg4CWZpbGU6SG9pc3RfMC4zLjg2X3g2NC1zZXR1cC5leGUKSEdZVyt5S1gyaWxzMUdhZTYxYmh6bTRIT1hwUE01Wm5ONVRBS3BRRnI2ZCtkeGtpUTBzYm42cFkxZ1JlN2srSElndXVaVzQwNFZjK0tpd0pIVWlzRFE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.86/Hoist_0.3.86_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV1ZVMwekdacndzUzJkMDN3cjhKSUNCb092NmJYYlozK3lNc0Q2V3ZwQW85VmVVdE9Ed0N6ZHdJYnRZVzFVdklEdHNla1FSYkZDOW5WeGhYNHVnSHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDU3NzU0CWZpbGU6SG9pc3RfMC4zLjg3X3g2NC1zZXR1cC5leGUKYytXZWpZSGFZa0VMekNVNlJTUjRkVjY3WmxscVpIMHFnNTgyQ082SlM4SGNmNGZjZ1JZejgyc2FJZWd1cDZ0MFlaK3YvQUhEalRZUE5UaUNrWEU3Q0E9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.87/Hoist_0.3.87_x64-setup.exe"
     }
   }
 }
