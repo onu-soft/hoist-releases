@@ -1,19 +1,19 @@
 {
-  "version": "0.3.87",
-  "notes": "- **동영상을 디스플레이에 꽉 채워 볼 수 있다** — 창 크기와 상관없이 화면 전체를 씁니다\n  - 컨트롤바의 단추 · **F** · 화면 두 번 누르기로 켜고 끄고, **Esc** 로 나옵니다(VLC·IINA·유튜브와 같은 규칙)\n  - 채우는 방식(맞춤·채우기·늘이기)과 비율은 그대로 고를 수 있고, 비율에 16:10 · 21:9 · 2.39:1 · 5:4 를 더했습니다\n- 🚨 **토렌트와 원격 복사·이동이 회선을 나눠 쓴다** — 한쪽이 다른 쪽을 굶기지 않는다\n  - 한쪽이 덜 쓰면 남는 몫을 다른 쪽이 가져간다. 재생(영상·사진·PDF)은 제한하지 않는다\n  - 상대 서버가 느려서 느린 것이면 조이지 않는다 — 조여도 안 나아지면 곧바로 푼다\n- 🚨 **끌어다 놓기로 한 복사가 사라지지 않는다** — 폴더 위에 연달아 놓으면 앞의 것이 조용히 없어졌다\n- 🚨 **원격 영상·사진·PDF 를 통째로 받지 않고 바로 연다** — '내려받는 중' 줄이 서지 않고, 되돌아와 볼 때 즉시 뜬다\n  - PDF 는 첫 쪽까지 38.9초 → 22.5초(47.9MB 기준)\n- 🚨 **빠르게 더블클릭해도 '내려받기' 로 새지 않는다** — 한 번 누르면 한 판만 연다\n- **회선이 느릴 때 버퍼링 안내가 화면을 덮고 깜빡이지 않는다** — 사실을 한 줄로 알리고 **내려받아서 보기**를 준다\n  - 눌러도 아무 일도 안 일어나던 '기다리지 않기' 단추는 없앴다\n- **오른쪽 페인에서 검색칸을 눌러도 활성 페인이 왼쪽으로 튀지 않는다**\n- **사이드바의 연결 표시(녹색 원)가 실제 연결 상태를 따라간다**\n- **비밀번호 채우기(Bitwarden)가 Apple Silicon 에서 Rosetta 없이 돈다** — macOS 가 Hoist 를 Intel 앱으로 알리던 것도 함께 사라진다\n  - 이미 받아 두셨다면 설정에서 **다시 받기**를 한 번 눌러 주세요",
-  "pub_date": "2026-08-18T12:58:26Z",
+  "version": "0.3.88",
+  "notes": "- 🚨 **NAS·클라우드의 압축파일을 통째로 받지 않고 바로 열어 본다** — 목록만 읽고 그 자리에서 탐색합니다\n  - 안에서 파일 하나를 열 때도 **그 파일만** 받습니다. zip · 7z · tar 이 대상이고, rar · tar.gz 는 지금처럼 받아서 엽니다",
+  "pub_date": "2026-08-18T16:54:21Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVGOEFOT0ltRldxaHExMm9uNmVLdU1ZNDVtRjk1V3NxYmFOaXFiblpaNS9iWVF2dWUvU2laTDZTbDY0K1lQaVIzSE1XZlltTC9yTFBKSEZsRkRtakEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDU3MjUwCWZpbGU6SG9pc3QuYXBwLnRhci5negpsZDNYMmFmWFZmeDM0QlFNVVROU3oyU0MrcGJpUi9FSmkyOE4ranZtWEtValA4WUhmM24yNUhwdy9RK2FqK1c3ZFE4NHJtV3I0azhSVUlnWEJCR1RBZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.87/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFnaEQ3SUV2OFlkR1F3b3pZaytSZ3Z2SzdPM3pGZDd4aVppcVZFbnIzSXFjYjRxOEpPQUhJRFBmbVU2bWJOK2RDYms4bGtEQ3BSK0k5Z1lxT1hCMkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDcxNDkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpVNkFVQW90Z1lNZjJXbEZjOElBbkk5SWV3UVQreVJIWmd4OTd0S2JzRzg1Z0lrMk1wSDY0cndKRldtZjJiOVFob1J4WjhVRE5Tc21lMlhmNXFZdktBdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.88/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVGOEFOT0ltRldxaHExMm9uNmVLdU1ZNDVtRjk1V3NxYmFOaXFiblpaNS9iWVF2dWUvU2laTDZTbDY0K1lQaVIzSE1XZlltTC9yTFBKSEZsRkRtakEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDU3MjUwCWZpbGU6SG9pc3QuYXBwLnRhci5negpsZDNYMmFmWFZmeDM0QlFNVVROU3oyU0MrcGJpUi9FSmkyOE4ranZtWEtValA4WUhmM24yNUhwdy9RK2FqK1c3ZFE4NHJtV3I0azhSVUlnWEJCR1RBZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.87/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFnaEQ3SUV2OFlkR1F3b3pZaytSZ3Z2SzdPM3pGZDd4aVppcVZFbnIzSXFjYjRxOEpPQUhJRFBmbVU2bWJOK2RDYms4bGtEQ3BSK0k5Z1lxT1hCMkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDcxNDkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpVNkFVQW90Z1lNZjJXbEZjOElBbkk5SWV3UVQreVJIWmd4OTd0S2JzRzg1Z0lrMk1wSDY0cndKRldtZjJiOVFob1J4WjhVRE5Tc21lMlhmNXFZdktBdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.88/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV1ZVMwekdacndzUzJkMDN3cjhKSUNCb092NmJYYlozK3lNc0Q2V3ZwQW85VmVVdE9Ed0N6ZHdJYnRZVzFVdklEdHNla1FSYkZDOW5WeGhYNHVnSHdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDU3NzU0CWZpbGU6SG9pc3RfMC4zLjg3X3g2NC1zZXR1cC5leGUKYytXZWpZSGFZa0VMekNVNlJTUjRkVjY3WmxscVpIMHFnNTgyQ082SlM4SGNmNGZjZ1JZejgyc2FJZWd1cDZ0MFlaK3YvQUhEalRZUE5UaUNrWEU3Q0E9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.87/Hoist_0.3.87_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhHSUx5WlNmbVFFeE9wNmF6UDlRQXRuVDFYaTY2NTkyZGJXTmZadzdFZHF5Uk4zdC94WEZZY3Q3Rkd6TnNiMzhYZTQwYUpNdW1mZXlhSk5veW8yUXdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MDcxOTI1CWZpbGU6SG9pc3RfMC4zLjg4X3g2NC1zZXR1cC5leGUKcHoxU3ArQ2JpOHZEb2dpV29keUxnQklreG95bG1acDVjQ3hZZzBxWDRiaFN0SFJBTXlpWWFqRGxidG9xaG5CWUhvOHhJWmJMQzlNaHl0T1Y5YUk4REE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.88/Hoist_0.3.88_x64-setup.exe"
     }
   }
 }
