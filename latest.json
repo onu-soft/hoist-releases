@@ -1,19 +1,19 @@
 {
-  "version": "0.3.90",
-  "notes": "- **저장공간 탭이 생겼다** — 디스크가 무엇으로 차 있는지 원 그림 하나로 보고, 눌러서 파고듭니다\n  - 큰 것부터 목록과 **가장 큰 파일**을 같이 보여 줍니다. 훑는 중에도 멈출 수 있고, 그때까지 센 것은 남습니다\n  - **맥 온도**(칩 · 저장장치 · 전원부 · 배터리)를 위쪽에 함께 띄웁니다",
-  "pub_date": "2026-08-19T15:12:03Z",
+  "version": "0.3.91",
+  "notes": "- **기계 온도를 어느 화면에서나 봅니다** — 상단 탭 줄 오른쪽에 칩 · 저장장치 · 전원부 · 배터리\n  - 평소에는 조용한 글자만, **따뜻하거나 뜨거울 때만** 눈에 띄게 바뀝니다. 누르면 저장공간 탭으로\n  - 설정 › 디자인에서 끌 수 있습니다(끄면 센서를 읽지도 않습니다)\n- 🚨 **파일 목록에서 ⌘C · ⌘X · ⌘V · ⌘A 가 먹습니다** — 한쪽 페인에서 복사해 다른 페인에서 붙여넣기\n  - 맥에서는 이 키들이 메뉴 막대에 먼저 잡혀 앱까지 오지 않고 있었습니다\n  - 여기로 이동은 **⌘⌥V**(파인더의 '항목 여기로 이동' 과 같습니다)",
+  "pub_date": "2026-08-19T16:44:25Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBSYmdYbkJScWxsWDBZZVc2bWRrTWNUbUNyajZZNjg4NzF0U1Y1Ujc3T1NWZmYrZDQ5cjFBdFBTSGV1dUJ1aXFyOVJ0ajY5UEF4YnFHS0J6WVU5a0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTUyMDczCWZpbGU6SG9pc3QuYXBwLnRhci5negpVTXF3ekJDNUNKN0EyN1ppVnZkVm45b0lQWUVTdzhYWTJqQ3hycXVhN2s2d1hCb0xuMDI3SGJpSDFPbjRta0FUWTZ6U2xxZFkxY2hCNUE4MTNETzhDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.90/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9iRmRUek1YSm52NkptSlZqSW5pcWkvTUxxcEhIZGlkbk5heVJ0aFdhTjZyMjFLd3A5eWZwbjRaenp2WE9OZDhCa3l1MWFFZVpZZVBqRXcyZi9ZcFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTU3NTUyCWZpbGU6SG9pc3QuYXBwLnRhci5negpFZ2JPWDN1UkF2alNpRm1yWFc2a2NCU215YjFYcHpldTZpajRtOURuMkI2cExXeVQ0VHNuRFgxZmZPMHlwU0ZpK3NBOGRhVUcwN1FGZkxreGY3aU5EUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.91/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBSYmdYbkJScWxsWDBZZVc2bWRrTWNUbUNyajZZNjg4NzF0U1Y1Ujc3T1NWZmYrZDQ5cjFBdFBTSGV1dUJ1aXFyOVJ0ajY5UEF4YnFHS0J6WVU5a0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTUyMDczCWZpbGU6SG9pc3QuYXBwLnRhci5negpVTXF3ekJDNUNKN0EyN1ppVnZkVm45b0lQWUVTdzhYWTJqQ3hycXVhN2s2d1hCb0xuMDI3SGJpSDFPbjRta0FUWTZ6U2xxZFkxY2hCNUE4MTNETzhDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.90/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9iRmRUek1YSm52NkptSlZqSW5pcWkvTUxxcEhIZGlkbk5heVJ0aFdhTjZyMjFLd3A5eWZwbjRaenp2WE9OZDhCa3l1MWFFZVpZZVBqRXcyZi9ZcFEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTU3NTUyCWZpbGU6SG9pc3QuYXBwLnRhci5negpFZ2JPWDN1UkF2alNpRm1yWFc2a2NCU215YjFYcHpldTZpajRtOURuMkI2cExXeVQ0VHNuRFgxZmZPMHlwU0ZpK3NBOGRhVUcwN1FGZkxreGY3aU5EUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.91/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo1TzdheXp1VXByNFZISVFEMDZhVElDOVBocitzTHM4dE5SNmFVRnM5bVdDUUhOOGhxVUtlaWE3Nm50bElrQWtFbkpXbWR5OWQyRmw0UHZFdlhCS1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTUyMzA3CWZpbGU6SG9pc3RfMC4zLjkwX3g2NC1zZXR1cC5leGUKbGttVGdkNlVIMHdxdi9udkNPdjFuOXdvQlIvNGMwTHBNQlJHT1ppU01MaTZEcmZVbjdHV2U0VFJmR3lNeW94NEdqelMwbU5pUGN4US9NVDBNdE5HQlE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.90/Hoist_0.3.90_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNCejJ2SEIwQTZFNnJFbWhqL2Z2VXdBekg5TENjL0xGSmtvbUZMWU9oai9xRHNGMm1LYmp1SUpKajBGbkF5Rkg5dkFmeENaRWxaTFlVZWtEN0plSVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTU3ODQ3CWZpbGU6SG9pc3RfMC4zLjkxX3g2NC1zZXR1cC5leGUKYStST1NibkV1WnpGK2JOdEhZT0IxZlhYMzBNOGFKWXRSN0kvYVVXNlVVWlY0MzNQNnZxMThWYkRSQ0grcHJaSzJ1SUQvYWNVMC8vdDRWc1ZZK2ltQ2c9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.91/Hoist_0.3.91_x64-setup.exe"
     }
   }
 }
