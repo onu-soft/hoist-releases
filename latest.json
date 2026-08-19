@@ -1,14 +1,14 @@
 {
   "version": "0.3.95",
   "notes": "- 🚨 **'탐색 위치 준비 중' 팝업이 안 닫히던 것을 고쳤습니다** — 영상은 재생되는데 덮개만 남던 문제\n  - 재생 방식을 바꿔 다시 여는 순간(직접 재생 실패 → 변환) 감시가 멈춰 있었습니다",
-  "pub_date": "2026-08-19T19:12:16Z",
+  "pub_date": "2026-08-19T19:05:41Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFwcER3STlHZzFQT2x0MXJTWFdybVR5VXR4QnpxV3JnaXdpMDlMaGVpdUF4eTc1N05qRU1UNXBtazF1TWdJc3FDVXBUZ0pERnl2ci9qYUZYYkxyTFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTY2MzA5CWZpbGU6SG9pc3QuYXBwLnRhci5negpIdUZBQzh6bGhMc2h1TEg3VUVDdDhmS0dhUjVwbEl5Y3pKNUl4ZWVxbVNDbXZ1UlgwOFRpclRDUjdPQ2VJMTVMaWlUU1c4UHVlUEhMeUdMUjRZSlVEUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVvNVRKcUJScE1mZHhtM1hoOUVuRncrMW5JUWZlQXZ3UGN4SDdKZ0dhWWl4dHplUmFDWlNkRkRZWmlkOG51dEhPalVDQ0JSd1pxcFIvVGVmblRzdXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTY2NzA0CWZpbGU6SG9pc3QuYXBwLnRhci5nego1bFYyL2VOOVhveURqNEdERzlIYXhYWSsyOWJyQ2hXVlRqREl5d1FMQVhjWWhlaHFjSUhpZlFmODA3RlVBc004alI0QVV6T1V0Smt5YzhMQU4yV2dDZz09Cg==",
       "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.95/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFwcER3STlHZzFQT2x0MXJTWFdybVR5VXR4QnpxV3JnaXdpMDlMaGVpdUF4eTc1N05qRU1UNXBtazF1TWdJc3FDVXBUZ0pERnl2ci9qYUZYYkxyTFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTY2MzA5CWZpbGU6SG9pc3QuYXBwLnRhci5negpIdUZBQzh6bGhMc2h1TEg3VUVDdDhmS0dhUjVwbEl5Y3pKNUl4ZWVxbVNDbXZ1UlgwOFRpclRDUjdPQ2VJMTVMaWlUU1c4UHVlUEhMeUdMUjRZSlVEUT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVvNVRKcUJScE1mZHhtM1hoOUVuRncrMW5JUWZlQXZ3UGN4SDdKZ0dhWWl4dHplUmFDWlNkRkRZWmlkOG51dEhPalVDQ0JSd1pxcFIvVGVmblRzdXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTY2NzA0CWZpbGU6SG9pc3QuYXBwLnRhci5nego1bFYyL2VOOVhveURqNEdERzlIYXhYWSsyOWJyQ2hXVlRqREl5d1FMQVhjWWhlaHFjSUhpZlFmODA3RlVBc004alI0QVV6T1V0Smt5YzhMQU4yV2dDZz09Cg==",
       "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.95/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
