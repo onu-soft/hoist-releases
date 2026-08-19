@@ -1,19 +1,19 @@
 {
-  "version": "0.3.92",
-  "notes": "- 🚨 **영상 미리보기에서 Space · ← → 가 다시 먹습니다** — v0.3.91 에서 눌러도 반응이 없던 것을 고쳤습니다\n  - 이제 재생기를 먼저 클릭하지 않아도 바로 먹습니다\n- **윈도우에서도 기계 온도가 나옵니다** — 시스템 · 저장장치 두 가지, 관리자 권한 없이\n  - 열 영역이 없는 기계에서는 지금처럼 자리를 차지하지 않습니다",
-  "pub_date": "2026-08-19T17:44:20Z",
+  "version": "0.3.93",
+  "notes": "- 🚨 **원격 영상이 말없이 통째로 내려받기로 넘어가지 않습니다** — 그 자리에서 못 열면 먼저 물어봅니다\n  - **버퍼링으로 다시** / **받아서 재생**(파일 크기를 함께 보여 줍니다) 중에서 고르시면 됩니다\n  - 왜 못 열었는지도 함께 적습니다 — 대부분은 큰 복사·이동이 서버 연결을 쓰고 있을 때입니다\n- **받아서 재생한 임시 파일을 앱이 치웁니다** — 다음에 앱을 켤 때 지난 실행이 남긴 것을 지웁니다",
+  "pub_date": "2026-08-19T18:15:34Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9xMXRTS1ZrMUVqd2E3QTNZUXlHOTYrRUZ2bG9KWUxmclZzT2xhTEhXc0ZmYjZZaXVqU21qY3ptU3Jqd3ByYUY3THZiUmhuZmVrQ3hVbGV6NTZXNkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYxMDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negpMS0Yva05aeEF5QXZ1VFcrWlB6MHJUempyUFpTQXRRTFRPYkFFeW9iNTJpTzJ1NVE1ZUU0cWpXREF0eHFqVnRUdUhJZXdKU2hRTEg1dTdjUjVFcXJBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.92/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDR1REkyM2R2L1hWRkpma2p6b09hSEZJMDNaYjFSK3dSN3Y5T21jelo5SmlSVXVrUi9veUY5cUFSdi9xWlg0VXRsWmVqTFhhSW1YRXRrT2hOTmlOa3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYyODg4CWZpbGU6SG9pc3QuYXBwLnRhci5nego2bjN3MXdxazN0K25LUXo5SkpReEp6ZjdYVXUydmRMNnZPNWkyNWdSVjhuMnVrYzdGSWNNcTdVTzFZdk1seGxoazdVYVVOcFRYTk5xeGlxYjVIYzRBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.93/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9xMXRTS1ZrMUVqd2E3QTNZUXlHOTYrRUZ2bG9KWUxmclZzT2xhTEhXc0ZmYjZZaXVqU21qY3ptU3Jqd3ByYUY3THZiUmhuZmVrQ3hVbGV6NTZXNkFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYxMDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negpMS0Yva05aeEF5QXZ1VFcrWlB6MHJUempyUFpTQXRRTFRPYkFFeW9iNTJpTzJ1NVE1ZUU0cWpXREF0eHFqVnRUdUhJZXdKU2hRTEg1dTdjUjVFcXJBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.92/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDR1REkyM2R2L1hWRkpma2p6b09hSEZJMDNaYjFSK3dSN3Y5T21jelo5SmlSVXVrUi9veUY5cUFSdi9xWlg0VXRsWmVqTFhhSW1YRXRrT2hOTmlOa3dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYyODg4CWZpbGU6SG9pc3QuYXBwLnRhci5nego2bjN3MXdxazN0K25LUXo5SkpReEp6ZjdYVXUydmRMNnZPNWkyNWdSVjhuMnVrYzdGSWNNcTdVTzFZdk1seGxoazdVYVVOcFRYTk5xeGlxYjVIYzRBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.93/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNtUjRTZWZ5UGNKdXlLVWlFQThEM2V2a0p2VFMxb1NPTDJNZlRZMXR5YURNSVJTd3daOXp4elg3M0FoL1h1YS9YOFVTU3VENW9MMktKOW95M29QNnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYxMjk1CWZpbGU6SG9pc3RfMC4zLjkyX3g2NC1zZXR1cC5leGUKK1NEMStyMlo0NVZPNUdWOXRjdUtQQkNSRDFQU2x3aEFIRzN1dFAyaVlGUExLc0Y4UUl2NkczZ2VyNHZIZU8ra1Z6YmJ2eUtSYjRONXQxbHVIQVg2QlE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.92/Hoist_0.3.92_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZkSXZ6RnJYNHN2d2RzRWtRenBpcDhVRm9waENrK0NUQWJ4bWUwWkRVYStUaE05M2ljS3JjWnpmaCtFS01zeG1oYkk4QkhlRE55VzhKSUowSElVbEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTYzMzE0CWZpbGU6SG9pc3RfMC4zLjkzX3g2NC1zZXR1cC5leGUKQUJ2M1FvWWEwUUJjeWRXTldleDNSL0c3M3pySHg4VjRlTlgxK0lOMlh0SzZNeUN2T2FTbmFrTzc2SVg3YjBpWFdNanI4OE1DeE5YNExGaEdZQmtBRGc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.93/Hoist_0.3.93_x64-setup.exe"
     }
   }
 }
