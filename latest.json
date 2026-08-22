@@ -1,19 +1,19 @@
 {
-  "version": "0.3.98",
-  "notes": "- 🚨 **저장공간을 훑는 중에 다른 탭에 다녀와도 훑기가 죽지 않습니다** — '정리하는 중' 에 갇히던 진짜 원인입니다\n  - 돌아올 때 화면이 아직 없는 결과를 물어보다 훑기를 통째로 죽이고 있었습니다",
-  "pub_date": "2026-08-19T20:24:33Z",
+  "version": "0.3.99",
+  "notes": "- 🚨 **TV로 캐스팅이 됩니다** — mkv 처럼 TV가 못 여는 영상도 변환해서 보냅니다\n  - 자막도 함께 나갑니다(영상 옆의 자막 파일·로컬 영상의 내장 자막)\n- **영상마다 고른 자막을 기억합니다** — 다시 열면 그대로 켜집니다\n- **자막 위치를 정해 두면 그 자리에 그대로 있습니다** — 재생 막대가 뜰 때마다 오르내리던 것을 고쳤습니다\n- **DLNA 기기를 못 찾으면 이유를 알려 줍니다** — 검색 범위도 넓혔습니다\n- 🚨 **큰 파일을 받는 중에 컴퓨터가 저절로 잠들지 않습니다** — 16GB 다운로드가 17%에서 끊기던 진짜 원인입니다\n- 🚨 **서버가 감당하는 연결 수를 스스로 배워 나눠 씁니다** — 복사가 영상 재생의 자리를 뺏지 않습니다\n  - 영상을 볼 때 서버에 헛되이 연결을 두드리던 것도 함께 없앴습니다\n- 🚨 **같은 파일을 두 번 받아 서로 덮어쓰던 것을 막았습니다** — FTP 로 큰 파일을 받을 때 나던 문제입니다\n- 🚨 **'둘 다 보관' 으로 다른 디스크에 옮길 때 파일이 사라지던 것을 고쳤습니다** — 이동이면 원본까지 지워졌습니다\n- **이어받는 중에도 진행률이 제자리에서 시작합니다** — 0%에서 시작해 중간에 '완료' 되던 것을 고쳤습니다\n- 🚨 **앱을 껐다 켜도 받던 자리부터 이어받습니다** — 다운로드가 끊겨도, 앱이 꺼져도 처음부터 다시 받지 않습니다\n  - FTP·SFTP·S3·Dropbox·구글 드라이브·원드라이브 전부\n- 🚨 **S3 에서 큰 파일을 받아도 메모리를 통째로 쓰지 않습니다** — 16GB 를 받으면 16GB 를 쓰던 것을 고쳤습니다\n- **구글 드라이브·원드라이브도 진행률이 보이고 취소가 됩니다** — 지금까지는 둘 다 없었습니다\n- **폴더 안의 큰 파일도 여러 연결로 나눠 받습니다** — 지금까지는 폴더를 복사하면 연결 하나로만 받았습니다\n- **TV 로 캐스팅하는 동안에도 안 잠듭니다** — 영상을 보는 중에는 화면도 안 꺼집니다\n- **'못 읽음' 이 왜 생겼는지 로그에 남습니다** — 사유와 어느 폴더였는지를 묶어서 한 줄로",
+  "pub_date": "2026-08-22T15:09:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhPNGV5ZGozTUQxcDZnZUNscmtld2JLMW9KcDUwb29TRlZHdy9oQ3ZGRG14OVg4WjRlUGRmREE5akJBY2dBS21IdDM1Zjg3a01yMEtnbXNidWZ3akF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTcwODc2CWZpbGU6SG9pc3QuYXBwLnRhci5negpUZU5kVFJ3UE1lOTRFY3VVbnVMSHhFTnliNEJxaHRBaXkyN0pkN2xqSUpoRlRUc0dGbWVsZmdzWGNLQ1Fha2NFZk9LRlBWdlpQczNUYmFEMDVCUkNCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.98/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhWUDFBWTV1OUFoM2xBMldzVWtkaTVtcnN0RGhqZ09tZGJSdzZmSEd0RXBFSmxGMXYrSDB4TW1Dc3dwOCsrV1hoWnFKTWROSjVWd1hQaGsyeS8ra0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDExMDY4CWZpbGU6SG9pc3QuYXBwLnRhci5negpBWSt1ckVUYldiNCt0c2xRMnhwZncrNm13UkE5K0xnckhmN3RCaDZXNk9wRFducHVEb1lmR0tlVHZNZ2ZwM000S1BJVVFPSG9UOWxMU2ZOUnZmV2VDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.99/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhPNGV5ZGozTUQxcDZnZUNscmtld2JLMW9KcDUwb29TRlZHdy9oQ3ZGRG14OVg4WjRlUGRmREE5akJBY2dBS21IdDM1Zjg3a01yMEtnbXNidWZ3akF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTcwODc2CWZpbGU6SG9pc3QuYXBwLnRhci5negpUZU5kVFJ3UE1lOTRFY3VVbnVMSHhFTnliNEJxaHRBaXkyN0pkN2xqSUpoRlRUc0dGbWVsZmdzWGNLQ1Fha2NFZk9LRlBWdlpQczNUYmFEMDVCUkNCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.98/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhWUDFBWTV1OUFoM2xBMldzVWtkaTVtcnN0RGhqZ09tZGJSdzZmSEd0RXBFSmxGMXYrSDB4TW1Dc3dwOCsrV1hoWnFKTWROSjVWd1hQaGsyeS8ra0FNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDExMDY4CWZpbGU6SG9pc3QuYXBwLnRhci5negpBWSt1ckVUYldiNCt0c2xRMnhwZncrNm13UkE5K0xnckhmN3RCaDZXNk9wRFducHVEb1lmR0tlVHZNZ2ZwM000S1BJVVFPSG9UOWxMU2ZOUnZmV2VDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.99/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlCK2dvUFVDcURqSmNFa25iN2JVZnpFY2FsdGh5dzZuZW9GUUsySmlwTEp0N0JGQzR5UTdXVkJWMmZzYVZKRFpoMGNDQW92MW02VC9JWk40dXEwY1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3MTcxMDUzCWZpbGU6SG9pc3RfMC4zLjk4X3g2NC1zZXR1cC5leGUKN1hSMFlHZUx2Wlh4MEtYOThFbm16VFFxVzg4cjlvTVZhRURUL0h2WXRKVmNUYm42VDgwcnV5SU5vMjJUVHpXaWJ5U1pZeFFvMVNBVW9kRVpLVEEwRFE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.98/Hoist_0.3.98_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtOaXhjYUZSVUFXV2p2RW5PNzNMNEl4K0tTanN6b1dxRU9pWnVIa3g5ays3cDV0VFArOG9GSlFkaW5RcnhBVlVJMmlRcDgybnZzc2NTK1ViQ3FGMGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NDExMjM4CWZpbGU6SG9pc3RfMC4zLjk5X3g2NC1zZXR1cC5leGUKeCs2cU9yb2lDRVByRnRaeE9ZdlBqcGZGbGdZRUtkL0YvT0p5N2g0SWFOYVBDT2JlNzdmVXJwWjR1Mkh1ZHFSUE55RUxqYUtmVEtQY3RPdVRacDZlREE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.3.99/Hoist_0.3.99_x64-setup.exe"
     }
   }
 }
