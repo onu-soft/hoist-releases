@@ -1,19 +1,19 @@
 {
-  "version": "0.4.12",
-  "notes": "- 🚨 **AI 가 \"고치겠습니다\" 하고 끝나던 것을 고쳤습니다** — 곧바로 파일을 고치게 하고, 그래도 안 하면 고친 게 없다고 사실대로 알려 줍니다",
-  "pub_date": "2026-08-27T18:15:16Z",
+  "version": "0.4.13",
+  "notes": "\n- 앱이 강제 종료된 뒤 남아 있던 변환·다운로드 프로세스를 다음 실행 때 정리합니다.\n  기계가 이유 없이 뜨겁거나 느려지던 원인이었습니다.\n- 유튜브 받기를 멈추면 곧바로 멈춥니다.",
+  "pub_date": "2026-08-27T19:09:31Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJPZlRXS3pERVUwSzBnQnRrM09YM2NjNUJGVHc2VFRick9rUXlEbDBNb3pBRmtBTFdjVjErVTNhMWFzSjcxV0U0RWh1d0JtUmMzK3J4VTh6YjdMUEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODU0NDYwCWZpbGU6SG9pc3QuYXBwLnRhci5negowVkVxNGxqT3dVbEZLS3RyWXpOYk5qRU9TSHJtUWJrOFluS0NwT3BwUDd4RVN0N0RGUzlaOHpHM212aXhTWGdBZVVGTWMrYUNxVWh5OFdQbENwYlhDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.12/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhUYXhZNlh0aHpwcGdaS0JaT1hLMzNCVkVvRUxONm03TjFJbm1kTTVMQXpYQ2tRRFhJOE5xaUIvMklNSityS05NZFBZbTJZK0lyOXdIWXZ2OW50eWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODU2Nzc3CWZpbGU6SG9pc3QuYXBwLnRhci5negpoeU9mcjZYR2tTMlRRU3J4QTBoMXQ4YVBmNnhaTnEwS1kxVFFuenQwR1lyVDIwL29oaXVLK2Q0T2ZUcFJuR2FPS2lTcVJnVG4rbmc2c3Y4NFZhOTBEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.13/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJPZlRXS3pERVUwSzBnQnRrM09YM2NjNUJGVHc2VFRick9rUXlEbDBNb3pBRmtBTFdjVjErVTNhMWFzSjcxV0U0RWh1d0JtUmMzK3J4VTh6YjdMUEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODU0NDYwCWZpbGU6SG9pc3QuYXBwLnRhci5negowVkVxNGxqT3dVbEZLS3RyWXpOYk5qRU9TSHJtUWJrOFluS0NwT3BwUDd4RVN0N0RGUzlaOHpHM212aXhTWGdBZVVGTWMrYUNxVWh5OFdQbENwYlhDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.12/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhUYXhZNlh0aHpwcGdaS0JaT1hLMzNCVkVvRUxONm03TjFJbm1kTTVMQXpYQ2tRRFhJOE5xaUIvMklNSityS05NZFBZbTJZK0lyOXdIWXZ2OW50eWcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODU2Nzc3CWZpbGU6SG9pc3QuYXBwLnRhci5negpoeU9mcjZYR2tTMlRRU3J4QTBoMXQ4YVBmNnhaTnEwS1kxVFFuenQwR1lyVDIwL29oaXVLK2Q0T2ZUcFJuR2FPS2lTcVJnVG4rbmc2c3Y4NFZhOTBEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.13/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRVRUMrZkQwNmxCRlNMQkhXVmdxSDhZdFBSMEl0UHRxOWo1L1JlRTBBN0tZZDZmbmZLOVhsbDNpbDZTRk1qK2t1dUlRUHJhRjQzUnpGRGJQVEY1TXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODU0NTA1CWZpbGU6SG9pc3RfMC40LjEyX3g2NC1zZXR1cC5leGUKOWVRVTg0TGg0NUJKVDNWdXdTTHZMREUrWXBDNnlWWmVZNWdvMllzVHFBVDlkeS9GeFhTSFdzTmh5SkZVUmlVTG1Uc0Nod2E5L3dPUGxMcWYySkJCQ0E9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.12/Hoist_0.4.12_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDN0MFZRSnRZS2x1a2FPMU1XYVVLWXZQbVZvVXZKZnI3aDFQMzhERXpGYTF4MXZsYkR5ZWZPQ2t3ZTB3ZEQzT3RPZno1aW1aSGY5eVdEMGFFQndqT0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODU3NzM4CWZpbGU6SG9pc3RfMC40LjEzX3g2NC1zZXR1cC5leGUKdlJDRFk4Q1Z4OG5KWCs4MjljMC9WcUhja203RDR2NEZ4dTA1dHNKOE5WTWdwcXE3SjlvdytoYWFXRnczeUwxTFQwVDF3Y0tsdmE5TzlRTFpwUHd2RHc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.13/Hoist_0.4.13_x64-setup.exe"
     }
   }
 }
