@@ -1,19 +1,19 @@
 {
-  "version": "0.4.6",
-  "notes": "- 🚨 **개발 탭에서 opencode 를 쓸 수 있습니다** — 앱 안에서 받아 로컬 모델로 돌리고, 고치기 전에 물어봅니다\n- 🚨 **영상을 잇따라 넘겨 봐도 화면이 끊기지 않습니다** — 지나친 영상의 변환이 맥에서 안 멈추고 계속 돌던 것을 고쳤습니다\n- 🚨 **개발 탭을 다시 열어도 돌고 있던 서버가 죽지 않습니다** — 실행 중인데 '실패'로 바뀌던 것을 고쳤습니다\n- **멀쩡한 영상을 괜히 변환하지 않습니다** — 이어보기로 중간부터 열 때 5초 만에 재인코딩으로 넘어가던 것을 고쳤습니다\n- **고르개(드롭다운)를 앱 전체에서 같은 모양으로 맞췄습니다** — 글꼴이 화면마다 달라 보이던 것을 고쳤습니다",
-  "pub_date": "2026-08-27T07:00:12Z",
+  "version": "0.4.8",
+  "notes": "- 🚨 **떨리는 영상을 매끄럽게 볼 수 있습니다** — 재생기의 마술봉을 누르면 변환해서 재생하고, **원본 옆에 변환본을 한 번만 만들어** 다음부터 바로 재생합니다(원본은 그대로 둡니다)\n- **떨림 감지가 이제 진짜 떨림만 잡습니다** — 멀쩡한 재생에도 경고가 남던 것을 고쳤습니다",
+  "pub_date": "2026-08-27T15:57:49Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZQcXk5ZjRaVEpnRXlwWUdDa0FOZ0ozQkZHUjhYZmhGSTRZT1dIZUNHSEdMUGNhR0tJSmhkU0FkTW94TFNBcWhOTUp2RGdZUEJXa20vS3VFZEx4YWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODEzNjQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpFK0hQSlRQc1RWcEw5WTllQWhTdlpWT1lDdUVTN0hJWkcydHBjd2p1OG9DK3V0aytobzlMT291eXMvWi9hNmNGUEVmRk5kaGlLRUcvQjcwQmhGQTFBQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.6/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZkSDdUMWRpM3J0Z0s4TGpjeDlGaVJES2Z5MzdWNGJyTDNxTWZMSFoxTUU3cFp4T25jVHNhQ0ZYOTljYkdpN25MVXpDdWVzLzBoTFdJTFlGU2d3eUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODQ1ODc2CWZpbGU6SG9pc3QuYXBwLnRhci5nego2bDVzNmZkejMwMXZCVkRHbnoyUUpGR0x3NjVLWFZPcGFZVWdWdSs4Y2tsSFpuajQ1SWIzZi9LZ0VOYmV5SU5ia2k0MThnMklxRE5oeUtoc2dUNHNCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.8/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZQcXk5ZjRaVEpnRXlwWUdDa0FOZ0ozQkZHUjhYZmhGSTRZT1dIZUNHSEdMUGNhR0tJSmhkU0FkTW94TFNBcWhOTUp2RGdZUEJXa20vS3VFZEx4YWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODEzNjQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpFK0hQSlRQc1RWcEw5WTllQWhTdlpWT1lDdUVTN0hJWkcydHBjd2p1OG9DK3V0aytobzlMT291eXMvWi9hNmNGUEVmRk5kaGlLRUcvQjcwQmhGQTFBQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.6/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZkSDdUMWRpM3J0Z0s4TGpjeDlGaVJES2Z5MzdWNGJyTDNxTWZMSFoxTUU3cFp4T25jVHNhQ0ZYOTljYkdpN25MVXpDdWVzLzBoTFdJTFlGU2d3eUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODQ1ODc2CWZpbGU6SG9pc3QuYXBwLnRhci5nego2bDVzNmZkejMwMXZCVkRHbnoyUUpGR0x3NjVLWFZPcGFZVWdWdSs4Y2tsSFpuajQ1SWIzZi9LZ0VOYmV5SU5ia2k0MThnMklxRE5oeUtoc2dUNHNCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.8/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdwMk1WZHZwUkdMTlIzUkNRd05RU1FMMWw5VnR0UnZBdDh1MWtFdEVrZ3ZUSjVhMjd3eHp2UG9QTjBObUJJK2V3THRwMEJ3RmFpU1k2QW1JY3djekFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODE0MDAyCWZpbGU6SG9pc3RfMC40LjZfeDY0LXNldHVwLmV4ZQpaMjRweTJKT0poemFoVGNmQ1A3TEZoSk4xMDNkdUsxV0IzdXJzUzFDVkFLTzJnb2Rmc2ZHK1dUN1QvNEtrQVVVd2dNbnFJQ3RXMGZ1REhHdzFoK0hEQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.6/Hoist_0.4.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRsdy8zUU9ZakRYSWQrS1pqM1FuZEZmNWNPSGRkdnJITlNsOG1oTGxQVlIvMDRXT1o4NVpJY3hKcENSckE3blFKN1U5dGhVTU0zQnZUMkZiWjBIY1FFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3ODQ2MjU2CWZpbGU6SG9pc3RfMC40LjhfeDY0LXNldHVwLmV4ZQppcGpLeldNMnN1c1hGMFNlUERsMVVFU1FNZ3J0QXRzcjNQWXhINTU3UWZyZ1lQTS9hMjM3WHlxM0dBT2E4cGIzb2RSMnVuVjZ5Ry9zTE9BamlFMHNEUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.8/Hoist_0.4.8_x64-setup.exe"
     }
   }
 }
