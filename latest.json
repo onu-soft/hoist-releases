@@ -1,19 +1,19 @@
 {
-  "version": "0.4.15",
-  "notes": "\n- **TV로 보내는 중에도 재생바가 보이고, 거기서 위치를 옮길 수 있습니다** — 10초 앞뒤 단추와\n  재생/일시정지도 함께 있습니다.\n- **보고 있던 자리부터 TV 로 넘어갑니다** — 예전에는 늘 처음부터 시작했습니다. TV 로 본 시간도\n  이어보기에 남아서, 껐다 다시 보내도 그 자리부터입니다.\n- **TV 캐스팅이 한 번에 됩니다** — 처음 누르면 안 되고 두 번째에야 되던 것을 고쳤습니다.\n- 화면은 \"재생 중\" 인데 TV 는 까맣던 일이 없어집니다 — TV 가 실제로 받아 갔는지 확인합니다.\n- 캐스팅이 실패하면 까닭을 알려 주고, 보던 영상이 멈춘 채 남지 않습니다. 뷰어를 닫으면\n  캐스팅도 함께 끝납니다.\n- **유튜브 탭에서 영상 폭을 끌 때 튀지 않습니다** — 손잡이가 마우스를 그대로 따라오고,\n  끝까지 넓힐 수 있습니다.\n- **압축파일을 원격에서 볼 때 연결을 훨씬 덜 씁니다** — 미리보기가 한 장을 세 번씩 꺼내던 것과,\n  같은 압축을 두 판이 함께 열던 것을 고쳤습니다. 연결 수가 적은 NAS 에서 목록이 끊기던 원인입니다.\n- 캐스트 메뉴가 '이어봅니다' 안내에 가리지 않습니다.",
-  "pub_date": "2026-09-02T13:00:38Z",
+  "version": "0.4.16",
+  "notes": "\n- 유튜브 라이브 방송의 **채팅이 다시 나옵니다** — \"최신 크롬에서만\" 안내가 뜨던 것을 고쳤습니다.\n- 파일 정보의 **위치**가 `ftp://…` 주소 대신 경로만 보여 줍니다. 어느 서버인지는 그 위의\n  **연결** 줄에서 봅니다.",
+  "pub_date": "2026-09-02T13:36:10Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhzZ3o5M3oyNWJkazAyT0d0NWwvQXFyWHhDUE5ZNTJGRXN6WFpaRDBNSGJXSGZqV1JZZ2dhbklYcUR5ZkRpaWtZTUw3QW1iLzVOZ1JNNUhzUm9JalFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzUzNjYwCWZpbGU6SG9pc3QuYXBwLnRhci5negpiUFZiN2dzcDEyWmgxVDRLZW00UGkvT0NDWURyTjlLYTcxSGVNWlVrVHczNEJSa1o0bnFKNitrZ1lGQk5oZDRYNmhGTjcrM3liWFhlWFVhQUtqbi9Ddz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.15/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHg1Y1BXd0txdkkxaFJOUkwyQ2Q3WVJjbFRVd0pJY2ZkOUV5eHU4U29mSTJtMTlETlQ4YjNHRUU0S203V2Y0dUN5TitKT3NpcEh6R25yQ2JTRE5UN2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzU1OTU3CWZpbGU6SG9pc3QuYXBwLnRhci5negpVY1pybzV4ZlZNQm0xZUhWQUFsb1lsRnBlKzV0QzRPb2JJQUtlRWdsWFE4V05TMVM4ZVdpdWU4S2RUcFZjU1hPQ3JWTUF4STZtV3NxMUVwVnlrQzZCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.16/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhzZ3o5M3oyNWJkazAyT0d0NWwvQXFyWHhDUE5ZNTJGRXN6WFpaRDBNSGJXSGZqV1JZZ2dhbklYcUR5ZkRpaWtZTUw3QW1iLzVOZ1JNNUhzUm9JalFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzUzNjYwCWZpbGU6SG9pc3QuYXBwLnRhci5negpiUFZiN2dzcDEyWmgxVDRLZW00UGkvT0NDWURyTjlLYTcxSGVNWlVrVHczNEJSa1o0bnFKNitrZ1lGQk5oZDRYNmhGTjcrM3liWFhlWFVhQUtqbi9Ddz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.15/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHg1Y1BXd0txdkkxaFJOUkwyQ2Q3WVJjbFRVd0pJY2ZkOUV5eHU4U29mSTJtMTlETlQ4YjNHRUU0S203V2Y0dUN5TitKT3NpcEh6R25yQ2JTRE5UN2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzU1OTU3CWZpbGU6SG9pc3QuYXBwLnRhci5negpVY1pybzV4ZlZNQm0xZUhWQUFsb1lsRnBlKzV0QzRPb2JJQUtlRWdsWFE4V05TMVM4ZVdpdWU4S2RUcFZjU1hPQ3JWTUF4STZtV3NxMUVwVnlrQzZCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.16/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlSZ29RV0RwSDBWWTFLR3JmVHp5VUtyY0E1V1dhQlp2V0E2YURWZWp4S0VkbktaQlVwTEhSU05zeWQyYWJHRjNRazVRa2tmVm05T3BNWkt5dk05TkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzU0MDIyCWZpbGU6SG9pc3RfMC40LjE1X3g2NC1zZXR1cC5leGUKZFoxOFk0SkZPR0FmZHJMS29EeWROSnRSUE9aU25uU2w5WSswRUI1V2FWVUxmT0k3amtldXdXdVdmd1JvTFIwV1FGTVplR0szQ25hUklBYTJMbm9MQUE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.15/Hoist_0.4.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJ4RXlHcmJBSWdjWXdnbjhUSG12ZzZGNnJqRkdoR3ZGUGR5KzJITUN5NDRmRlVTT2RBWVArMThGakg1Rlg2U3FhaHlKTXJNa3lCeWRsQ1F0b0ZPK2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzU2MTUyCWZpbGU6SG9pc3RfMC40LjE2X3g2NC1zZXR1cC5leGUKcWVYNXhHTVJETkNQYlQ3S2RhRHAxR2hNTmlzN2ErR3pXYUQ5L1BvaEhjeHU1THVsN2FXNkE1WTVmQ0MyMjM1RTQ1bzkybktvSlNQZXVQY3ZuVUR1QkE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.16/Hoist_0.4.16_x64-setup.exe"
     }
   }
 }
