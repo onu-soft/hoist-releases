@@ -1,19 +1,19 @@
 {
-  "version": "0.4.19",
-  "notes": "\n- **인터넷이 없을 때 웹·유튜브 화면이 안내를 보여 줍니다** — 까만 화면 대신 상태를 알려 주고,\n  연결이 돌아오면 저절로 사라지며 보던 페이지를 다시 불러옵니다.",
-  "pub_date": "2026-09-02T14:48:12Z",
+  "version": "0.4.20",
+  "notes": "\n- **파일 목록의 세로 스크롤바가 항상 보입니다** — 열을 넓혀 가로로 넘칠 때 막대가 화면 밖으로\n  밀려나 \"스크롤바가 없다\" 로 보이던 것을 고쳤습니다. 열 제목도 목록을 내려도 그대로 있습니다.",
+  "pub_date": "2026-09-02T15:35:35Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHp1TjRtUkZsVkdGam8rblZEdHhVb0pNMmRwOXZPUkhEN1JjMjhuZnZLUW91SDFBd2E1Yy83VGttSnFQWS8xSWU2bjlPZHBKcVphTEJTTDRkNDhSSWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzYwMjU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpqd2FXb0NIVW83Z2VDYVBxTWlQLzQwamdFVnExbUU0ekhvRDEvVjl4alE1UkFZVk1pUG5nSEhHL2VYNFZUSHZoanVwVmg3dVhWWGlSRmI5VmhlUXRCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.19/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdpMWJ4V3FFL084Q3dwdUtSVmZHcCtTWG5PdEpuYjA3ZW81VFNkV050VE1yUmFTRjhXMmtFa0ltSGhlQ2ZVakxMdzlDTDJTWnI4TS8weXlmaWh2QmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzYzMTEyCWZpbGU6SG9pc3QuYXBwLnRhci5negpkQ0ZlMXV0TW9td1BPR012TnlDWlBRaEFNbjFkSmhDNUo0M1hzc1h5ZVpjQS8wQW1XNUxnckVCVjVYOGRVaTViYkhBa3FKWUhtT21sbHdSV0R4U3dDdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.20/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHp1TjRtUkZsVkdGam8rblZEdHhVb0pNMmRwOXZPUkhEN1JjMjhuZnZLUW91SDFBd2E1Yy83VGttSnFQWS8xSWU2bjlPZHBKcVphTEJTTDRkNDhSSWdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzYwMjU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpqd2FXb0NIVW83Z2VDYVBxTWlQLzQwamdFVnExbUU0ekhvRDEvVjl4alE1UkFZVk1pUG5nSEhHL2VYNFZUSHZoanVwVmg3dVhWWGlSRmI5VmhlUXRCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.19/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdpMWJ4V3FFL084Q3dwdUtSVmZHcCtTWG5PdEpuYjA3ZW81VFNkV050VE1yUmFTRjhXMmtFa0ltSGhlQ2ZVakxMdzlDTDJTWnI4TS8weXlmaWh2QmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzYzMTEyCWZpbGU6SG9pc3QuYXBwLnRhci5negpkQ0ZlMXV0TW9td1BPR012TnlDWlBRaEFNbjFkSmhDNUo0M1hzc1h5ZVpjQS8wQW1XNUxnckVCVjVYOGRVaTViYkhBa3FKWUhtT21sbHdSV0R4U3dDdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.20/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDY2Ti9jN3JpZm1iTndVYnFneGxFRzJmQzJ5eWZucGxDOUxZaTE2U3VFNnJCb1I2VDdSbEc3Z1FwNnNDZjExejgreHl4dE9xQjBqbTJpdThxaFY1Y0FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzYwNDczCWZpbGU6SG9pc3RfMC40LjE5X3g2NC1zZXR1cC5leGUKc3V6a2xpS2pacmxnVlA1dGFjNDF2bEpDcHZ6bWlYVVdRQWdEekgzdTZzTHhOakFlWmxxNWtXcy9Qd0I0ODhDU3EzQVdKeTFLbW8rV3FKZkNnK3B2RHc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.19/Hoist_0.4.19_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV5V09rNUYvVjBlb2pGcHFwWEk0SEZJOFRtUnNXNVZ2QlJHVEFNNWJvTVZhQjY2NHBHNXVJc3FjekFLQXplQTNrV0FBc0dLUTlPS1N6dFlTM3B4QWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MzYzMzE2CWZpbGU6SG9pc3RfMC40LjIwX3g2NC1zZXR1cC5leGUKVzRZbnFVOTd4OGNGRkNDTVhNNk52a24vaytpSVBPbENWZmtYWGhCeXVBdFpjTHBnTVRhK3lkVHBuTmx2S2V6ZjF1bVNPUjVGZ014aVVkQ1JoU0ttRGc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.20/Hoist_0.4.20_x64-setup.exe"
     }
   }
 }
