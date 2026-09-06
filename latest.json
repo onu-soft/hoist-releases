@@ -1,19 +1,19 @@
 {
-  "version": "0.4.25",
-  "notes": "\n- **4K 영상이 훨씬 부드럽게 재생됩니다** — 그림 해독을 그래픽카드에 맡기도록 고쳤습니다.\n  같은 파일·같은 PC 에서 변환 속도가 **0.7배 → 2.3배**로 올라, 회선이 받쳐 주면 더 이상\n  떨리지 않습니다.\n- **영상에 든 그림 자막(블루레이 PGS)도 볼 수 있습니다** — 글자 자막이 아니라 이미지라\n  화면에 태워서 보여 줍니다. 자막 메뉴에서 고르면 보던 자리부터 이어집니다.\n- 🚨 **유튜브 광고에서 흰 화면으로 멈추던 것을 고쳤습니다** — 앞 버전(0.4.24)에서 광고를\n  넘기는 처리가 스스로를 되부르며 폭주해 재생이 굳었습니다.",
-  "pub_date": "2026-09-06T15:26:14Z",
+  "version": "0.4.26",
+  "notes": "\n- 🚨 **한국어 자막이 있는데도 안 켜지던 것을 고쳤습니다** — 자막 파일 이름이 `영화.ko.srt`\n  처럼 짧은 꼬리면 못 알아봤습니다(`영화.kor.srt` 는 됐습니다).\n- **자막 목록이 읽기 쉬워졌습니다** — 이름과 출처(내장·파일·열어둠)를 갈라 보여 주고,\n  같은 자막이 두 줄로 뜨던 것과 '내장' 이 두 번 나오던 것을 고쳤습니다.",
+  "pub_date": "2026-09-06T16:02:36Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhwMndwT1JKQVBoT1NGSm5SR2hOT2h0bVk0VEwrV2gyYXY5bHFvTml1K2h5c3NranhaOEFPZGZxVjBpRmdRWVdubnBuVjRGS1k3K1Fia1dIVVRrVndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzA4MDU3CWZpbGU6SG9pc3QuYXBwLnRhci5nego2b1ZUN0lrL1BRbEc2a2paajRnRUdsSWN1RGJmTVFkTzkrY3lMMUNXWVNsZzdMdThPTDNrWm5Wdmh0MXRGUCtjTVEyUDVZaHhZQXF0STNQNDdOYUxDQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.25/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdnL1kwVWJiRUY4YkxRY1V3cUJCb1A5UHRuNWxZbjBFNU1kL1NjYnZaRWFHYiswdUt3UFNTQzdEVHhpNWhCQ3QrVnl0clAzWTVBb2dXeW8xQVZkZlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEwMjc2CWZpbGU6SG9pc3QuYXBwLnRhci5negpZNU9LbmhjU0JpV2IwTVhsQkVOelU5OEc0cjk3UVY2TkpJQURHanQvQmhjRVhQODdoVlFSYnFxbUtkTkZyZ3dEb3ZMQmhnSnB3NktTUDdzckU2UFZCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.26/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhwMndwT1JKQVBoT1NGSm5SR2hOT2h0bVk0VEwrV2gyYXY5bHFvTml1K2h5c3NranhaOEFPZGZxVjBpRmdRWVdubnBuVjRGS1k3K1Fia1dIVVRrVndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzA4MDU3CWZpbGU6SG9pc3QuYXBwLnRhci5nego2b1ZUN0lrL1BRbEc2a2paajRnRUdsSWN1RGJmTVFkTzkrY3lMMUNXWVNsZzdMdThPTDNrWm5Wdmh0MXRGUCtjTVEyUDVZaHhZQXF0STNQNDdOYUxDQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.25/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdnL1kwVWJiRUY4YkxRY1V3cUJCb1A5UHRuNWxZbjBFNU1kL1NjYnZaRWFHYiswdUt3UFNTQzdEVHhpNWhCQ3QrVnl0clAzWTVBb2dXeW8xQVZkZlE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEwMjc2CWZpbGU6SG9pc3QuYXBwLnRhci5negpZNU9LbmhjU0JpV2IwTVhsQkVOelU5OEc0cjk3UVY2TkpJQURHanQvQmhjRVhQODdoVlFSYnFxbUtkTkZyZ3dEb3ZMQmhnSnB3NktTUDdzckU2UFZCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.26/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZJWUpBbkhPc2NqUUZ3aGJWOXEvMWVrV3U1Znl1ZXdIR1NJQXZOOVdyQWlzR1hpUS8ydWh2NTJSOUpFWWpoVmxaQzZYYVVZMFR2ZW1CUk5mMGRZUVFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzA4MzU3CWZpbGU6SG9pc3RfMC40LjI1X3g2NC1zZXR1cC5leGUKN012T01aVkxoS3lJYW5URWI4M29sTy8rc01NSi9tR1lsWWFtS2FXWURNMlJ1NUl1NmxwNThzblBER1MyeUthbzY4M213NUhlV3hYSGU4c0dhVmhYQWc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.25/Hoist_0.4.25_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJFR1dyeUJmUXF2b0VtQmpaSmVNdDdlZ3l1UXRVZDIxM05uVCt1SEQ2RGhPU09zZEZBM3hMU2RDekkvcmY2UnJnbjBTTzg0SlZLYWRZMDRtZG1pblEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzEwNTM4CWZpbGU6SG9pc3RfMC40LjI2X3g2NC1zZXR1cC5leGUKZXhGU0hQNXdhc3lLbDJiMjJPM0R6L1h2and5c1Q5WGFSZTVCU292SzUrSWo5YTNFRWgzNU01bi9sYzNyY1VXYUhLVDQ4MEhOUzZpVmh3RmJlNjhjQUE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.26/Hoist_0.4.26_x64-setup.exe"
     }
   }
 }
