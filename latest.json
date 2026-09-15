@@ -1,19 +1,19 @@
 {
-  "version": "0.4.44",
-  "notes": "- **정보 패널의 세 아이콘이 이제 탭입니다** — 눌러서 정보·전송·경고를 오갑니다. 전송 목록이\n  남아 있어도 파일 정보를 볼 수 있습니다.\n- **문제가 있을 때만 ⚠️ 탭이 나타납니다** — 서버로 못 돌려보낸 편집, 디스크 여유 부족,\n  끊긴 연결 같은 것을 한자리에 모읍니다.\n- **아무것도 고르지 않으면 지금 쓰는 것을 보여 줍니다** — 연결·전송·토렌트·영상 캐시.",
-  "pub_date": "2026-09-15T13:38:25Z",
+  "version": "0.4.45",
+  "notes": "- **정보 패널 제목을 '현재 사용 중' 으로 바꿨습니다** — 연결·전송·토렌트·영상 캐시를 묶는 말이 더 분명해졌습니다.",
+  "pub_date": "2026-09-15T15:13:01Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBkNDRqajB1aFM2SE1TaFBXcXc1cDluZGpOMzF3RmQwcWQrNWh6TVdrV05KVTk3Vy9XY0FVa1o3QkY3YUxMMm1KV3RkZGFocENYZk5JNTRQMjYzZVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDc5MzQwCWZpbGU6SG9pc3QuYXBwLnRhci5nego3NFI1ZmxmUEdQRFR5YXd2ckNmcnhma0NlRmYxNEl6ei80OGwyN05kbzJpM3JxYmtDZkQ1TDdrWC8wUWlWL1RFOUNsd2hta3lwcXlQa3h4dkhKQkdEQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.44/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDR2QUVtcFVEeUdjOHpISURDVUZHenlUM3QraUZNcmxKNUNlTURSMWNYRHc0ci8rTDVqL0FJK0FBekFoakR0OTh3THY0ckw5bU5ZcnYrRXNwc2d1ZXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDg1ODkwCWZpbGU6SG9pc3QuYXBwLnRhci5nego1ZndxK2pPYXFNSkFvMW02akkzbVc1djJnR09MWWVlbkUyRmtNMWRBNm1PaWk2TFpYZllPMkMxdGxFS3ArNmpNajRRQ0k3RmoyUzExYkd4Ujg5QytBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.45/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBkNDRqajB1aFM2SE1TaFBXcXc1cDluZGpOMzF3RmQwcWQrNWh6TVdrV05KVTk3Vy9XY0FVa1o3QkY3YUxMMm1KV3RkZGFocENYZk5JNTRQMjYzZVFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDc5MzQwCWZpbGU6SG9pc3QuYXBwLnRhci5nego3NFI1ZmxmUEdQRFR5YXd2ckNmcnhma0NlRmYxNEl6ei80OGwyN05kbzJpM3JxYmtDZkQ1TDdrWC8wUWlWL1RFOUNsd2hta3lwcXlQa3h4dkhKQkdEQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.44/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDR2QUVtcFVEeUdjOHpISURDVUZHenlUM3QraUZNcmxKNUNlTURSMWNYRHc0ci8rTDVqL0FJK0FBekFoakR0OTh3THY0ckw5bU5ZcnYrRXNwc2d1ZXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDg1ODkwCWZpbGU6SG9pc3QuYXBwLnRhci5nego1ZndxK2pPYXFNSkFvMW02akkzbVc1djJnR09MWWVlbkUyRmtNMWRBNm1PaWk2TFpYZllPMkMxdGxFS3ArNmpNajRRQ0k3RmoyUzExYkd4Ujg5QytBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.45/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdiWkM2a2IrOE1Rb3ZnVXgrUitXRVEyNi9xWmpxV3hRRUpPQStWczQrOUFVakFvbHdHTkVtRERCV0pGZzdsNmF4SWNrdzBZR0E0T3hPa3plUzZjNUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDc5NDg2CWZpbGU6SG9pc3RfMC40LjQ0X3g2NC1zZXR1cC5leGUKL1plM0wwUEMvWXVxVzZHUUxqS3hCcGJWb2NBZktncUllK3hVZFZhWDUzNXVPVHBKamdIbExuRTF3Z0UzRUVVNjV5K3k4UlYzZzdIUFk2Y2tOSGliQ2c9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.44/Hoist_0.4.44_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDd1cFF6RmdqU0hpemxwM1lJdmJnVnZNL2M0WHExTG0rN1dIa0djOXpiOC9lRFFlTSswa3R1V2RVRUplYk1yWFhmdVdVS0tnNlhyclNuTldnay9mUlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NDg1MTYyCWZpbGU6SG9pc3RfMC40LjQ1X3g2NC1zZXR1cC5leGUKaWVxeUFDYXFyWktIMVB6K3JuS2hTQjh3SlExbDhXUkF2NWwra0YxQlVBQkVsS1h6OGNqQmRiYno0WDV0WVY0WmtvZUlSeFFnRUxhMFlLVElKMmZYQXc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.45/Hoist_0.4.45_x64-setup.exe"
     }
   }
 }
