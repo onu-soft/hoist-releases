@@ -1,19 +1,19 @@
 {
-  "version": "0.4.46",
-  "notes": "- **유튜브 탭의 '모두 닫기' 를 고쳐 그렸습니다** — 닫힐 창 수가 단추 안에 보이고, 닫을 창이 없으면 조용해집니다.",
-  "pub_date": "2026-09-16T13:27:15Z",
+  "version": "0.4.47",
+  "notes": "- **유튜브 작은 창을 창 단추로 닫으면 소리도 함께 멎습니다** — 닫은 창의 소리가 남아\n  다음 영상과 두 겹으로 들리던 것을 고쳤습니다.",
+  "pub_date": "2026-09-18T22:15:55Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlxWno4QlVFR1dnUjRyNEV3aXFZblhqWkIvVVBvUGRsZXJycStrMlAzVm1GTHRJZVlpMlM0c3cwaFFoNStGZkdsemVCYmpUVHNRWTNMclYrR2ltZUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTYzMjA3CWZpbGU6SG9pc3QuYXBwLnRhci5negphNXA0aVNHRmhPQ1piQzNESi9tM1RUc3B4QnpVRmlmQWlkTHFQdFIvV3o1Q3Z1cXFhTHhSMW5ZalBYNFF3Z1RzQ2hWcWZUcXlIRkU1U0VnZXMrRWRDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.46/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZpeFcwRGs3WEtocVFwT0lFQ3htTGp6eEcxM1MzUG9BRmJOaXV0ZGQ4Y2hhNEdtU0xVUXh5Sjh0WVRXanBBSnpzeEpWUThiTTFBRExuWnNIVUo2NXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzY5NDY0CWZpbGU6SG9pc3QuYXBwLnRhci5negpCNTJ3WEdxZVUwb0xBbDlUeXBPdGJLTFY0dUNIUGIvZnZvYTQ1UXN6OWF0ZkVQdzNleWlpYnZmMERmdk0waFh0ZVY5UG1rQUVlcVgwaWlRZGV3TWlCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.47/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlxWno4QlVFR1dnUjRyNEV3aXFZblhqWkIvVVBvUGRsZXJycStrMlAzVm1GTHRJZVlpMlM0c3cwaFFoNStGZkdsemVCYmpUVHNRWTNMclYrR2ltZUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTYzMjA3CWZpbGU6SG9pc3QuYXBwLnRhci5negphNXA0aVNHRmhPQ1piQzNESi9tM1RUc3B4QnpVRmlmQWlkTHFQdFIvV3o1Q3Z1cXFhTHhSMW5ZalBYNFF3Z1RzQ2hWcWZUcXlIRkU1U0VnZXMrRWRDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.46/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZpeFcwRGs3WEtocVFwT0lFQ3htTGp6eEcxM1MzUG9BRmJOaXV0ZGQ4Y2hhNEdtU0xVUXh5Sjh0WVRXanBBSnpzeEpWUThiTTFBRExuWnNIVUo2NXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzY5NDY0CWZpbGU6SG9pc3QuYXBwLnRhci5negpCNTJ3WEdxZVUwb0xBbDlUeXBPdGJLTFY0dUNIUGIvZnZvYTQ1UXN6OWF0ZkVQdzNleWlpYnZmMERmdk0waFh0ZVY5UG1rQUVlcVgwaWlRZGV3TWlCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.47/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHpHVHZlZmV2M2J2Z24rc0JMU0NtWFNRVDBPRkJFZEl4K1ZkbFQrRDZydUJjSHBNeE1OT3dYRWVKVHRqR1o2dk9EUlBwMjFycjVUQU1YMGt5emRMRkFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTY1MTY4CWZpbGU6SG9pc3RfMC40LjQ2X3g2NC1zZXR1cC5leGUKbk5WcE9ZWkdVbjhRSmRLWTFXSTNlQjB1MTBQZlRaMitWTHVsZCtzMEpIS3lCK1N5L3hGY2p3UUlvZlQzNGNzUlR3MzAvYmtnaHAwS3BZckhSS3ZjRHc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.46/Hoist_0.4.46_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRRa2RzUi9aSnJ6dkJXek0rcG5DdjlPQ3JRWnZQTFNjVHgxTUxhMFhvQ2lJM3dpdUhsQ203M3VIVEkxNUw3NkZYZTVocFFGaWVNYitITUhOUHd0aWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzY5NzQwCWZpbGU6SG9pc3RfMC40LjQ3X3g2NC1zZXR1cC5leGUKVU9DcFM4dXMrQmFrN2NxazcvM2dKbUsraFFqemFvaWNpQUJmSzU2U2NsZjlnaUdiWGZnR0JLMUJHMkV2SkNLVFRlazFMWUpCNVE0bVJJeHNBRXlaRGc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.47/Hoist_0.4.47_x64-setup.exe"
     }
   }
 }
