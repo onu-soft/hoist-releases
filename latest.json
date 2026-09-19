@@ -1,19 +1,19 @@
 {
-  "version": "0.4.47",
-  "notes": "- **유튜브 작은 창을 창 단추로 닫으면 소리도 함께 멎습니다** — 닫은 창의 소리가 남아\n  다음 영상과 두 겹으로 들리던 것을 고쳤습니다.",
-  "pub_date": "2026-09-18T22:15:55Z",
+  "version": "0.4.48",
+  "notes": "- **띄어쓰기를 달리 쳐도 찾습니다** — `나혼자`·`나 혼자`·`나 혼 자` 가 모두 같은 결과를\n  냅니다. 파일명의 `.`·`_`·`-` 도 공백처럼 봅니다.\n- **초성으로 찾을 수 있습니다** — `ㄴㅎㅈ` 처럼 초성만 치면 그것으로 찾습니다.\n- **한글 파일 일부가 안 찾히던 것을 고쳤습니다** — 자모가 갈라져 저장된 이름도 찾습니다.\n- **찾을 이름을 입력하면 색인에 몇 건 더 있는지 바로 알려 줍니다** — Enter 를 치면 그때\n  서버까지 찾습니다.\n- **색인 검색이 훨씬 빨라졌습니다** — 드문 이름일수록 차이가 큽니다.\n- **서버 검색과 색인이 훨씬 빨라졌습니다** — 폴더를 여럿이 나눠 읽고, 색인이 방금 본 곳은\n  다시 묻지 않습니다.\n- **색인을 다시 돌리면 달라진 곳만 담습니다** — 중간에 멈춰도 이어서 갑니다.\n  (전부 다시 담으려면 Alt/Option 을 누른 채 색인 단추를 누르세요.)\n- **색인 중에도 영상 재생과 복사가 밀리지 않습니다** — 다른 일이 시작되면 색인이 자리를\n  비켜 주고, 끝나면 도로 가져갑니다.",
+  "pub_date": "2026-09-19T09:10:57Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZpeFcwRGs3WEtocVFwT0lFQ3htTGp6eEcxM1MzUG9BRmJOaXV0ZGQ4Y2hhNEdtU0xVUXh5Sjh0WVRXanBBSnpzeEpWUThiTTFBRExuWnNIVUo2NXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzY5NDY0CWZpbGU6SG9pc3QuYXBwLnRhci5negpCNTJ3WEdxZVUwb0xBbDlUeXBPdGJLTFY0dUNIUGIvZnZvYTQ1UXN6OWF0ZkVQdzNleWlpYnZmMERmdk0waFh0ZVY5UG1rQUVlcVgwaWlRZGV3TWlCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.47/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDY4bDZyeDlBdEhQNnA4OUIyMlhyeHg1bW1Kd3BEZTZEN29aVjZQUXZRV1M1UlA1K29sTUM5VURGZG9XVFpTN0tNM043ZVZQa3JEQjlMcXlBMW5ia3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODA4NzQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpTT2lBTjJOQWVMcnhxQVFzQ1ZoYXhsRmpPWlBYczBxWkFzbEFoUVlvdWxOVVRET3F5YmN4QTJjdngxQmhsUkNFKzcyNUlYUk1ZK2UvNHN0K1hONmRBUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.48/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZpeFcwRGs3WEtocVFwT0lFQ3htTGp6eEcxM1MzUG9BRmJOaXV0ZGQ4Y2hhNEdtU0xVUXh5Sjh0WVRXanBBSnpzeEpWUThiTTFBRExuWnNIVUo2NXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzY5NDY0CWZpbGU6SG9pc3QuYXBwLnRhci5negpCNTJ3WEdxZVUwb0xBbDlUeXBPdGJLTFY0dUNIUGIvZnZvYTQ1UXN6OWF0ZkVQdzNleWlpYnZmMERmdk0waFh0ZVY5UG1rQUVlcVgwaWlRZGV3TWlCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.47/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDY4bDZyeDlBdEhQNnA4OUIyMlhyeHg1bW1Kd3BEZTZEN29aVjZQUXZRV1M1UlA1K29sTUM5VURGZG9XVFpTN0tNM043ZVZQa3JEQjlMcXlBMW5ia3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODA4NzQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpTT2lBTjJOQWVMcnhxQVFzQ1ZoYXhsRmpPWlBYczBxWkFzbEFoUVlvdWxOVVRET3F5YmN4QTJjdngxQmhsUkNFKzcyNUlYUk1ZK2UvNHN0K1hONmRBUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.48/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRRa2RzUi9aSnJ6dkJXek0rcG5DdjlPQ3JRWnZQTFNjVHgxTUxhMFhvQ2lJM3dpdUhsQ203M3VIVEkxNUw3NkZYZTVocFFGaWVNYitITUhOUHd0aWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzY5NzQwCWZpbGU6SG9pc3RfMC40LjQ3X3g2NC1zZXR1cC5leGUKVU9DcFM4dXMrQmFrN2NxazcvM2dKbUsraFFqemFvaWNpQUJmSzU2U2NsZjlnaUdiWGZnR0JLMUJHMkV2SkNLVFRlazFMWUpCNVE0bVJJeHNBRXlaRGc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.47/Hoist_0.4.47_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDExaW5HcEs0QlBhbng5emQva0xNTmZTdzNCczlCLzMvN0FOdTV0UWRrUFNHSGRiWGFWcjRxVFEzejdvU1FsVjh2NHVseXVobDRFOEt3ZHNqWHJwbndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODA5MDQyCWZpbGU6SG9pc3RfMC40LjQ4X3g2NC1zZXR1cC5leGUKbFVqT0UzMUdObkk0NFdqT1lWak9kVFo4M21zZjBLbEwxbHVCZFFKUnA3cGpnSGxOTVMxMlBqM3dkREdWTnlIUFN2ZWdLbXA4NTRuWnV1M2I3RVVhQlE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.48/Hoist_0.4.48_x64-setup.exe"
     }
   }
 }
