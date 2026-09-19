@@ -1,19 +1,19 @@
 {
-  "version": "0.4.50",
-  "notes": "- **English·日本語로 쓸 수 있습니다** — 설정 › 디자인에서 고릅니다. 처음에는 시스템 언어를\n  따르고, 한국어·영어·일본어가 아닌 컴퓨터에서는 영어로 보여 줍니다.\n- **개발 탭의 AI 도 고른 언어로 답합니다.**\n- **부팅 화면의 그림이 앱 아이콘과 달랐던 것을 고쳤습니다.**",
-  "pub_date": "2026-09-19T12:53:48Z",
+  "version": "0.4.51",
+  "notes": "- **일본어 화면의 글자가 고르게 나옵니다** — 한자만 다른 글꼴로 섞여 나오던 것을 고쳤습니다.",
+  "pub_date": "2026-09-19T13:21:46Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlOaUw1YnpmcmhTWnFFM3BCYlRlaEVOeTdtRFdoV2c1Q05GeTcwZjIrVHZDNGxJZXRqcHd3TjJ0UzVCUjRpS09sVmw1WFJDVFV6K1JrT21pQUpoZ3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODIyMTM2CWZpbGU6SG9pc3QuYXBwLnRhci5negpWNHFPcDdHWTZtcTBvcE5ldHJqVEVKU3FJa0wyR01YNmpCNDVpS2ZmSitTUm5wRDJWdUNzeWRDSTcrTjV4Tm1vSUZzYnl1a1ljcWNuTGFRbGpQeUZDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.50/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRSbUprMHRtWFRiMllKMWZ5eUVJYjJDM3FuaU93QVB5RmNXNnZUempRb3VNV1JRTDRlRk1udXFmZXRVcmR6YmJtVHdoamhOcWVpSm9aV1YrOFFETlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODIzNjc2CWZpbGU6SG9pc3QuYXBwLnRhci5negoydGhDT1ZobGthR3Z6Q0pjRXdCdUIwNW1LUXh3QWhlR0QwMW9XUk9RdTJ0UjFDRTdwSC9ZNE1mZW01TGgwMzFrMHNPSkJqYUlNSXo2N2Q4eHd3akFCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.51/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlOaUw1YnpmcmhTWnFFM3BCYlRlaEVOeTdtRFdoV2c1Q05GeTcwZjIrVHZDNGxJZXRqcHd3TjJ0UzVCUjRpS09sVmw1WFJDVFV6K1JrT21pQUpoZ3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODIyMTM2CWZpbGU6SG9pc3QuYXBwLnRhci5negpWNHFPcDdHWTZtcTBvcE5ldHJqVEVKU3FJa0wyR01YNmpCNDVpS2ZmSitTUm5wRDJWdUNzeWRDSTcrTjV4Tm1vSUZzYnl1a1ljcWNuTGFRbGpQeUZDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.50/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRSbUprMHRtWFRiMllKMWZ5eUVJYjJDM3FuaU93QVB5RmNXNnZUempRb3VNV1JRTDRlRk1udXFmZXRVcmR6YmJtVHdoamhOcWVpSm9aV1YrOFFETlFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODIzNjc2CWZpbGU6SG9pc3QuYXBwLnRhci5negoydGhDT1ZobGthR3Z6Q0pjRXdCdUIwNW1LUXh3QWhlR0QwMW9XUk9RdTJ0UjFDRTdwSC9ZNE1mZW01TGgwMzFrMHNPSkJqYUlNSXo2N2Q4eHd3akFCQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.51/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHpqQS9rZTA3NWNWaEhqNG9WWEtvTFdSRHoxbDBQZmwxclpVSXZBWStuTUk2NkZFbjBHMFNjME9kenJMRWhkUkJsNEg3ZGxzTDR0U0RWbEhwN0VhNEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODIyNDE1CWZpbGU6SG9pc3RfMC40LjUwX3g2NC1zZXR1cC5leGUKUllYSitBVXg5anU1c0NLVFRjTUZYcDhlUUp2RzlhTGxwY3lTRnRCWHFaK3dkY29xODJDNFZMLzcrOGo4di9zUDZqWXJCTXBzU0Z3S2JOTlNLM1VlQWc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.50/Hoist_0.4.50_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlweVFhSlUyYTFPbklIQW9Fcm8wd09CYTBKenh0ZmVoTlBZUDZPNVQvRU85dVBmM0RDZlRWYlVNVHhTeFMyRDBCbXJucWRMdE9uTmMwT2d2cXhnTkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODI0MDQwCWZpbGU6SG9pc3RfMC40LjUxX3g2NC1zZXR1cC5leGUKanRqUzM3cjk0U3dIeFJWVGlSdElOMzRlalVjMi85ZWMyVU9VV1BPYXhDNjc0d2FtZE9UUUF0QnZHVTRubW00WDdtZlNLNlhGL1JGTU1na3A5UWVZQ0E9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.51/Hoist_0.4.51_x64-setup.exe"
     }
   }
 }
