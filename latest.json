@@ -1,19 +1,19 @@
 {
-  "version": "0.4.58",
-  "notes": "\n- **음악을 앱 안에서 듣습니다** — 음악 파일을 더블클릭하면 화면 아래 한 줄짜리 플레이어가 뜨고, 다른 폴더를 뒤져도 소리가 이어집니다. 그 폴더의 곡이 순서대로 이어 재생되고 반복·셔플을 고를 수 있습니다.\n- **NAS·서버의 음악도 받지 않고 바로 듣습니다.**\n- **WMA 처럼 그냥은 못 여는 형식도 재생합니다** — 알아서 변환해 들려줍니다.\n- **영상을 탐색한 뒤 뜨는 안내가 사실대로 말합니다** — \"2초 확보\" 같은 목표와 퍼센트를 채워 놓고도 재생이 시작되지 않던 것을 고쳤습니다. 이제 기다린 시간을 알려 주고, 화면이 시작되면 이어집니다.\n- **\"약 N초 남음\"이 실제 속도를 따라갑니다** — 느려지면 남은 시간도 함께 늘어납니다. 전에는 얼마를 기다리든 \"약 1초\"였습니다.",
-  "pub_date": "2026-09-22T15:20:18Z",
+  "version": "0.4.59",
+  "notes": "\n- **유튜브의 '광고 차단기' 경고 팝업이 떠도 계속 막습니다** — 팝업을 닫고 보던 자리에서 이어서 재생합니다.\n- **광고에 '건너뛰기'가 뜨면 대신 눌러 줍니다** — 차단을 멈춰야 하는 상황에서도 손이 가지 않습니다.",
+  "pub_date": "2026-09-22T15:35:52Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdvMjNQNE40RHBhZjA1dEFmUDBsVVFDbmsvdWlaVThLTEdmeUdjMlUwYWY3OXNXVHJsR1M1TDFGSnB0L3N1SWQ5MFUwZ25tMUVqeG9WeXVKdHhxRndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDg4ODEzCWZpbGU6SG9pc3QuYXBwLnRhci5negpINjFYcVRzaEg4QlpFZjdwVVZiaHdTWXVoUVZFNnNZMEdDRyszMjg1RnVXZHQrQ0hlbHJybmZndGFkUHVuanU0NWhFZXRqSXA4Z3k3cHNrc0lKUkdEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.58/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdzd0dFWkJ2U3dyUmZoOWtkS3pLaEFVT3NaQURONXNNRjF5Wi9kVmRKREhMWi9GdldQRmx5bHVaVVNFSC9kYkpEenhaSmNSMlR0OWVnUElsU1FzbXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDkxMjkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpIbnNwTk5QZXdxVXVwWTI4N1ZEcjlEN25yWTdPNUt1V0cvbGMyNW0xMnpXR051QVZjZGZTb2hRRlJkNjI4V1pzajlMY3VYWW9sT212Ry9UUEJoSXVDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.59/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdvMjNQNE40RHBhZjA1dEFmUDBsVVFDbmsvdWlaVThLTEdmeUdjMlUwYWY3OXNXVHJsR1M1TDFGSnB0L3N1SWQ5MFUwZ25tMUVqeG9WeXVKdHhxRndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDg4ODEzCWZpbGU6SG9pc3QuYXBwLnRhci5negpINjFYcVRzaEg4QlpFZjdwVVZiaHdTWXVoUVZFNnNZMEdDRyszMjg1RnVXZHQrQ0hlbHJybmZndGFkUHVuanU0NWhFZXRqSXA4Z3k3cHNrc0lKUkdEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.58/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdzd0dFWkJ2U3dyUmZoOWtkS3pLaEFVT3NaQURONXNNRjF5Wi9kVmRKREhMWi9GdldQRmx5bHVaVVNFSC9kYkpEenhaSmNSMlR0OWVnUElsU1FzbXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDkxMjkzCWZpbGU6SG9pc3QuYXBwLnRhci5negpIbnNwTk5QZXdxVXVwWTI4N1ZEcjlEN25yWTdPNUt1V0cvbGMyNW0xMnpXR051QVZjZGZTb2hRRlJkNjI4V1pzajlMY3VYWW9sT212Ry9UUEJoSXVDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.59/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdYQTB0T05sN3hoTjlvaVFzTXFYQjk2NTNmV2hTZ3VHZXZQczdQRkRvVHNVUTBvcThqZG1VaURyQjFySktINWZ0MFRjUlJHRWhLdTY0TmdXdVFwWWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDkwMzg4CWZpbGU6SG9pc3RfMC40LjU4X3g2NC1zZXR1cC5leGUKcEpQNDUrVllMSXkzTmwrRGxwNTJEcyt0ejVMZC9MQ09WMWovWnduaDloZnpyRHZoN3BSRjBHaXQvOHdySkwvbkFTUnpvZmRJUnE0V3Qxc1B5eVU3Qnc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.58/Hoist_0.4.58_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9OMElwTFEvcGoxVUZYeTUrSVNGOVdoVllYeVRvN0JzRStoMk5iVWVJT2JINjRudVV6ckZCUGZtRTlYazdFd2x0TmZnR0tDb01kREdOekdYVExMTkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDkxMzQ2CWZpbGU6SG9pc3RfMC40LjU5X3g2NC1zZXR1cC5leGUKRWd0bkhZSHhBWTlqTUVuTDZlNUJITk9pbUhwSjV6MlBkbmh4UmZNUWRjTXFkYWhlSFFqWUxVZjNnR0tSN0RyblJreEVTRzdTa3NHYkx5ejhzSXFrQXc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.59/Hoist_0.4.59_x64-setup.exe"
     }
   }
 }
