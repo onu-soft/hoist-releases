@@ -1,19 +1,19 @@
 {
-  "version": "0.4.57",
-  "notes": "\n- 소리가 튄다는 문제를 신고할 때, 기기 오디오가 끊겼는지 로그에 함께 남습니다.",
-  "pub_date": "2026-09-22T13:09:35Z",
+  "version": "0.4.58",
+  "notes": "\n- **음악을 앱 안에서 듣습니다** — 음악 파일을 더블클릭하면 화면 아래 한 줄짜리 플레이어가 뜨고, 다른 폴더를 뒤져도 소리가 이어집니다. 그 폴더의 곡이 순서대로 이어 재생되고 반복·셔플을 고를 수 있습니다.\n- **NAS·서버의 음악도 받지 않고 바로 듣습니다.**\n- **WMA 처럼 그냥은 못 여는 형식도 재생합니다** — 알아서 변환해 들려줍니다.\n- **영상을 탐색한 뒤 뜨는 안내가 사실대로 말합니다** — \"2초 확보\" 같은 목표와 퍼센트를 채워 놓고도 재생이 시작되지 않던 것을 고쳤습니다. 이제 기다린 시간을 알려 주고, 화면이 시작되면 이어집니다.\n- **\"약 N초 남음\"이 실제 속도를 따라갑니다** — 느려지면 남은 시간도 함께 늘어납니다. 전에는 얼마를 기다리든 \"약 1초\"였습니다.",
+  "pub_date": "2026-09-22T15:20:18Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNOODZ1SGErS05rRnhzK2k3ZXVadXV4U0lBUkFrdWJjRllEcnNhWFlobkl5MFJsVm9FbUZuSE0wL0VvTVJQZHdub0ZZQ2xvUXEyTGJudkJGcEQrT2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDgxMjkxCWZpbGU6SG9pc3QuYXBwLnRhci5negpSSU9LcXF1ck56TUMwbXhVeUk3cTVZU1ZCR0F6bnM0VUdSMUJzanM1MHc2cUViWWowR3V0MXg2M0VTQWp2UGpLT29KQ0tEN0tZMmpKSUdNS0JhVmtBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.57/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdvMjNQNE40RHBhZjA1dEFmUDBsVVFDbmsvdWlaVThLTEdmeUdjMlUwYWY3OXNXVHJsR1M1TDFGSnB0L3N1SWQ5MFUwZ25tMUVqeG9WeXVKdHhxRndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDg4ODEzCWZpbGU6SG9pc3QuYXBwLnRhci5negpINjFYcVRzaEg4QlpFZjdwVVZiaHdTWXVoUVZFNnNZMEdDRyszMjg1RnVXZHQrQ0hlbHJybmZndGFkUHVuanU0NWhFZXRqSXA4Z3k3cHNrc0lKUkdEdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.58/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNOODZ1SGErS05rRnhzK2k3ZXVadXV4U0lBUkFrdWJjRllEcnNhWFlobkl5MFJsVm9FbUZuSE0wL0VvTVJQZHdub0ZZQ2xvUXEyTGJudkJGcEQrT2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDgxMjkxCWZpbGU6SG9pc3QuYXBwLnRhci5negpSSU9LcXF1ck56TUMwbXhVeUk3cTVZU1ZCR0F6bnM0VUdSMUJzanM1MHc2cUViWWowR3V0MXg2M0VTQWp2UGpLT29KQ0tEN0tZMmpKSUdNS0JhVmtBUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.57/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdvMjNQNE40RHBhZjA1dEFmUDBsVVFDbmsvdWlaVThLTEdmeUdjMlUwYWY3OXNXVHJsR1M1TDFGSnB0L3N1SWQ5MFUwZ25tMUVqeG9WeXVKdHhxRndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDg4ODEzCWZpbGU6SG9pc3QuYXBwLnRhci5negpINjFYcVRzaEg4QlpFZjdwVVZiaHdTWXVoUVZFNnNZMEdDRyszMjg1RnVXZHQrQ0hlbHJybmZndGFkUHVuanU0NWhFZXRqSXA4Z3k3cHNrc0lKUkdEdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.58/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtnMjZYelN4RnhsdE52L2N1dHlRdmpTN2o2aVlleFlPMjY1eWFZQkE3Y2djYktOaWFkc0FKckhIdVlBOGozNUxGV1R6RTBGK1FTYlpmV0NiZ1poQkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDgyNTQ2CWZpbGU6SG9pc3RfMC40LjU3X3g2NC1zZXR1cC5leGUKQWpTcWxoeER4akNWU3FRM0FTSEk4T3kvWHlOYzlnQU1Zd3I0TDF4eGdnbnhJODFEZVU3QzZXOGg3T0dyNlRlK2hGZHBhbnFBdzh5WncrUkozWEJuQnc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.57/Hoist_0.4.57_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdYQTB0T05sN3hoTjlvaVFzTXFYQjk2NTNmV2hTZ3VHZXZQczdQRkRvVHNVUTBvcThqZG1VaURyQjFySktINWZ0MFRjUlJHRWhLdTY0TmdXdVFwWWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDkwMzg4CWZpbGU6SG9pc3RfMC40LjU4X3g2NC1zZXR1cC5leGUKcEpQNDUrVllMSXkzTmwrRGxwNTJEcyt0ejVMZC9MQ09WMWovWnduaDloZnpyRHZoN3BSRjBHaXQvOHdySkwvbkFTUnpvZmRJUnE0V3Qxc1B5eVU3Qnc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.58/Hoist_0.4.58_x64-setup.exe"
     }
   }
 }
