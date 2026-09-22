@@ -1,19 +1,19 @@
 {
-  "version": "0.4.55",
-  "notes": "- **업데이트 안내의 새 기능 목록이 문장 중간에서 갈라지던 것을 고쳤습니다** — 긴 항목이 체크 표시 없이 따로 떨어져 보였습니다.",
-  "pub_date": "2026-09-20T12:34:22Z",
+  "version": "0.4.56",
+  "notes": "- **설정에 ‘언어’ 탭이 생겼습니다** — 앱 화면 언어(시스템 언어 · 한국어 · English · 日本語)를 여기서 고릅니다. 전에는 ‘디자인’ 안에 있어 찾기 어려웠습니다.\n- **‘정보 표시 언어’에서 ‘원문’을 골라도 번역되던 것을 고쳤습니다** — 한국어가 아닌 화면에서 설정이 거꾸로 동작했습니다.\n- **화면 문구의 용어를 표준에 맞췄습니다** — '폴더 고르기'는 '폴더 선택'으로, '서버에서 찾기'는 '서버에서 검색'으로 바꾸는 등 맥·다른 앱에서 쓰는 말로 통일했습니다.\n- **슬라이더 모양을 앱 전체에서 통일했습니다** — 음량만 초록이고 자막·밝기 슬라이더는 OS 기본 파랑이던 것을 맞췄습니다.\n- **동영상 밝기를 조절할 수 있습니다** — 재생 중 '화면 비율·밝기'에서 50~200%. 어두운 장면을 밝히거나 밤에 눈부실 때 낮춥니다. 자막은 그대로 밝게 남습니다.",
+  "pub_date": "2026-09-22T12:43:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRCdXN1dWoxQ0psWmRWUHVpWThxV3N1c2dVWHZnOHBGcHUxbjVjU0VKUjR3WkdhbEVGN1pzM085dUQ0T1NocUNBTEcyRGV6T3VkUUwycGFnbHRhREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTA3MzU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpTbitrR29MTVZuNXFwM2YrNDFNaTUydkRJZEEzYnl1NE1GT2hlRWhDMVBoSklidFVCTmd6VUhqdjFnTUJDK2czay9ZQUxOYXpndTZrQ0RXT3Q0Q0pDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.55/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZHSlVDNkVtdDN6TllSdWlMaFNyaWdpQlRIdFlvVjlZODNVMFZUL3RyUE1vQnZOYk5NNmplUmkrZGJ0YlhiVnNkamhUY1FZTnphWGhGT3pKUHVsK3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTE0NjI3CWZpbGU6SG9pc3QuYXBwLnRhci5negpVTEtwOUhvUDUxeWduRHBJdG0xSmZUTElMRFF1dkpYR0FJVVo5VG40ekhMWjd2K2V4dXByK1NVVXN2OEFrNmN3cXlCL1lmOG9YUC9YT3Mxb1Q3MTRCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.56/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRCdXN1dWoxQ0psWmRWUHVpWThxV3N1c2dVWHZnOHBGcHUxbjVjU0VKUjR3WkdhbEVGN1pzM085dUQ0T1NocUNBTEcyRGV6T3VkUUwycGFnbHRhREFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTA3MzU4CWZpbGU6SG9pc3QuYXBwLnRhci5negpTbitrR29MTVZuNXFwM2YrNDFNaTUydkRJZEEzYnl1NE1GT2hlRWhDMVBoSklidFVCTmd6VUhqdjFnTUJDK2czay9ZQUxOYXpndTZrQ0RXT3Q0Q0pDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.55/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZHSlVDNkVtdDN6TllSdWlMaFNyaWdpQlRIdFlvVjlZODNVMFZUL3RyUE1vQnZOYk5NNmplUmkrZGJ0YlhiVnNkamhUY1FZTnphWGhGT3pKUHVsK3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTE0NjI3CWZpbGU6SG9pc3QuYXBwLnRhci5negpVTEtwOUhvUDUxeWduRHBJdG0xSmZUTElMRFF1dkpYR0FJVVo5VG40ekhMWjd2K2V4dXByK1NVVXN2OEFrNmN3cXlCL1lmOG9YUC9YT3Mxb1Q3MTRCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.56/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDkyUklNcndzZVlBaU9zTmdoUkR1TDN3aFZhb1Q2L2RlWWZTWmd2NFhVa1F0aWtpcWt5bUtWc1hvMzM3YnhnOTUxZlNqL3JTSDhHdlF6bEFUOHR3TWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTA3NjQxCWZpbGU6SG9pc3RfMC40LjU1X3g2NC1zZXR1cC5leGUKL25LOWRNaUZCVDNNZWJOY0d5VkpFVkM3b1p3OU9sTEIzMmdnSkJsQXYrMGhMZzZsZFh2MURidGoxVlpObTdZakZ3TGRPSUxXY1ppTm1iNVh6U0U2Q2c9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.55/Hoist_0.4.55_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHd6S2FLbjB2b3NGWC9SUjdjVkp4S1J4eFZBbjhucDl4UkJ6aFNpN1JCWHhHc1BKSGRWeHBFdU5WR0tvTXNIL3Y2VUtySlZML2puRGtlZHlvZkRrMHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDgxMDA1CWZpbGU6SG9pc3RfMC40LjU2X3g2NC1zZXR1cC5leGUKbzNaNEpNbzJ5VGtqN0NmbkR2ZzFtbExqOWl0WTBKTmh2WlEwaXd1UUhRTWpDKzZUaXBpNzlJOXhxMU9pYndONDRWb29KWE9tL0hXY29CM2U1eW5UQXc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.56/Hoist_0.4.56_x64-setup.exe"
     }
   }
 }
