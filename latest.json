@@ -1,19 +1,19 @@
 {
-  "version": "0.4.61",
-  "notes": "\n- **왼쪽 사이드바와 파일 목록의 남은 용량이 서로 다르게 보이던 것을 고쳤습니다** — 다른 앱이 디스크를 쓰거나 비워도 두 곳이 함께 따라갑니다.",
-  "pub_date": "2026-09-26T10:18:30Z",
+  "version": "0.4.62",
+  "notes": "\n- **TV로 캐스팅하는 중에 다른 영상을 열면 TV도 그 영상으로 바뀝니다** — 전에는 앱만 바뀌고 TV는 앞 영상을 계속 틀었습니다.\n- **그때 새 영상의 ‘이어보기’ 위치가 엉뚱하게 기록되던 것도 고쳤습니다** — 본 적 없는 지점부터 시작되던 원인이었습니다.\n- **한 편이 끝나면 같은 폴더의 다음 영상을 이어서 재생합니다** — 이름이 이어질 때만(E01 → E02) 넘어가고, TV로 캐스팅 중에도 이어집니다. 설정 › 파일에서 끌 수 있습니다.\n- **TV로 캐스팅하는 중에도 방향키로 빨리 넘기·되감기가 됩니다** — 좌우 5초(Shift 1분), Space 재생/일시정지, 위아래 TV 음량. 전에는 Esc 말고는 키가 먹지 않았습니다.",
+  "pub_date": "2026-09-26T13:38:07Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhxSVUwcXpFNXhzSWxIak9lTG1TZW10eDJXb0JKand5SGZNZ3d3dHJpd0xwRVVteDZkQmt3YmJ2dkhzMkFSYjZhTityOEFXeFJYNUFKZXl4ZFBCY2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDE2NzUyCWZpbGU6SG9pc3QuYXBwLnRhci5negoxUnArQWNsY2h1RGRSRkFlQWNnT0JEQitmaGF3akdsN0JrOFVxb2hnMnlzM1FxanRCUlJmVktuTDZmWTVCNmtPUVVkdWk5OUlDSDhzVWQ3T0V2QWNDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.61/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZQdURRMExidCtpMkdaU1MwRzQvblV5RWlHWmtnYjZkNlNGVHNudFFXYi84bk1hYTU3ZHREODkwR3h1bVJxRngzZVA3bGVzV25EdVFzN1ZuMWpuSXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDI4OTcxCWZpbGU6SG9pc3QuYXBwLnRhci5negpYT1lrMEdHMGJSakJvWmV2c3pxWHRmSW9iN0ZlLzV2SHd3aUhFVDN6ZlZTclFTeEdqREFndDJLZHMxRFVTTTVjU2JZV280TElSaW1ydnNUblhDd3FEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.62/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhxSVUwcXpFNXhzSWxIak9lTG1TZW10eDJXb0JKand5SGZNZ3d3dHJpd0xwRVVteDZkQmt3YmJ2dkhzMkFSYjZhTityOEFXeFJYNUFKZXl4ZFBCY2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDE2NzUyCWZpbGU6SG9pc3QuYXBwLnRhci5negoxUnArQWNsY2h1RGRSRkFlQWNnT0JEQitmaGF3akdsN0JrOFVxb2hnMnlzM1FxanRCUlJmVktuTDZmWTVCNmtPUVVkdWk5OUlDSDhzVWQ3T0V2QWNDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.61/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZQdURRMExidCtpMkdaU1MwRzQvblV5RWlHWmtnYjZkNlNGVHNudFFXYi84bk1hYTU3ZHREODkwR3h1bVJxRngzZVA3bGVzV25EdVFzN1ZuMWpuSXdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDI4OTcxCWZpbGU6SG9pc3QuYXBwLnRhci5negpYT1lrMEdHMGJSakJvWmV2c3pxWHRmSW9iN0ZlLzV2SHd3aUhFVDN6ZlZTclFTeEdqREFndDJLZHMxRFVTTTVjU2JZV280TElSaW1ydnNUblhDd3FEQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.62/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBzVEVsMUxqQUw2ZU1mTC9mTXBtNXBYRW5pTDlsVkt3cG5ML0ZSb0VCOEU3Qmw4RlRzZ2dBM0VNSWtuRW5RaXZ5RHVGTDV2V1JhYkpNKzl1VzI1c1FVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDE3Nzk4CWZpbGU6SG9pc3RfMC40LjYxX3g2NC1zZXR1cC5leGUKYXE4WGh4THZ6TXFxajNOZS81S09WN2Rxak1QTURFaW1LdmppYlN5bGZVWnlici9PUGU3SmdEVWJPMFh0Z1M2Ui82ZnJHS2M0Mlo4TFVLay9GeFFtQVE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.61/Hoist_0.4.61_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNzN2M2U2NSam05Y1J1SDJZMmsrd0N6Z0JTWE9kcnJpZTI1Q2lRY1lUQ0Nmd2p1a081LzhIMkIxSkRBRkhGb05zTzY0cHFCSEY1SHRROWk3YVIvU1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDI5ODQyCWZpbGU6SG9pc3RfMC40LjYyX3g2NC1zZXR1cC5leGUKN2Urd01wOHJ2VHkwUEhvR01uby91M2pEczBGV1FUb2NLZjhGbFBjL0l1MFF4aE9KV1RNSlpBQWgxTGsrV093ZWRERFFVekdPdlVoMC9vQUxNY2JLQ1E9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.62/Hoist_0.4.62_x64-setup.exe"
     }
   }
 }
