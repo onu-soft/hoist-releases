@@ -1,19 +1,19 @@
 {
-  "version": "0.4.71",
-  "notes": "\n- **큰 파일을 다 올리고도 “업로드 마무리 실패”가 뜨던 것을 고쳤습니다** — 서버가 완료 응답을 늦게 보내면 실패로 보였습니다. 이제 올라간 파일의 크기를 서버에 확인해 판단합니다.",
-  "pub_date": "2026-09-27T12:21:19Z",
+  "version": "0.4.72",
+  "notes": "\n- **페인 위 경로 줄을 읽기 쉽게 다듬었습니다** — 지금 폴더 이름이 커지고, 항목 수와 남은 공간이 또렷해졌습니다.\n- **깊은 폴더에서도 지금 폴더 이름이 잘리지 않습니다** — 경로가 길면 가운데를 접습니다.\n- **한국 작품은 다음에서, 일본 영화는 映画.com 에서 정보를 가져옵니다** — 줄거리·출연이 우리말(원어)로 나오고, 없으면 예전처럼 영문 출처에서 찾습니다.\n- **영화 정보가 엉뚱한 작품으로 뜨던 것을 줄였습니다** — 한글·영문이 섞인 파일 이름도 맞는 작품을 찾고, 연도가 어긋나면 보여 주지 않습니다.\n- **출연진 이름이 깨진 글자로 번역되던 것을 고쳤습니다** — 번역이 이상하면 원래 이름을 보여 줍니다.",
+  "pub_date": "2026-10-03T02:39:31Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV5d3EwZjlVRTk3Y29Sb1Vzd3J3K2N1dnp5U2hvUFZGUEMzOTRRZDdlK0VVY1EwVHR6cm92QW9DNEhpSVdFemlGa1F0SWZiSVJrYlNTTzYxT1JMR3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTExMTQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpnT1BPV251RjdTaWt3V3FZTG9sYm0yN09teHlkYks4eFNCMEsxTTZSRHYzQ1NtMFVGTDRmaFI3Zit1bERBeWFJa0pKY2RDMFIvR3R1ZGswcGdZbjRCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.71/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhub1J0OFRVaWRtbkZhNXJkRGF1ajN0YjlLaUdvRkxVcldsNkxUamIyQ2IwSkc5Smo3NFB3WVRDUkRZNXhMUWRWOE5BbDJva0tKVnhlYkpDcnZQTkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTk1NDMxCWZpbGU6SG9pc3QuYXBwLnRhci5negpsUnNaT0Job04rNE8rT0M3TFdKaytFZy92VTNmMC8wZ2M3RlYxYnlnZERXbFRFa085VjJIbElyK2grd202U3o0bm5CckdqYkVHcTd0Q1l4Z1czL3dDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.72/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDV5d3EwZjlVRTk3Y29Sb1Vzd3J3K2N1dnp5U2hvUFZGUEMzOTRRZDdlK0VVY1EwVHR6cm92QW9DNEhpSVdFemlGa1F0SWZiSVJrYlNTTzYxT1JMR3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTExMTQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negpnT1BPV251RjdTaWt3V3FZTG9sYm0yN09teHlkYks4eFNCMEsxTTZSRHYzQ1NtMFVGTDRmaFI3Zit1bERBeWFJa0pKY2RDMFIvR3R1ZGswcGdZbjRCQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.71/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhub1J0OFRVaWRtbkZhNXJkRGF1ajN0YjlLaUdvRkxVcldsNkxUamIyQ2IwSkc5Smo3NFB3WVRDUkRZNXhMUWRWOE5BbDJva0tKVnhlYkpDcnZQTkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTk1NDMxCWZpbGU6SG9pc3QuYXBwLnRhci5negpsUnNaT0Job04rNE8rT0M3TFdKaytFZy92VTNmMC8wZ2M3RlYxYnlnZERXbFRFa085VjJIbElyK2grd202U3o0bm5CckdqYkVHcTd0Q1l4Z1czL3dDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.72/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdZWlA4WW1LdHU1MTF6OTVsRU9BN0lYY3dVYWJ1SVF0dkdOQU92VERqV3p2ZXpYbjVNOUhHSzRXcVhZOFBmL2w1T1ZrSG9TUEU5TDdENlMwSVk4RFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTExNjY2CWZpbGU6SG9pc3RfMC40LjcxX3g2NC1zZXR1cC5leGUKNlUxd25QWjJqZHZ6eTVSd0p6K04wemhpY0hXaWx2aGNWL0JzM1JhMEkxUU04RWM5RDRiN2s0N1VuZHNaU0NGUEZHOTZqYktGa3IvaXJRajlkakw3RHc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.71/Hoist_0.4.71_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJKdHBTL0RuSFhsd0NoQ2pkKytTS29QNUhYNitJWlI5R3RLV2E3MkpQYVNPZUR3WDdWRGZEcExtSjVSWFdvOUZnZmpnRHF1K2t4d3lReEdDU0ZHYndrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwOTk1MDY1CWZpbGU6SG9pc3RfMC40LjcyX3g2NC1zZXR1cC5leGUKZWZmOW55bDREQlM2d1BTVzJqZzNUYzl0Q0lTMUs0MjFTcXZNdnAvYkw4cU5aL2JqRllOSWNZeHRFWVRPY0R4d1UzVUk0d2pKVHZrVVRRNGcwcmcxRHc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.72/Hoist_0.4.72_x64-setup.exe"
     }
   }
 }
