@@ -1,19 +1,19 @@
 {
-  "version": "0.4.85",
-  "notes": "\n- **앱의 기반(Tauri)과 내부 부품을 최신 버전으로 올렸습니다** — 원격 연결·재생·받기·유튜브·한글 문서 열기가 새 부품 위에서 그대로 동작하도록 맞췄습니다.",
-  "pub_date": "2026-10-15T16:33:27Z",
+  "version": "0.4.86",
+  "notes": "\n- **TV로 한 시간 넘게 보면 자꾸 끊기던 것을 고쳤습니다** — TV 재생기가 느려지기 시작하면 보던 자리에서 알아서 새로 이어 줍니다(화면이 몇 초 꺼졌다 돌아옵니다).",
+  "pub_date": "2026-10-18T02:59:59Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlZeGN4UHNybTMvRkhHWjhwMTBpSi8zZWNUUHgxUUcwejN3NzhWSUkxc0RScnFEWWNXNmdua0xaOEpvWHZ1MktCWFpmbmlKVkRrL2tFWGxoYTVwZFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDc5OTc0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC44NQpXRytITjJMbHVvajRoN0RZVHVsUktDeEZlV2pEelpteFFTUlBCZ2QvK3RUcUF3aDZxNTdvSE5EZmlaaWZkVWVreTVHZW1UVmJ4NXg4V3laZWdnUmpEQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.85/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdxWHFNaEp4bGQ2dTRGcVV3T3VBUmswOHZMWTJiYU1SLytwWFZucnBDejNtY0dtVXowbkgzcCtEb0ZiTFdIK1c1eUZrZVREc1paR2orOThvSjJWS2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjkyMDc3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC44NgpQMFV3bFVYb3lpKzVqM2hsREdET091ZmQ0ODBWUlhBWmpxaE1rdElsbUNnSXVBS01NMXJaYkxmYnVOSWY2eUxKcXo3UXNDTU1RV2dQbG1VbVVWNVJBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.86/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlZeGN4UHNybTMvRkhHWjhwMTBpSi8zZWNUUHgxUUcwejN3NzhWSUkxc0RScnFEWWNXNmdua0xaOEpvWHZ1MktCWFpmbmlKVkRrL2tFWGxoYTVwZFFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDc5OTc0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC44NQpXRytITjJMbHVvajRoN0RZVHVsUktDeEZlV2pEelpteFFTUlBCZ2QvK3RUcUF3aDZxNTdvSE5EZmlaaWZkVWVreTVHZW1UVmJ4NXg4V3laZWdnUmpEQT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.85/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdxWHFNaEp4bGQ2dTRGcVV3T3VBUmswOHZMWTJiYU1SLytwWFZucnBDejNtY0dtVXowbkgzcCtEb0ZiTFdIK1c1eUZrZVREc1paR2orOThvSjJWS2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjkyMDc3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC44NgpQMFV3bFVYb3lpKzVqM2hsREdET091ZmQ0ODBWUlhBWmpxaE1rdElsbUNnSXVBS01NMXJaYkxmYnVOSWY2eUxKcXo3UXNDTU1RV2dQbG1VbVVWNVJBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.86/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhhRkVmZ0xQVkQvRk1oWmdPdUZMUEMvbGM0NnZQeSt1OXNWMTVIYi9DdGRuQjZrMGl3ekJpbi9yb0YwVXB2TmcxRnRldFdhU3FHNmNnNDliVFBmNndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDgxOTMyCWZpbGU6SG9pc3RfMC40Ljg1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuODUKekZnVTBhTDlNQjBPQTlkNnIzR3BhMWNaQUtQVC84a2s0SDdmUUYrVXRwbktmblgvQU5vVTg0RloxS2dLdExieGN2SytNMm1EUmFJK2gvTGFZVTZNRHc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.85/Hoist_0.4.85_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDEwekVOK2pXYThxRytXOE9OWW5JMDhuK1ltajl3RHRSMjBhcGZyN0RnNEFoYUUxZHRSZ01YQ3I4Z0NsM3NScEg0Y0Jqa3pWcXNsOVJaa3ZrNjY0UUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjkyMzc2CWZpbGU6SG9pc3RfMC40Ljg2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuODYKajdvNHZBM1V4UkZlSDRuSnhyWUR6MTZrQkEySHI2dVc1eVlSakxqQ3ZJVjFQbGxuNERvakV2aHg4NmRSNUdxUHBGRXdiTW1lRFVPejNadzBIUlRvQ2c9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.86/Hoist_0.4.86_x64-setup.exe"
     }
   }
 }
