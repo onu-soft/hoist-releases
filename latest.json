@@ -1,19 +1,19 @@
 {
-  "version": "0.4.88",
-  "notes": "\n- **TV로 보는 중 몇 분마다 잠깐 끊기던 것을 줄였습니다** — 맥의 영상 변환이 멎으면 TV가 기다리기 전에 알아서 새로 이어 줍니다.\n- **TV로 보내는 소리를 48kHz로 맞췄습니다** — 오래된 WMV 강의 같은 영상에서 입과 말이 점점 어긋나던 것을 줄였습니다.",
-  "pub_date": "2026-10-18T07:50:38Z",
+  "version": "0.4.90",
+  "notes": "\n- **화면은 검고 소리만 나던 영상도 이제 그림이 나옵니다** — 맥이 영상을 못 읽으면 알아서 변환해서 엽니다.\n- **TV로 보는 중 소리와 영상이 어긋나던 것을 고쳤습니다** — 중간이 깨진 영상에서 그 자리를 지나면 그 뒤로 소리가 앞서 나가던 문제입니다.\n- **TV로 보다 오래 멈췄다 다시 틀어도 매끄럽게 이어집니다** — 맥의 변환이 끊기면 곧바로 다시 이어 줍니다.",
+  "pub_date": "2026-10-24T14:08:25Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVCUW9CUWNncnU4M2RReVRmSWRNbDJTZ2o5MDBTKzFoWjh5N3JwWDNuRVp0b0RaMUVIKzJtbzVIREVXVVZBNUJYYnBOMWZsSGFTZ1ZUVG5kdklXcVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzA5NzA3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC44OApqY2N2dW1nQ0EwNlZGTFNmYVNoOXh0aWxTUm9zNm5YdHd1OUFaNHdqdjJqbEJxd1VBTWgvNlZYcldSUTBYaVNDbUVtQ2NBQkl4STZFajNKOVY2L1dCUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.88/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDMwNzJkdURBcW43dU1SQnNQeUdieUV3K1hZN3drbUZSeEhweVRIdzhyellVL3ZWNGVKaGpZNThCSDUvOGh3YXpEV3BGTkhqYmM1cWtYWGFRQjUzTndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODUwNjE2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45MAp5OGRwcm5mOUVrNlJSVnJPZmJiQ3dkTHoxdFVLVXk1OXB5cmtuTG0yTEh5aklGbCtJUG5DYWlPbWRTcTFEOXpEanl2bFZybWZUSFV4b1BDVy9sVm9CZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.90/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVCUW9CUWNncnU4M2RReVRmSWRNbDJTZ2o5MDBTKzFoWjh5N3JwWDNuRVp0b0RaMUVIKzJtbzVIREVXVVZBNUJYYnBOMWZsSGFTZ1ZUVG5kdklXcVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzA5NzA3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC44OApqY2N2dW1nQ0EwNlZGTFNmYVNoOXh0aWxTUm9zNm5YdHd1OUFaNHdqdjJqbEJxd1VBTWgvNlZYcldSUTBYaVNDbUVtQ2NBQkl4STZFajNKOVY2L1dCUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.88/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDMwNzJkdURBcW43dU1SQnNQeUdieUV3K1hZN3drbUZSeEhweVRIdzhyellVL3ZWNGVKaGpZNThCSDUvOGh3YXpEV3BGTkhqYmM1cWtYWGFRQjUzTndjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODUwNjE2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45MAp5OGRwcm5mOUVrNlJSVnJPZmJiQ3dkTHoxdFVLVXk1OXB5cmtuTG0yTEh5aklGbCtJUG5DYWlPbWRTcTFEOXpEanl2bFZybWZUSFV4b1BDVy9sVm9CZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.90/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVNeEdPZ0ZvdnlXRUVGU3pZU3JqNjlWaEV5bTdiUzErcXhtNjY4aDhTcm9NdjJ0Uk9hdGR2bGxGMmM2VzdDS0x1bVUrWitRUVl2U05RbFc4UHp5WEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzA5ODI2CWZpbGU6SG9pc3RfMC40Ljg4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuODgKUUQzSXp2SU9GVkpaTHBOdE5jd2NMYnVmRXZOdzhhUFUzdllrYmJIMmtkdnpqeWx6SmQzV1Ywa0t4aHlpMUpsd2hwZ1VmSWlFb1lndVp6OXZMdis2RFE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.88/Hoist_0.4.88_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHljM3NhVEo3ZzZpNDVvMTFEV2FPYVBLeXBKNXRTbWdrMWl2WEtJZFF6d2xKZDIwbGh0SU1NVjY4M0lBY3Nxd2hocHBUc0pqb0svMlRNeGpFQ2IwaWdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODUwODg5CWZpbGU6SG9pc3RfMC40LjkwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuOTAKSjZKN3NWaDZhV3BacjQ0WkxESGVocmQ4eVR1UjBjZkJPVnB3TGFEMnJIaVdIeUhGR2lxSGQ0OG9Tb3lIVjhVUnJObUszYkZBMGwwenRJVmV2SXpXQ1E9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.90/Hoist_0.4.90_x64-setup.exe"
     }
   }
 }
