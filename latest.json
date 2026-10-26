@@ -1,19 +1,19 @@
 {
-  "version": "0.4.91",
-  "notes": "\n- **토렌트를 여러 개 골라 한 번에 정리할 수 있습니다** — 목록에서만 제거하거나 받은 파일까지 삭제합니다. Shift 로 범위 선택도 됩니다.\n- **토렌트 화면을 새로 다듬었습니다** — 상태별 거르기·이름 검색·남은 시간·전체 속도를 보여 줍니다.",
-  "pub_date": "2026-10-25T03:30:03Z",
+  "version": "0.4.92",
+  "notes": "\n- **잘 안 받아지던 토렌트가 더 잘 받아집니다** — 이제 다른 사람이 먼저 연결해 올 수 있습니다(공유기 포트도 자동으로 엽니다).\n- **토렌트와 복사를 함께 돌릴 때 복사가 괜히 느려지던 것을 고쳤습니다.**\n- **멈췄다 다시 받은 토렌트도 다 받으면 알림이 뜹니다.**",
+  "pub_date": "2026-10-26T15:05:54Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJXN3N5NXBtS0VWL1NCcUJhK3F0WWNhWmxZM1llZmRwQWxBZTcxUlhVSUcxODJhMjliZWhMNGF1bW04ODg0QjFlNlF6S3NLOHBXZjdlREtYOWxqU3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk4MjYwCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45MQowck9NaGFVbXlDK1IzVnp0aitLcVpxR3JOUjFpUEFPOS95ZlJudk44b2RWQnUxZDAvUHFGZzdMNTJmbVY4bVhGQ1E4OVVQLzRPeWQ5SlN4S1ZITEdBdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.91/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhGTFU1d3o1QlBYd1RHQzZPK3VONDVZbU9aMDgxaVg3SVZWWWRLbHJxQnUzd2NTZFd6ckxGa2NnWXlKNDNXTVd4dVgyNEMycXhSNllOSWprWW5mOHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDI2OTI3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45MgowK3oyZk1CK1BDdHZGSWErZTVUS0FPWnFiLytqeU5MOXppdjMxUFM5Z3ZrWjBWYXcyTzMwbmlsYnErVHNOSmFlM3h1K1pNaFkrdlNsRm5GWGthK3BEdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.92/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJXN3N5NXBtS0VWL1NCcUJhK3F0WWNhWmxZM1llZmRwQWxBZTcxUlhVSUcxODJhMjliZWhMNGF1bW04ODg0QjFlNlF6S3NLOHBXZjdlREtYOWxqU3djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk4MjYwCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45MQowck9NaGFVbXlDK1IzVnp0aitLcVpxR3JOUjFpUEFPOS95ZlJudk44b2RWQnUxZDAvUHFGZzdMNTJmbVY4bVhGQ1E4OVVQLzRPeWQ5SlN4S1ZITEdBdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.91/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhGTFU1d3o1QlBYd1RHQzZPK3VONDVZbU9aMDgxaVg3SVZWWWRLbHJxQnUzd2NTZFd6ckxGa2NnWXlKNDNXTVd4dVgyNEMycXhSNllOSWprWW5mOHdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDI2OTI3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45MgowK3oyZk1CK1BDdHZGSWErZTVUS0FPWnFiLytqeU5MOXppdjMxUFM5Z3ZrWjBWYXcyTzMwbmlsYnErVHNOSmFlM3h1K1pNaFkrdlNsRm5GWGthK3BEdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.92/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFSSHBBTk9SSDBJeTZWTFN4TUVzTFZvL0Qya2RXd2VHYXdXcVR0anFINFlvQldJenFXNTkrT3lJa0V0dmozL2J3MGdvcUw0bFQ1L1c5ZmV0S1orL1FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODk4OTgyCWZpbGU6SG9pc3RfMC40LjkxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuOTEKMWMySXA1NHMvVFBJcVV5UjNibjlrUksySWpuR2ZkSXZHbHlVYnpPek9BTnlpamk4Z1JUbEk0UWFoeG9Pc1hVY1VwbE01aWpyUStFYm1uejBnN1F2Q0E9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.91/Hoist_0.4.91_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNPN3hiNHBUd3dKZGNxS05lTldaN2FaQ2FMSjlaWllYWHZyd0tvS200ZTZMZklNSkRLVWpzMTBYaHc1NHo5SnZ4OWRNbFk2MjJFeE9IeTB4Z2pBM3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDI3MTQwCWZpbGU6SG9pc3RfMC40LjkyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuOTIKa1VIY1dzSXhaVWpLUlo2MmRZL1ZxKy9RZEg2cXpBQVJjZlZXK2ZkRGViZlpVeDhlbWRJRFVBQityQkdobFdiMjdiNlBxNjN6S3pHd2lSQnJoZ1pBQkE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.92/Hoist_0.4.92_x64-setup.exe"
     }
   }
 }
