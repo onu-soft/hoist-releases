@@ -1,19 +1,19 @@
 {
-  "version": "0.4.99",
-  "notes": "\n- **로그인 창(팝업)이 끝나면 저절로 닫힙니다** — 네이버처럼 로그인 뒤 빈 탭이 남던 것을 고쳤습니다.\n- **웹 탭에서 Bitwarden 패스키로 로그인하고, 새 패스키를 Bitwarden 에 저장할 수 있습니다** — 사이트에서 패스키를 누르면 금고 패널에서 고릅니다.",
-  "pub_date": "2026-11-07T08:59:33Z",
+  "version": "0.5.0",
+  "notes": "\n- **TV 로 캐스팅한 채 다른 작업을 할 수 있습니다** — 영상 화면을 닫아도 TV 는 계속 재생되고, 화면 아래 막대에서 제어합니다. 앱을 끄면 TV 연결도 끊습니다.\n- **PDF 를 화면에 맞춰 엽니다** — 사진집처럼 쪽이 큰 문서가 넘치거나, 작은 쪽이 우표만 하게 보이던 것을 고쳤습니다. '페이지 맞춤'(⌘0)·'폭 맞춤' 단추를 넣었고 고른 방식을 기억합니다.\n- **PDF 에 '선명하게 보기' 단추를 넣었습니다** — 흐리게 스캔된 만화·잡지의 글자 윤곽을 또렷하게 합니다.\n- **PDF 를 위로 올렸다 내리면 쪽이 회색으로 비어 보이던 것을 고쳤습니다** — 큰 쪽이 많은 사진집에서 자주 생겼습니다.\n- **Shift+방향키로 여러 파일을 고를 때 목록이 따라 스크롤됩니다** — 예전에는 화면 밖으로 벗어나도 그대로였습니다.\n- **파일 목록 키보드 선택을 Finder·탐색기처럼 맞췄습니다** — Shift+클릭 뒤 Shift+방향키가 이어지고, Home/End·PageUp/PageDown, 글자를 쳐서 찾아가기, 격자 보기의 ←/→ 를 지원합니다.",
+  "pub_date": "2026-11-07T15:52:08Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdpenZSVnUyR3NDZWdhWE9rN2VaRkswdmNhd0NUSVRBNVRVUXUyOHM0c090SjdhWjVBTFhLbG9QeWJpblRwbFpwdURIQ095bmVROFVOSDc1dS9RREFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxNjUzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45OQpMUTNmUVhNK3kwS2ZrOEJUcDlYaXMwSCsrL3g3dENUekdJdFYxRXVSSkJ0MHhLMzNlYUZ6NzdXYW1McWViTE1Ga21QMVkvWTdGc3phaFd4S3FLRlpCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.99/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhlSDhlallBem1YZkJMeDQwcTYvUUxKcENVVzM0ZlBUb2FmREMzeFM3K1JpT3VoMEYvK3doY0NMYm1SZ0JRYmtNejBLL1Ezekc0K0k2VGJ0TWlCY3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY2MzE3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4wCjYvaEZRU1JMcHRPTlVyOHR0SFhNV2x5MVQvSmluc3ZnU3hhM294Y3Z4WCs4ZEtnMk93NjRiS1dRejh5WmRKVGZ1TVZpMUR1UjhPbkk3R09CZVRHa0NnPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.0/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdpenZSVnUyR3NDZWdhWE9rN2VaRkswdmNhd0NUSVRBNVRVUXUyOHM0c090SjdhWjVBTFhLbG9QeWJpblRwbFpwdURIQ095bmVROFVOSDc1dS9RREFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxNjUzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45OQpMUTNmUVhNK3kwS2ZrOEJUcDlYaXMwSCsrL3g3dENUekdJdFYxRXVSSkJ0MHhLMzNlYUZ6NzdXYW1McWViTE1Ga21QMVkvWTdGc3phaFd4S3FLRlpCdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.99/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhlSDhlallBem1YZkJMeDQwcTYvUUxKcENVVzM0ZlBUb2FmREMzeFM3K1JpT3VoMEYvK3doY0NMYm1SZ0JRYmtNejBLL1Ezekc0K0k2VGJ0TWlCY3dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY2MzE3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4wCjYvaEZRU1JMcHRPTlVyOHR0SFhNV2x5MVQvSmluc3ZnU3hhM294Y3Z4WCs4ZEtnMk93NjRiS1dRejh5WmRKVGZ1TVZpMUR1UjhPbkk3R09CZVRHa0NnPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.0/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhpWFYvaXN1Y2JZeXBKMWVTc1FSdHUzWERzOTk4V3d0c1hreDM0QWFybTFZSDZqczV1QjNoR0VRODZwbDFhK1VaWUh1Sng2S3NWWXZNWEE4L2tMT3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxOTU4CWZpbGU6SG9pc3RfMC40Ljk5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuOTkKQVM0YTZYdlFNNlZzWGEvK20zQ2djVTZQVkk4ZEZuVlA2bjI0NmkwOGtZZU94SVBHbDlGTFlrQ2UwQXNVZUpHN29ZUFp0WmxUUVlLUjFxT2lyTnNUQUE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.99/Hoist_0.4.99_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhISzRZL2ZkbFNlYVFjdW16R003eitCVHNZN3U4Zmt3L2EwaTE3T1VXUXgrTERmQXVIZHVZUVViSGpFQS95bjZSSTNYUEhqWTA1OXQwRldRRitGckFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY2NzEzCWZpbGU6SG9pc3RfMC41LjBfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4wCnA4RTVpNGYrbUYrTEs3ZWJISHhpOTdFZ1pTN1JvemdSR1RDREEvS1luKzE4OWRhbEViV0FtbDQyalppWU8zWkxUREUvR3d1N2JmMHkzdDl2c3RydURRPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.0/Hoist_0.5.0_x64-setup.exe"
     }
   }
 }
