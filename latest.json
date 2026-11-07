@@ -1,19 +1,19 @@
 {
-  "version": "0.4.98",
-  "notes": "\n- **원격 파일을 열어 엑셀 등에서 고치고 저장하면 서버에 반영됩니다** — 예전에는 우클릭 '편집' 으로 열 때만 반영됐습니다.\n- **알림이 화면 위쪽 가운데에 뜹니다** — 예전에는 오른쪽 아래였습니다.\n- **원격 파일을 편집하는 중에 앱을 끄면 먼저 확인합니다** — 저장 직후의 변경을 마저 올리고, 엑셀이 열고 있으면 '저장하고 종료' 로 한 번에 끝낼 수 있습니다.",
-  "pub_date": "2026-11-07T03:49:15Z",
+  "version": "0.4.99",
+  "notes": "\n- **로그인 창(팝업)이 끝나면 저절로 닫힙니다** — 네이버처럼 로그인 뒤 빈 탭이 남던 것을 고쳤습니다.\n- **웹 탭에서 Bitwarden 패스키로 로그인하고, 새 패스키를 Bitwarden 에 저장할 수 있습니다** — 사이트에서 패스키를 누르면 금고 패널에서 고릅니다.",
+  "pub_date": "2026-11-07T08:59:33Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZ2SVF2NmV0NkduUXpqVXRheHZSaUJLTzZ2ZEVWcFVnUHYyZmliY0tYSWZKQzFPSUFpUC9UK1RoMEdYSnBiZDVOYWVHZVQ4TVdwRmk1QkdvamFOVFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDIzMTE0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45OApzLzREcDV0Vyt1VGNiamd5ZHpvRnd0SEVBb2FkZUtLQzh3OC9XR3AzVy9RcSs5alUxS1p4UmJKK3F5RERHcm1KbjMxcEtZaHM3Q1hLSTVzdkhEbXBEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.98/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdpenZSVnUyR3NDZWdhWE9rN2VaRkswdmNhd0NUSVRBNVRVUXUyOHM0c090SjdhWjVBTFhLbG9QeWJpblRwbFpwdURIQ095bmVROFVOSDc1dS9RREFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxNjUzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45OQpMUTNmUVhNK3kwS2ZrOEJUcDlYaXMwSCsrL3g3dENUekdJdFYxRXVSSkJ0MHhLMzNlYUZ6NzdXYW1McWViTE1Ga21QMVkvWTdGc3phaFd4S3FLRlpCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.99/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZ2SVF2NmV0NkduUXpqVXRheHZSaUJLTzZ2ZEVWcFVnUHYyZmliY0tYSWZKQzFPSUFpUC9UK1RoMEdYSnBiZDVOYWVHZVQ4TVdwRmk1QkdvamFOVFFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDIzMTE0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45OApzLzREcDV0Vyt1VGNiamd5ZHpvRnd0SEVBb2FkZUtLQzh3OC9XR3AzVy9RcSs5alUxS1p4UmJKK3F5RERHcm1KbjMxcEtZaHM3Q1hLSTVzdkhEbXBEdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.98/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdpenZSVnUyR3NDZWdhWE9rN2VaRkswdmNhd0NUSVRBNVRVUXUyOHM0c090SjdhWjVBTFhLbG9QeWJpblRwbFpwdURIQ095bmVROFVOSDc1dS9RREFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxNjUzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNC45OQpMUTNmUVhNK3kwS2ZrOEJUcDlYaXMwSCsrL3g3dENUekdJdFYxRXVSSkJ0MHhLMzNlYUZ6NzdXYW1McWViTE1Ga21QMVkvWTdGc3phaFd4S3FLRlpCdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.99/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhyZDV2SDVuUDhHSE5ZSEtBeG9PSWRPWElsVXJLRzNDZ1M5RnBEeG5JUy85YmhjaE9rd2Y4ZWpGR3NWaWxBcmwzbU03SVdvL2NFcWw0c1haYUlac2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDIzMzQxCWZpbGU6SG9pc3RfMC40Ljk4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuOTgKaUpMNXl5UW05UXBjWXprQ0NrUmVzTmJkRDJDY3VaVUZnYzhMTDFWRlIzTHRvc2pqVjRaRFMzUlRnZUpJcHZMWWkyVFRzNWFTRmNZeERqSjFQV09RREE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.98/Hoist_0.4.98_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhpWFYvaXN1Y2JZeXBKMWVTc1FSdHUzWERzOTk4V3d0c1hreDM0QWFybTFZSDZqczV1QjNoR0VRODZwbDFhK1VaWUh1Sng2S3NWWXZNWEE4L2tMT3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDQxOTU4CWZpbGU6SG9pc3RfMC40Ljk5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjQuOTkKQVM0YTZYdlFNNlZzWGEvK20zQ2djVTZQVkk4ZEZuVlA2bjI0NmkwOGtZZU94SVBHbDlGTFlrQ2UwQXNVZUpHN29ZUFp0WmxUUVlLUjFxT2lyTnNUQUE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.4.99/Hoist_0.4.99_x64-setup.exe"
     }
   }
 }
