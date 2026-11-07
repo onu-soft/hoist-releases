@@ -1,19 +1,19 @@
 {
-  "version": "0.5.3",
-  "notes": "\n- **원격(FTP 등) PDF 가 몇 초 안에 열립니다** — 예전에는 파일을 통째로 받느라 '불러오는 중' 에서 오래 멈춰 있었습니다. 여는 동안 받은 양도 보여 줍니다.\n- **PDF 전체 화면과 만화 보기의 화면·조작을 하나로 맞췄습니다** — 아래 막대(쪽 이동·슬라이더·확대·보기)와 양옆 화살표, 키가 같습니다. 조작은 잠시 뒤 숨고 마우스를 움직이면 나타납니다.\n- **만화 보기에서 휠은 이제 쪽을 넘깁니다** — 확대는 ⌘+휠·핀치·⌘+ 입니다.",
-  "pub_date": "2026-11-07T16:58:36Z",
+  "version": "0.5.4",
+  "notes": "\n- **PDF 에서도 드래그한 부분만 번역할 수 있습니다** — 위 막대의 '영역 번역'이나 T 키. 원문과 번역을 짝지어 보여 줍니다.\n- **스캔 PDF 의 쪽 번역이 엉뚱한 답을 내거나 멈추던 것을 고쳤습니다.**\n- **PDF·만화 보기 단추에 무엇을 하는지와 단축키를 알려 주는 툴팁을 넣었습니다.**",
+  "pub_date": "2026-11-07T17:27:45Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdVaDFOSTVFbk40Z21TQ1RhQjdidUxpQ0YzaWRIU2JDSG5PTjJIdzhnZUVLdFpDamk3Yjk3NXF1UFNWK2dEa0xiK3pqR3B4Umw1Y3NPSTUwaFlzTWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDcwNTI0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4zCjVkSWZ2V2p0TldnWm1VOTc1OGxNbXFmZTZnZnNuR2hwQmNTMHZnN0VCQkxmN0g4WVA2R3g2R05vWmpHMFg5SFc2NDI2b3dHYmlnbU9PMTU5UHNoZEJnPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.3/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHh1S21Db0pTNkxkeWpNQ2grN2luNjB6NExjUjFadUhuYXE1dkt0Y3BUN2lJVGJ0ZzFXQnN1bkV2aHhTWUtXbTcxaUN6NTVROGRVKzNGdm0yVUgwTGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDcyMzYxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS40CnkxN0ltOERPYTlKU2NIa2JuUW9TNk9RM1p3UTQ2WmV5OE5nZDNxam83SUxBMHZjaGtNT253Ym11b1ZhclpYcXdzTk01SnRYaWx4YkN0OTFtd2FVZ0FnPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.4/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdVaDFOSTVFbk40Z21TQ1RhQjdidUxpQ0YzaWRIU2JDSG5PTjJIdzhnZUVLdFpDamk3Yjk3NXF1UFNWK2dEa0xiK3pqR3B4Umw1Y3NPSTUwaFlzTWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDcwNTI0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4zCjVkSWZ2V2p0TldnWm1VOTc1OGxNbXFmZTZnZnNuR2hwQmNTMHZnN0VCQkxmN0g4WVA2R3g2R05vWmpHMFg5SFc2NDI2b3dHYmlnbU9PMTU5UHNoZEJnPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.3/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHh1S21Db0pTNkxkeWpNQ2grN2luNjB6NExjUjFadUhuYXE1dkt0Y3BUN2lJVGJ0ZzFXQnN1bkV2aHhTWUtXbTcxaUN6NTVROGRVKzNGdm0yVUgwTGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDcyMzYxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS40CnkxN0ltOERPYTlKU2NIa2JuUW9TNk9RM1p3UTQ2WmV5OE5nZDNxam83SUxBMHZjaGtNT253Ym11b1ZhclpYcXdzTk01SnRYaWx4YkN0OTFtd2FVZ0FnPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.4/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDE3NDZwZ1R1YjFBSGRRalJ2a3dnem84QURuS0dlMG4vNVZubjNaYlh6bUZpSUZoeXJEWnZzeUg5MDFjZ0t2TmZjRWJSSU10QXY5QllLYUI5K0hCNVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDcwNzAzCWZpbGU6SG9pc3RfMC41LjNfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4zCndKdmFEN0IrZFhad2p4QXM1V0ZPL3BFOXN4ZzdmZDh3Rms5WTZWQmtVVlRZTTZjNDltYy8rTStyYU90b0dWK0RWdVJtZVNBbWV6aXJXSVFQdndsZkJBPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.3/Hoist_0.5.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDJSUytZRkRBM29waGhMWW1IRWlNdUd4TjlrYlJJSGRrdEp0bUtQbmcxQjh6Sk9tWHRrOUtkVmt5ckErTXJiZTg3cGJ1aXF4dGtUQndEOWlaamhQTndJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDcyNDUxCWZpbGU6SG9pc3RfMC41LjRfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS40CndQUk14dU42eEtEKzlJcmxnUUlHSVZ0Ym1MTSt0a0pCZTVwNTNMbHBTL3VrVHAzZjQ2cFZPUGVheEVPbnJ3eG5IeHhFSUlsQWZJM0Vvdk1PYlpwQ0FRPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.4/Hoist_0.5.4_x64-setup.exe"
     }
   }
 }
