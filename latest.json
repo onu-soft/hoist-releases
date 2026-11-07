@@ -1,19 +1,19 @@
 {
-  "version": "0.5.1",
-  "notes": "\n- **PDF 를 닫았다 다시 열면 보던 페이지에서 이어 봅니다** — 미리보기에서 전체 화면으로 키울 때도 보던 자리 그대로 열립니다.\n- **PDF 에 페이지 번호 칸과 첫·이전·다음·마지막 페이지 단추를 넣었습니다** — Home/End, ←/→, ⌥⌘G 로도 이동합니다.\n- **좁은 창에서도 PDF 미리보기의 닫기·확대 단추가 가려지지 않습니다.**",
-  "pub_date": "2026-11-07T16:06:50Z",
+  "version": "0.5.2",
+  "notes": "\n- **PDF 를 한 장씩 넘겨 볼 수 있습니다** — 툴바의 '보기 방식'에서 고릅니다. 휠·트랙패드 한 번에 한 장, 화면 양쪽 끝을 눌러도 넘어갑니다.\n- **PDF 를 두 쪽씩 펼쳐 보고, 만화처럼 오른쪽에서 왼쪽으로 넘길 수 있습니다** — 표지만 따로 볼 수도 있고, 고른 방식을 기억합니다.",
+  "pub_date": "2026-11-07T16:30:02Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhoNUNoaXY4KzNtWHpGTUNiR2NEbWwwY1huNTI0SFhHM1hsWGpWVHZvemNXbDN2UktQUnFjY3NuS1JORHpSeklmWHg5U3hwelNFT2k5T0VySUh5QlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY3NDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xClptODV1ejMrOXNSYWFWZ0Vsc29GT05QRTVvT21WNGkvWDJvZk5zYlV6K3VDazlwaDhRYk52RmplNVlkdjVvalFxS1BsY0ZVMU4va2lELy92YTJyYkFnPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.1/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNjdEJCeUF6aHdXbHdzSHJ1elQ4R3hvNTFLVlBWTVhRNUNDNUxQZ1laN1dJMDQ1aE5DVWRuOGxKdktMc2x1b2hlNXA4YlZva0FUWjRQck9jUXUyQUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY4NjM5CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yClh1aXRqZXc5MlVROHVVdmVoM3JQaVVwT1VheWo4Nlk1b1lDYVpwb3Zwa2lvdllBMmFQYUtLOFVTSFNyakFrTE5PaFBwQXlycTc0RVlnWXJkWDlJVkF3PT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.2/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhoNUNoaXY4KzNtWHpGTUNiR2NEbWwwY1huNTI0SFhHM1hsWGpWVHZvemNXbDN2UktQUnFjY3NuS1JORHpSeklmWHg5U3hwelNFT2k5T0VySUh5QlF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY3NDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xClptODV1ejMrOXNSYWFWZ0Vsc29GT05QRTVvT21WNGkvWDJvZk5zYlV6K3VDazlwaDhRYk52RmplNVlkdjVvalFxS1BsY0ZVMU4va2lELy92YTJyYkFnPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.1/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNjdEJCeUF6aHdXbHdzSHJ1elQ4R3hvNTFLVlBWTVhRNUNDNUxQZ1laN1dJMDQ1aE5DVWRuOGxKdktMc2x1b2hlNXA4YlZva0FUWjRQck9jUXUyQUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY4NjM5CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yClh1aXRqZXc5MlVROHVVdmVoM3JQaVVwT1VheWo4Nlk1b1lDYVpwb3Zwa2lvdllBMmFQYUtLOFVTSFNyakFrTE5PaFBwQXlycTc0RVlnWXJkWDlJVkF3PT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.2/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDBORlIxV0laZHppLytEc3JUdXJVUHVqemYxQjhZdVBXYnZrSXpGWjdZT2w0S0hCdHd0cmJxRDEzdmg4Y203cXhWMkRwbjhYb1ZKeE9xeHE1UXNUWFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY3NTk2CWZpbGU6SG9pc3RfMC41LjFfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4xClJjUjM1VWZEZU05SG1HMkFieFVmNlc5WnJNYmxxeGRPQ1J4Nk9wcmdoNHMrNjU0MC9PT1o3Um5IeTByVjR6L2V2ZmRpejYvU0RpTU9jWHFuSkVRaENBPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.1/Hoist_0.5.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCttUUoybk1uSzc4VmFYQlVvTG9xdzBuQjZMVWFHdjdJcUNtdy92SnNvUngrWlRpMlhqZHFMbzUwYVlnQjNuVkFlSjJ5a2NiMEUrZUVPTS81cEYwV2djPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDY4OTgxCWZpbGU6SG9pc3RfMC41LjJfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS4yCkZjK1BDaCtIalgwQ3VJdzNMaTlCVnRkSXNTc2gvTEFuMFVGMUs5UTdjL21CWFFRUW54amYrUG9zOTNONGZNMjhpcyt2N2tPUExLcDduU09PSXBjc0RRPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.2/Hoist_0.5.2_x64-setup.exe"
     }
   }
 }
