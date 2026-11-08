@@ -1,19 +1,19 @@
 {
-  "version": "0.5.10",
-  "notes": "\n- **TV 캐스팅에서 화면 비율을 고를 수 있습니다** — 최적 맞춤 · 테두리 자르기 · 화면에 맞추기 · 채움.\n- **캐스팅 화면 아래쪽을 다시 정리했습니다** — 자막·화면 비율은 목록으로, '다른 작업 하기'·'캐스팅 종료'는 맨 아래 같은 크기로.",
-  "pub_date": "2026-11-08T13:57:11Z",
+  "version": "0.5.11",
+  "notes": "\n- 유튜브 광고의 건너뛰기 단추가 보이는데 자동으로 안 눌리던 문제를 고쳤습니다.",
+  "pub_date": "2026-11-08T15:37:29Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCs5bjVtekJ0TWg3R2tIcFdZYis3VFdGbk5zbmtZMVREOU1ieGhQUUYxL2YraGJhN3gvZDBNQUJMMWJFYW9zVEtGV2NOYWlNZnFEV3dTRlNxTVVFZkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQ2MTM1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xMApaZ1hWREdENmYwajRNSWFwOW56bGlxbTNMOWpFUm02WERRQTBodERraFVET2RtSWY0RVVQTGVnRElZT3k3Qk9tTUhPUW9YeXF5MTFDeVF1S005VXhEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.10/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNqa29kTjZ4NU5Xb0FGU0NaVXpKUGViVi9naEpuOHhBZzNrSDltOUgveEtxNElMVE1mY1M4VnJ5Y2lHdXVTM054NmU0akJNQ0ZyRFZ3clZYNDRtY0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTUxNzQxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xMQpGK0dnTDV0NUpiOVArV0JyY013Wms0NmJ5MDlSK0VlK3VuZTBkZEtKWHZWNmhwRlBSSGdLa3RDMFhQclFHMzFCL3g4SHNMWWpzSzFWa3htc0ZQWUNDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.11/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCs5bjVtekJ0TWg3R2tIcFdZYis3VFdGbk5zbmtZMVREOU1ieGhQUUYxL2YraGJhN3gvZDBNQUJMMWJFYW9zVEtGV2NOYWlNZnFEV3dTRlNxTVVFZkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQ2MTM1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xMApaZ1hWREdENmYwajRNSWFwOW56bGlxbTNMOWpFUm02WERRQTBodERraFVET2RtSWY0RVVQTGVnRElZT3k3Qk9tTUhPUW9YeXF5MTFDeVF1S005VXhEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.10/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDNqa29kTjZ4NU5Xb0FGU0NaVXpKUGViVi9naEpuOHhBZzNrSDltOUgveEtxNElMVE1mY1M4VnJ5Y2lHdXVTM054NmU0akJNQ0ZyRFZ3clZYNDRtY0FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTUxNzQxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xMQpGK0dnTDV0NUpiOVArV0JyY013Wms0NmJ5MDlSK0VlK3VuZTBkZEtKWHZWNmhwRlBSSGdLa3RDMFhQclFHMzFCL3g4SHNMWWpzSzFWa3htc0ZQWUNDQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.11/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDR1cjZwRVhlc2xKWmQ5VlU3OFozQWRvQ3h3U3ptSWEvN2g0VVdqWHd6c1ZHaTExQlVOZlQ2dk5pRWtGQ29QdElMRFhBeWRWMk43MGxnWGJEclg0T1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQ2MjE4CWZpbGU6SG9pc3RfMC41LjEwX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTAKZzIxc2FmbnVMa2xLU1dWTDZkQVlVRDdpZkIxSHVqbmRvM09SY0hWTkNKcmRTVitCTVpDaUFXMzYwMkJCek9ZNFg1aEhtcGNBcFRBZHA2SDFPNk5ZQ1E9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.10/Hoist_0.5.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCt5TVVLV2ROa2ZjemRpbXRqUHN4cTExb2hJNjV5dGhmbG5FY2pIN2F3VXNUeFlBMDJwVHlSdlVQRHBFZ0FSY1YwRDVzTjBJR1lFdGlEMGZsNFVqSGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTUyMjI2CWZpbGU6SG9pc3RfMC41LjExX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTEKUDJtam9XMS9MYkgyd3gxc0JLMGxoZHkxUHhqUVVsdzE0VkdUK2gwNTh0azJkQUN6b0pQK1BCZDBTZkZCQWNOelcyOENGVUlzRDVLQkJQdTN2dWQwQVE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.11/Hoist_0.5.11_x64-setup.exe"
     }
   }
 }
