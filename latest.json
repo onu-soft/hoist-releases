@@ -1,19 +1,19 @@
 {
-  "version": "0.5.6",
-  "notes": "\n- **원격(FTP) 영상에서 처음 가는 자리로 건너뛰어도 5초 안팎에 나옵니다** — 예전에는 20초 넘게 걸렸습니다.",
-  "pub_date": "2026-11-07T20:06:43Z",
+  "version": "0.5.7",
+  "notes": "\n- **버퍼링·탐색 중에 화면을 가리지 않습니다** — 왼쪽 위 작은 문구로 알리고, '보던 자리로'·'지금 재생'은 아래 단추로 뺐습니다.\n- **캐스팅 화면 아래 단추가 두 줄로 접히거나 크기가 제각각이던 것을 고쳤습니다.**\n- **언어가 이름에 없는 자막 파일도 무슨 언어인지 보여 줍니다** — `SRT` 대신 `SRT · 한국어?` 처럼.",
+  "pub_date": "2026-11-08T13:00:17Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDF4T2FHTlpWQ21LbGxRc3FwdmFkSmFUSE9pR3AzbFhZeVFCWmRsZXB4bDdFblRZblQ4Rk9BTE04elVaTmVrVFV2RnNGY2wxckNUcGpaOS9oczBWY1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDgxNzQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS42Cld0Q2JhYmlTS1hHcjExcHMvbHhtOWRFRWVMZDFjZXVPS1N2WExtb25JT2xYV1BhaDhXVVp3YWVVeGJIWStBM2dVdmJwa0tlSXRnZ1Q0WEswZ0lTQ0N3PT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.6/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDN4L0d4bEpXTENoVmpDWFJ1VEw3cHJhcE5md0JzS0o5UUMwdnhITW9iRzhTaFJXWWczVUgySXducnZ2MUFGMzh3UTdXcW9uRXlybjkvT25JRWhINHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQyNTA2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS43CldjWDczZGRPa2Z4aDhKeHFqWUJYRVJrcmRsK2pVUGpycVc5bVhXdTM5dnRmdUJMYWpKSTUxdmphQldjNUp4YWFLUTJKcG9WS0huOVlZQ2RpYkhDTEN3PT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.7/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDF4T2FHTlpWQ21LbGxRc3FwdmFkSmFUSE9pR3AzbFhZeVFCWmRsZXB4bDdFblRZblQ4Rk9BTE04elVaTmVrVFV2RnNGY2wxckNUcGpaOS9oczBWY1FRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDgxNzQ1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS42Cld0Q2JhYmlTS1hHcjExcHMvbHhtOWRFRWVMZDFjZXVPS1N2WExtb25JT2xYV1BhaDhXVVp3YWVVeGJIWStBM2dVdmJwa0tlSXRnZ1Q0WEswZ0lTQ0N3PT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.6/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDN4L0d4bEpXTENoVmpDWFJ1VEw3cHJhcE5md0JzS0o5UUMwdnhITW9iRzhTaFJXWWczVUgySXducnZ2MUFGMzh3UTdXcW9uRXlybjkvT25JRWhINHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQyNTA2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS43CldjWDczZGRPa2Z4aDhKeHFqWUJYRVJrcmRsK2pVUGpycVc5bVhXdTM5dnRmdUJMYWpKSTUxdmphQldjNUp4YWFLUTJKcG9WS0huOVlZQ2RpYkhDTEN3PT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.7/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHlERjNWNXQ1TU1aNDhJbEkwbnNLYkk4N3VGcFRZWkZMbkpIS1FPYUtMaHk0cFdqZ1M2WEgzR29IRUorK25kQytPbS96eE55TGptdWpKNXVpbXIzVnd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDgxOTg5CWZpbGU6SG9pc3RfMC41LjZfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS42CkEzRitvK0hUcUdnNFZnNXA5V05yOW5QcElQUHRxNmMrbStGL3F3aDdrcXFnNHpWTHZDUmdEc2lUQnNoQVkrRWxPM2pLUGgzUzBURFFjaDNKbHZnVUFBPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.6/Hoist_0.5.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhMc1hMbmpaaXRsaDdic1dYN2F2TnZnT1BOcUFhSHljVC9keGI2U1hCYWZRQkRaSi81NnBJb2E5dHFicWJnSm9EWlRYenZYVnBoenI1d05qZ3pWcmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQyODAyCWZpbGU6SG9pc3RfMC41LjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS43CklNQnA5SmRpdHMvVGcrQTdXWUYxdGEvK29lS1RKWmwyTWZKK0lETDQzcUpxQW45Y2V5aE5sMXJIOGpKNUdBZFhHdVZFWUVDUHl6ZXQ5NkltQTBMdkNBPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.7/Hoist_0.5.7_x64-setup.exe"
     }
   }
 }
