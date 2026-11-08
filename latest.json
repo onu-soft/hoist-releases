@@ -1,19 +1,19 @@
 {
-  "version": "0.5.7",
-  "notes": "\n- **버퍼링·탐색 중에 화면을 가리지 않습니다** — 왼쪽 위 작은 문구로 알리고, '보던 자리로'·'지금 재생'은 아래 단추로 뺐습니다.\n- **캐스팅 화면 아래 단추가 두 줄로 접히거나 크기가 제각각이던 것을 고쳤습니다.**\n- **언어가 이름에 없는 자막 파일도 무슨 언어인지 보여 줍니다** — `SRT` 대신 `SRT · 한국어?` 처럼.",
-  "pub_date": "2026-11-08T13:00:17Z",
+  "version": "0.5.8",
+  "notes": "\n- **캐스팅 준비 중에 중지하거나 다른 영상을 고르면 꼬이던 것을 고쳤습니다** — 앞 판이 곧바로 멈추고 두 판이 겹쳐 돌지 않습니다.\n- **캐스팅 화면의 X(Esc)는 캐스팅을 끕니다** — TV 를 계속 틀어 두려면 '다른 작업 하기'를 누르세요.",
+  "pub_date": "2026-11-08T13:21:48Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDN4L0d4bEpXTENoVmpDWFJ1VEw3cHJhcE5md0JzS0o5UUMwdnhITW9iRzhTaFJXWWczVUgySXducnZ2MUFGMzh3UTdXcW9uRXlybjkvT25JRWhINHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQyNTA2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS43CldjWDczZGRPa2Z4aDhKeHFqWUJYRVJrcmRsK2pVUGpycVc5bVhXdTM5dnRmdUJMYWpKSTUxdmphQldjNUp4YWFLUTJKcG9WS0huOVlZQ2RpYkhDTEN3PT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.7/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo3Wm90Y01hbVdIVGpjblFaWmYranByS1B2N0srSUJaUCtJYjlwcHEwKzBiR1hGYXdYMy9IY0IyMEVQWVJyOUdCaHo2VCtiTTlsSExXM3pNTUxvSWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQzNzM0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS44CitFa2kyQ2s0VEplQThvZGMybWswRVVrTmhRVEdjMWVqNXgvUjgrUGxicUNFd051d08yQmgxT1NWcmVqenNVVXAzM3pMQVMrUWlacDZKSWJxRmp2WEJBPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.8/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDN4L0d4bEpXTENoVmpDWFJ1VEw3cHJhcE5md0JzS0o5UUMwdnhITW9iRzhTaFJXWWczVUgySXducnZ2MUFGMzh3UTdXcW9uRXlybjkvT25JRWhINHdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQyNTA2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS43CldjWDczZGRPa2Z4aDhKeHFqWUJYRVJrcmRsK2pVUGpycVc5bVhXdTM5dnRmdUJMYWpKSTUxdmphQldjNUp4YWFLUTJKcG9WS0huOVlZQ2RpYkhDTEN3PT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.7/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo3Wm90Y01hbVdIVGpjblFaWmYranByS1B2N0srSUJaUCtJYjlwcHEwKzBiR1hGYXdYMy9IY0IyMEVQWVJyOUdCaHo2VCtiTTlsSExXM3pNTUxvSWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQzNzM0CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS44CitFa2kyQ2s0VEplQThvZGMybWswRVVrTmhRVEdjMWVqNXgvUjgrUGxicUNFd051d08yQmgxT1NWcmVqenNVVXAzM3pMQVMrUWlacDZKSWJxRmp2WEJBPT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.8/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhMc1hMbmpaaXRsaDdic1dYN2F2TnZnT1BOcUFhSHljVC9keGI2U1hCYWZRQkRaSi81NnBJb2E5dHFicWJnSm9EWlRYenZYVnBoenI1d05qZ3pWcmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQyODAyCWZpbGU6SG9pc3RfMC41LjdfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS43CklNQnA5SmRpdHMvVGcrQTdXWUYxdGEvK29lS1RKWmwyTWZKK0lETDQzcUpxQW45Y2V5aE5sMXJIOGpKNUdBZFhHdVZFWUVDUHl6ZXQ5NkltQTBMdkNBPT0K",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.7/Hoist_0.5.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDk0MmNTaEp3dDdJcllrWmxUZGFCME13STk0YW1DUndsUmNOa0oraGZmV1NqdFNKckpqNlo3OGM3aXlBNXBrdHU3Vi9OVDFlUUQyTW9PN3pMUThoNXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTQ0MDkzCWZpbGU6SG9pc3RfMC41LjhfeDY0LXNldHVwLmV4ZQl2ZXJzaW9uOjAuNS44Cm45Mmt5VVFaa2xwQUJ6RFluaURvVG94elNTdXBFcjlEai9GaWVLeVdodElCb2NMcW9xVzJUUm0rM0ZMWFRGTWloNmpDSzB1cmNMU1BzbDRQU0RQN0R3PT0K",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.8/Hoist_0.5.8_x64-setup.exe"
     }
   }
 }
