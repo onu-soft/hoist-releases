@@ -1,19 +1,19 @@
 {
-  "version": "0.5.13",
-  "notes": "\n- 구글 로그인에서 Bitwarden 패스키가 뜨지 않던 문제를 고쳤습니다.\n- 윈도우에서 패스키 요청이 받자마자 취소되던 문제를 고쳤습니다.\n- 비밀번호 채우기 설정을 바꾸면 유튜브 패널에도 바로 반영됩니다.\n- 윈도우에서 Bitwarden 패널을 열면 웹 페이지가 사라지던 문제를 고쳤습니다.\n- 설정과 비밀번호 채우기 패널의 설명을 짧게 다듬었습니다.\n- 화면 문구를 macOS·Bitwarden 등 익숙한 앱의 표현에 맞췄습니다(예: 금고 → 보관함, 받는 중 → 다운로드 중).\n- 입력칸에 노란 테두리가 뜨던 것을 고쳤습니다.\n- 비밀번호 자동 완성(Bitwarden) 창을 다듬었습니다 — 제목이 잘리지 않고, 입력칸에 이름이 붙습니다.",
-  "pub_date": "2026-11-10T16:30:44Z",
+  "version": "0.5.14",
+  "notes": "\n- 원격 영상에서 재생 바를 끌면 버퍼링에 걸리며 예전 자리로 튀던 문제를 고쳤습니다.",
+  "pub_date": "2026-11-10T16:58:20Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRQbGtzcjRCK2NQUkdtUzR5Zy82b05JbHVhbVVQMUxVWHlqSE14aTd4YU1ha1d1KzB5S2xrRWdHc0Q3K3hCVmpWQm9JNUp4ZW11enh6dkRFSTFoVlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI3MjgzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xMwpBQk4yNG85VFFhY0xzZExlN2VjUG41RVl6TDd4bi9oanU0VkROVzZXZ3NBcEZoWnRkalZXcDhxbmtkbDQzS1FSakRnMVo0N2p2b3dvTkFDSmV5M2tEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.13/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdCenZKQVBYNk5lRXN0aDJ1WFVvT3IzRncyRFRSVDAvQ1FnNzRqM25BZDZaNGtaU1NvREhUeUNCM0NVaUU5eHEweitZMmRwMGkvL1FOOVNxeitySXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI5NjkzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xNApVMWZsVUJRMEpVNHZhRFdTaHBmakRESEFMZXlkcWZ0L2l5R2pvcFVqSWVyNVYzenBOQWl0d2Vhajg5bSsxQXFQTW1JSGNYSFdaRUttVkVDcndIS3RCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.14/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRQbGtzcjRCK2NQUkdtUzR5Zy82b05JbHVhbVVQMUxVWHlqSE14aTd4YU1ha1d1KzB5S2xrRWdHc0Q3K3hCVmpWQm9JNUp4ZW11enh6dkRFSTFoVlFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI3MjgzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xMwpBQk4yNG85VFFhY0xzZExlN2VjUG41RVl6TDd4bi9oanU0VkROVzZXZ3NBcEZoWnRkalZXcDhxbmtkbDQzS1FSakRnMVo0N2p2b3dvTkFDSmV5M2tEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.13/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHdCenZKQVBYNk5lRXN0aDJ1WFVvT3IzRncyRFRSVDAvQ1FnNzRqM25BZDZaNGtaU1NvREhUeUNCM0NVaUU5eHEweitZMmRwMGkvL1FOOVNxeitySXdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI5NjkzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xNApVMWZsVUJRMEpVNHZhRFdTaHBmakRESEFMZXlkcWZ0L2l5R2pvcFVqSWVyNVYzenBOQWl0d2Vhajg5bSsxQXFQTW1JSGNYSFdaRUttVkVDcndIS3RCUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.14/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDl2YzFlejZ1M2NleUNxOC9PWTdpdVBBNWZHS3dVU2E3Kys4N1lzNXVlZ1JHMTRDSDFGK09yTUZiSjhQWTk5MHdUK2o2b0pHbnhEbHQxbWl0dEF0VVFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI4MjEwCWZpbGU6SG9pc3RfMC41LjEzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTMKWVJ5TjRWSjIxek43Q09Gejg1YXczYnhsaU4xT3V6b2tmU0RESUhzL2MwdE9uVWdMeUJnV01LaHk5ZlFHTWZqSXVmME1xMTRsYVRMclVodjJkbkExQXc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.13/Hoist_0.5.13_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlRZ3ZqckdVVkt1c3VMSGRjb3h1QkM3M0w0NURBQTRpWjhmb0FwcEhrUXJwQStxMGxxZi81UStJcFQxOHNtQllQL2RZV2MvK1FyU1pkUUh2b0JsalEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzI5ODgxCWZpbGU6SG9pc3RfMC41LjE0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTQKWTlTK2k5Zk14ZS9jd3haM0xreEpIMUtWSDdpQk9sMHRvdUZDNXQrVDhlNnlLcXlLb0dNV01VN2NkQmRRaWpQdU5VQ0tRV2lVRU5KSXdrKzE2bGVyQVE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.14/Hoist_0.5.14_x64-setup.exe"
     }
   }
 }
