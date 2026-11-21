@@ -1,19 +1,19 @@
 {
-  "version": "0.5.16",
-  "notes": "\n- 윈도우: 설정에서 '네이티브 재생기' 를 켜면 윈도우 내장 재생기로 영상을 틉니다(시험 중 · 기본 끔). 웹 탭을 연 뒤에도 네이티브 재생기가 열립니다.\n- 동영상을 오래 보다 소리와 그림이 어긋나면 그 자리에서 스스로 다시 맞춥니다.\n- 아이폰에서 유튜브를 전체 화면으로 봤다가 나오면 위쪽 단추(⌄·공유·PiP)가 사라지던 문제를 고쳤습니다.\n- 아이폰에서 유튜브를 틀어 둔 채 동영상을 열면 두 소리가 함께 나던 문제를 고쳤습니다.\n- 아이폰에서 동영상을 보다 홈에 갔다 돌아오면 재생 오류나 검은 화면이 나던 문제를 고쳤습니다.\n- 아이폰에서 동영상을 넘긴 자리나 돌아온 자리에서 그림 없이 멈추면, 조금 앞에서 스스로 다시 엽니다.\n- 아이폰 유튜브에서 광고 차단이 저절로 꺼져, 다음 곡이 안 넘어가거나 광고 동안 검은 화면이 길게 나오던 문제를 고쳤습니다.\n- 아이폰 유튜브 화면에서 영상을 보는 동안 화면이 어두워지지 않습니다.\n- 아이폰에서 동영상을 보는 동안 쓸데없이 돌던 작업을 없애 배터리와 발열 부담을 줄였습니다.\n- 아이폰에서 동영상을 보다 다른 앱에 다녀오면 영상에서 맞춘 화면 밝기가 풀리던 문제를 고쳤습니다.\n- 아이폰 화면 전환을 다듬었습니다 — 폴더·설정이 밀려 들고, 돌아오면 보던 자리 그대로, 시트는 끌어내려 닫고, 설정·영상 정보는 오른쪽으로 밀어 뒤로 갑니다.\n- 아이폰에서 원격 파일을 길게 누르거나 밀어서 다운로드로 한 번에 받습니다(나의 iPhone › Downloads · 다른 곳에도).\n- 아이폰에서 받는 동안 탭 막대 위에 진행이 보이고, 눌러서 취소하거나 다시 받을 수 있습니다. 화면이 잠겨도 계속 받습니다.\n- 아이폰에서 파일을 공유(AirDrop · 메시지 · 다른 앱)할 수 있습니다.\n- 아이폰에서 길게 누르기 메뉴의 항목을 한 번에 누를 수 있습니다(두 번 눌러야 하던 문제).\n- 아이폰에서 전화를 받고 끊으면 보던 동영상·유튜브가 다시 재생됩니다.\n- 원격 영상이 몇 초 만에 끝난 것으로 처리돼 다음 화로 넘어가던 문제를 고쳤습니다.\n- 서버 연결을 편집할 때 저장된 비밀번호를 화면에 다시 보여 주지 않습니다(비워 두면 그대로).",
-  "pub_date": "2026-11-19T18:01:42Z",
+  "version": "0.5.17",
+  "notes": "\n- 데스크톱 파일 목록에서도 동영상을 어디까지 봤는지 보입니다(보는 중이면 아이콘 아래 막대, 다 봤으면 체크). 오른쪽 클릭으로 '시청 완료로 표시' 할 수 있습니다.",
+  "pub_date": "2026-11-21T04:58:48Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlzSElFVTJQeXNqMTlXYmI0MEY3Wlg3SmxaQzV6L0ZkRWN3eDd3YUZxUEZDNlVHRTZXS2RnMFBUN2laZEdnWm1UV2JURS9xK2xjZFpINWdybDFReVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExMDQzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xNgpMVmNOamZuZnp1akxZY3JaUnR5UE9QVlY0OTlsNGpZbEJROGtLTU14M2lGalY4M1ZhMGIxU2pFNjJoa2FaYlQvcFFzR3NCY0ZRT2VMTTBiZHhDQWZCZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.16/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZJZWJkSDVWRHNpRGhiVzJMbE1QWUR1b1BKMkNGaVBkZmF4OHVvMGlZcXBRYk5MWnJrNTJIOWMrN1JSZHo0bVNCQ284aXJyRFB6UVNDUG1sNE5ZRkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjM2NjM2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xNwpVRG5GNUFEVytlRUc4TmJqb1RHVzEreUIvSThMbnJOU0k1eW1XbGs3ZXd5SW40UHBFcG0vdzErYkFwcThKRTA4MWdMcExGZXlnNHovUkR3RFNUQytBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.17/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlzSElFVTJQeXNqMTlXYmI0MEY3Wlg3SmxaQzV6L0ZkRWN3eDd3YUZxUEZDNlVHRTZXS2RnMFBUN2laZEdnWm1UV2JURS9xK2xjZFpINWdybDFReVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExMDQzCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xNgpMVmNOamZuZnp1akxZY3JaUnR5UE9QVlY0OTlsNGpZbEJROGtLTU14M2lGalY4M1ZhMGIxU2pFNjJoa2FaYlQvcFFzR3NCY0ZRT2VMTTBiZHhDQWZCZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.16/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZJZWJkSDVWRHNpRGhiVzJMbE1QWUR1b1BKMkNGaVBkZmF4OHVvMGlZcXBRYk5MWnJrNTJIOWMrN1JSZHo0bVNCQ284aXJyRFB6UVNDUG1sNE5ZRkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjM2NjM2CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xNwpVRG5GNUFEVytlRUc4TmJqb1RHVzEreUIvSThMbnJOU0k1eW1XbGs3ZXd5SW40UHBFcG0vdzErYkFwcThKRTA4MWdMcExGZXlnNHovUkR3RFNUQytBZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.17/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFmcEZpdFkwWlhPTDVUdHZoQUZXdUxOUmgrRlBNU1RBdDgvbk5kOFhQR1gvQ1laUmFUSmxacXBzeGYzZmtGNWdqRDFiemNXVFJ3ZXlwaFhPZ2I3QkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTExMjkxCWZpbGU6SG9pc3RfMC41LjE2X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTYKd3dvZHVhRVE5NFE1QzN1TWY3MGpIK0VwQnFOZVAwQUh4MkJ4VEtQMFZvS1FYWDlQYUJmeU9CNGJUZDR6YWw0cmQ4VThDcm40Vld6dmFVUzRhNjJuQUE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.16/Hoist_0.5.16_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDU0dlFIelJPb1pZYmloM1pja211OXpQdVBiTW4vSkx5UE5hWWIwZktYRFBGaStjb1hXUTRzM3BJc1RyaXU1WXBGd1liZG5STDVQQ1J5Sm44TjI5cXc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjM3MTExCWZpbGU6SG9pc3RfMC41LjE3X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTcKTWZkQzFWMjQ5SFIzVHJiZWh5ZGVwMHRtWUJQN0VnMU5LNEI2THkxSXJxY0dtdG45b2RjcDNYMUpQZTVkY2dWSVJ3emhPanV6Nk56M293QUN0Nnl0Q0E9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.17/Hoist_0.5.17_x64-setup.exe"
     }
   }
 }
