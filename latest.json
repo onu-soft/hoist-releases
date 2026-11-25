@@ -1,19 +1,19 @@
 {
-  "version": "0.5.18",
-  "notes": "\n- 토렌트가 오류(디스크 공간 부족 등)로 멈췄을 때 '재개' 로 다시 받을 수 있습니다. 예전에는 재개 단추가 꺼져 있었습니다.",
-  "pub_date": "2026-11-21T11:40:07Z",
+  "version": "0.5.19",
+  "notes": "\n- 디스크 공간이 모자라 복사가 실패하면, 쓰다 만 파일을 지우고 '공간이 부족합니다'(필요한 크기·남은 공간)로 알려 줍니다.\n- 토렌트가 오래 받는 동안 다른 사람이 걸어오는 연결을 못 받게 되던 문제를 고쳤습니다.\n- 앱 화면이 갑자기 하얗게 비면 스스로 다시 띄웁니다. 아이폰에서 영상을 보다 그렇게 되면 화면 방향·상태 막대·밝기도 원래대로 돌립니다.\n- 아이폰에서 영상을 탭해 조작 막대를 닫으면 곧바로 다시 뜨던 문제를 고쳤습니다.\n- 휴대폰에서 영상이 노치·둥근 모서리에 가리지 않게 안쪽에 맞춥니다. '꽉 채우기' 는 화면 끝까지 채우고, '화면·소리' 에서 끌 수 있습니다.\n- 아이폰 서랍에서 연결한 폴더가 어디 것인지(다른 앱 · iCloud Drive) 함께 보여, 앱의 '다운로드' 와 헷갈리지 않습니다.\n- 아이폰 서랍에서 '나의 iPhone'·'다운로드' 를 한 번만 눌러도 바로 들어갑니다. 예전엔 두 번 눌러야 했습니다.\n- 아이폰 서랍에서 다른 위치로 건너간 뒤에도 오른쪽으로 밀면 원래 보던 화면으로 돌아갑니다.\n- 아이폰·맥 플레이어의 '화면·소리' 에 **화질 개선**을 넣었습니다(기본 꺼짐). 1080p 이하 영상을 화면 크기로 선명하게 키웁니다.\n- 아이폰 유튜브 창에서 오래 멈춰 둔 영상이 '로딩' 에 굳으면 눌러서 다시 틀 수 있고, 상세에서 뒤로 오면 목록이 보던 자리로 돌아갑니다.",
+  "pub_date": "2026-11-25T15:47:55Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtEQkIxWnlwRVBoZVdaYW1CMjdNTXUzQ1ZFenhzSVd2d0V5anM0ck5OekZBZDNWVG5WN2pVV1d1RGRCdU11OG9hQ2FDVjNkK2RnZjNINTFqWmxZZUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjU4ODgyCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xOApTZUp0WGRsQVFINmRlZjJpeGJPOFNubWpKaW9tWkRQTk83L2JDTDBsdEtwanJ1Skg3cTA3V2V4SUsyeE1tSDlhQXhvdDRNcGhFcC9wanEwVTJBcThDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.18/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRWQzRucTlleTRPNm9xMzFpS1hqalJRMmtFSWhvRGtnZlZDaTc5QVducEdTeU5Bc29ZNS95bmZybkZNUHZ3aVhRaXNtRlhBTVUwZWltVjMvcmloZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIxMzczCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xOQpwV3VHVm9VNDRzbjNiZVJWS3BuakJhMWRzNjdxMXJ6L2dBeTg1OURtaC9HVytCNC9yOFJycU1uU1pMcE1VSzNMUStsQkdXS01laFV1Zk5hUGFra2xEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.19/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWCtEQkIxWnlwRVBoZVdaYW1CMjdNTXUzQ1ZFenhzSVd2d0V5anM0ck5OekZBZDNWVG5WN2pVV1d1RGRCdU11OG9hQ2FDVjNkK2RnZjNINTFqWmxZZUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjU4ODgyCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xOApTZUp0WGRsQVFINmRlZjJpeGJPOFNubWpKaW9tWkRQTk83L2JDTDBsdEtwanJ1Skg3cTA3V2V4SUsyeE1tSDlhQXhvdDRNcGhFcC9wanEwVTJBcThDdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.18/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRWQzRucTlleTRPNm9xMzFpS1hqalJRMmtFSWhvRGtnZlZDaTc5QVducEdTeU5Bc29ZNS95bmZybkZNUHZ3aVhRaXNtRlhBTVUwZWltVjMvcmloZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIxMzczCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xOQpwV3VHVm9VNDRzbjNiZVJWS3BuakJhMWRzNjdxMXJ6L2dBeTg1OURtaC9HVytCNC9yOFJycU1uU1pMcE1VSzNMUStsQkdXS01laFV1Zk5hUGFra2xEZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.19/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDlrWkplOWFBMXVlYkc0eDFkRXNhVDVuVUtuT3RsWjlHdXdHVlEzTFp0WFJXY2hQRi85akRhdFNBSVdia3ZISDdkR3pqZ1pyeEQxdEhzcFlVci9ZZVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MjYxMTk2CWZpbGU6SG9pc3RfMC41LjE4X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTgKS0RXNWc2bkxhbFNVQmdSdGRQdGNQb3NsOFBvZUt6bGI3aEIybnMxejcvcFgwMHlJTS82Vk1tZzVLeUdieTV6UElHdm00eW9nU2xvSzFsV3hkVFVaQlE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.18/Hoist_0.5.18_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9rRzRVZzh0aHY2YUd1WUFaSUZ5ZVpUcVJxMXZkV3JVTVVxcVFKV1FQekJ5dFo4TENwbjFXMi80MWFlYStKQzVTTkhGdDdXWFFXNjBINHZmMHRvb0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIxNTg4CWZpbGU6SG9pc3RfMC41LjE5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTkKblJDbWdlQ1c5U3d0cFZhV3dnNnc4N0txdzJuc0ZqMjdSdU9mMzFsOGlPQWRWbUJMWXFsVzlJbVZkTHNZblJaOHRRbW0zcHFQWUZjakJkdGlOWHVVRFE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.19/Hoist_0.5.19_x64-setup.exe"
     }
   }
 }
