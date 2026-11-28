@@ -1,19 +1,19 @@
 {
-  "version": "0.5.19",
-  "notes": "\n- 디스크 공간이 모자라 복사가 실패하면, 쓰다 만 파일을 지우고 '공간이 부족합니다'(필요한 크기·남은 공간)로 알려 줍니다.\n- 토렌트가 오래 받는 동안 다른 사람이 걸어오는 연결을 못 받게 되던 문제를 고쳤습니다.\n- 앱 화면이 갑자기 하얗게 비면 스스로 다시 띄웁니다. 아이폰에서 영상을 보다 그렇게 되면 화면 방향·상태 막대·밝기도 원래대로 돌립니다.\n- 아이폰에서 영상을 탭해 조작 막대를 닫으면 곧바로 다시 뜨던 문제를 고쳤습니다.\n- 휴대폰에서 영상이 노치·둥근 모서리에 가리지 않게 안쪽에 맞춥니다. '꽉 채우기' 는 화면 끝까지 채우고, '화면·소리' 에서 끌 수 있습니다.\n- 아이폰 서랍에서 연결한 폴더가 어디 것인지(다른 앱 · iCloud Drive) 함께 보여, 앱의 '다운로드' 와 헷갈리지 않습니다.\n- 아이폰 서랍에서 '나의 iPhone'·'다운로드' 를 한 번만 눌러도 바로 들어갑니다. 예전엔 두 번 눌러야 했습니다.\n- 아이폰 서랍에서 다른 위치로 건너간 뒤에도 오른쪽으로 밀면 원래 보던 화면으로 돌아갑니다.\n- 아이폰·맥 플레이어의 '화면·소리' 에 **화질 개선**을 넣었습니다(기본 꺼짐). 1080p 이하 영상을 화면 크기로 선명하게 키웁니다.\n- 아이폰 유튜브 창에서 오래 멈춰 둔 영상이 '로딩' 에 굳으면 눌러서 다시 틀 수 있고, 상세에서 뒤로 오면 목록이 보던 자리로 돌아갑니다.",
-  "pub_date": "2026-11-25T15:47:55Z",
+  "version": "0.5.21",
+  "notes": "\n- 앱 아이콘이 새로 바뀌었습니다 — 노란 고양이 「모아」가 폴더 상자 속에 앉아 있습니다.\n- 파일·폴더 아이콘을 다시 그렸습니다. 폴더인지, 사진·영상·문서 중 무엇인지 한눈에 보입니다.\n- 설정 › 디자인에 **스킨**을 넣었습니다. 강조색을 여섯 가지 중에서 고를 수 있습니다.\n- 캐스팅하는 중에 다른 영상을 고르면 TV 에서 안 나오던 문제를 고쳤습니다.\n- 아이폰은 세로 화면으로 고정하고, 영상을 볼 때만 가로로 돌아갑니다. 가로 플레이어 화면과 팝업을 다듬었습니다.\n- 아이폰에서 나스의 사진(jpg 등)이 안 열리던 문제를 고쳤습니다.\n- 사진 뷰어의 넘김 단추를 양 끝으로 옮겼고, 지금 보기 방식을 보여 주며 폴더마다 기억합니다.\n- 아이폰 설정·빈 화면에 모아가 함께합니다. 오픈소스 라이선스 화면을 라이선스별로 묶어 보기 쉽게 바꿨습니다.\n- 원격 영상 임시 저장분이 정해진 크기를 넘거나 디스크를 바닥내지 않게 고쳤습니다.\n- 아이폰·맥에서 '화질 개선' 을 켜고 오래 보다 앱이 꺼지던 문제를 고쳤습니다.\n- 아이폰 유튜브 창이 멈춘 채 '로딩' 에 굳으면 스스로 풀어 봅니다.\n- 아이폰 파일 화면의 도구 막대를 줄였습니다. 오른쪽으로 밀면 한 단계 위 폴더로, 맨 위에서는 서랍으로 갑니다.\n- 유튜브 광고 뒤 검은 화면이 길게 나오는 문제를 살피려고, 광고마다 걸린 시간을 기록에 남깁니다.",
+  "pub_date": "2026-11-28T08:10:57Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRWQzRucTlleTRPNm9xMzFpS1hqalJRMmtFSWhvRGtnZlZDaTc5QVducEdTeU5Bc29ZNS95bmZybkZNUHZ3aVhRaXNtRlhBTVUwZWltVjMvcmloZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIxMzczCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xOQpwV3VHVm9VNDRzbjNiZVJWS3BuakJhMWRzNjdxMXJ6L2dBeTg1OURtaC9HVytCNC9yOFJycU1uU1pMcE1VSzNMUStsQkdXS01laFV1Zk5hUGFra2xEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.19/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZPdkswd21waHh1ZTd6TkIxcFhPTGsvRzM2NURjMHV6N2xyWEVrTEJNUEZvQURLb1kxbC80dWN6aENMTC8ydEdZV1ZLUmRyZDg1cU83SWFGRkx1VndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMDYxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMQpSaDBhY2g4ZUhtbFkzVjhBNVBzblEwSW0zU21kRElCZ3FWSStMYmJmV1NDd0k1OEY0dzdEQ0VoVmJ6ajBvOFRiZUIvb1NwRy9LMDRHeEd0eTFEdFNDUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.21/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDRWQzRucTlleTRPNm9xMzFpS1hqalJRMmtFSWhvRGtnZlZDaTc5QVducEdTeU5Bc29ZNS95bmZybkZNUHZ3aVhRaXNtRlhBTVUwZWltVjMvcmloZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIxMzczCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4xOQpwV3VHVm9VNDRzbjNiZVJWS3BuakJhMWRzNjdxMXJ6L2dBeTg1OURtaC9HVytCNC9yOFJycU1uU1pMcE1VSzNMUStsQkdXS01laFV1Zk5hUGFra2xEZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.19/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZPdkswd21waHh1ZTd6TkIxcFhPTGsvRzM2NURjMHV6N2xyWEVrTEJNUEZvQURLb1kxbC80dWN6aENMTC8ydEdZV1ZLUmRyZDg1cU83SWFGRkx1VndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMDYxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMQpSaDBhY2g4ZUhtbFkzVjhBNVBzblEwSW0zU21kRElCZ3FWSStMYmJmV1NDd0k1OEY0dzdEQ0VoVmJ6ajBvOFRiZUIvb1NwRy9LMDRHeEd0eTFEdFNDUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.21/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWC9rRzRVZzh0aHY2YUd1WUFaSUZ5ZVpUcVJxMXZkV3JVTVVxcVFKV1FQekJ5dFo4TENwbjFXMi80MWFlYStKQzVTTkhGdDdXWFFXNjBINHZmMHRvb0FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjIxNTg4CWZpbGU6SG9pc3RfMC41LjE5X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMTkKblJDbWdlQ1c5U3d0cFZhV3dnNnc4N0txdzJuc0ZqMjdSdU9mMzFsOGlPQWRWbUJMWXFsVzlJbVZkTHNZblJaOHRRbW0zcHFQWUZjakJkdGlOWHVVRFE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.19/Hoist_0.5.19_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFDZnJDMFFNdWxHLyt6aXJhVXNDckxaUVJJSGgrRytLR3MwUWx5cE0ycVhmOUcwTG42dHRQUWJzTGkySjQ1aVdJMnNGdWI3VjRaOHJJemVKaURPMkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMzU2CWZpbGU6SG9pc3RfMC41LjIxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjEKUGRKRExFK2NmL3I1TmJMQzc4SmZVWE1GMUMzcG9tbi9jUlpsTHJ3bkFmSHRObjl3NGpjek1qODFNQ3hpWEs5Z1JkODBBYStqVGRzUHZwdHlsNkliQVE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.21/Hoist_0.5.21_x64-setup.exe"
     }
   }
 }
