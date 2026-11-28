@@ -1,19 +1,19 @@
 {
-  "version": "0.5.23",
-  "notes": "\n- 앱 이름이 기기 언어에 맞게 보입니다 — 한국어는 「호이스트」, 일본어는 「ホイスト」, 그 밖은 「Hoist」.",
-  "pub_date": "2026-11-28T09:50:38Z",
+  "version": "0.5.24",
+  "notes": "\n- 원격 영상을 TV 로 오래 캐스팅하면 소리가 점점 늦어지던 것을 고쳤습니다.",
+  "pub_date": "2026-11-28T11:15:22Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo4bEdPbUZSMXJodFdPZ1JYZk90OXE5STcwZ2VGeElnQzZhNU1tRFFtZHN6Q2IyQ2FMVW9NVGFOT0diNHNlcFFYVnRyOWhFK1czaVhFOUM4N0tNZGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5MDA1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMwpJcll6TkVBdVEyOWF1Nk43U05laTZJZ1oyVTJxSU9ZNWRTTUM5dTMzU3phYlhBZ3NJMmY5bzdPc1BzbmFGMFV3dDQ5WUl2M0ZtMEJZbUVlbjVnK0xDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.23/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHpqektBaGRKTG81WTUrV3J4QkxSWURJSUZQTWw5ZldkUERzYksxTktDc3B4dEZyMWJTL09ERDYyWVdsVUx3eWlsd25lbDZBNFVpOGQ0aG5UVS9Fa1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY0MDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yNApPa0IyRk43VU1QaXNkVkI0MEQvQnpwL082eEJmdkhRY1NBTU5UZUo0RUJxemhmY2NiQVk3bm9lS1Ivb1RRWUZucnZET0RuSXVnVDYwc01LMzAvVzdEUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.24/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo4bEdPbUZSMXJodFdPZ1JYZk90OXE5STcwZ2VGeElnQzZhNU1tRFFtZHN6Q2IyQ2FMVW9NVGFOT0diNHNlcFFYVnRyOWhFK1czaVhFOUM4N0tNZGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5MDA1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMwpJcll6TkVBdVEyOWF1Nk43U05laTZJZ1oyVTJxSU9ZNWRTTUM5dTMzU3phYlhBZ3NJMmY5bzdPc1BzbmFGMFV3dDQ5WUl2M0ZtMEJZbUVlbjVnK0xDZz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.23/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHpqektBaGRKTG81WTUrV3J4QkxSWURJSUZQTWw5ZldkUERzYksxTktDc3B4dEZyMWJTL09ERDYyWVdsVUx3eWlsd25lbDZBNFVpOGQ0aG5UVS9Fa1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY0MDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yNApPa0IyRk43VU1QaXNkVkI0MEQvQnpwL082eEJmdkhRY1NBTU5UZUo0RUJxemhmY2NiQVk3bm9lS1Ivb1RRWUZucnZET0RuSXVnVDYwc01LMzAvVzdEUT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.24/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhzT0RoVkJGem5QQkdBVzNab0pqcUVQc2pJa0RqSGNWSmJhU2REY0h1V0ZpZG83L09Sczh2d3NHUVczOXYrL2pINzVFOHk5VHA2V25BZzBTNHNtbGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5NDI0CWZpbGU6SG9pc3RfMC41LjIzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjMKK2ViL0h6VzRMVHlSODJhZXdJV2NpTVJXYS9EZ1JIQmk5aDF2eHpwc0R2NFBJWFZZUnI0VGNQWmdROWVKcTIxakVtdm9nc3FLZzF0RVpsQkJWcUVaRHc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.23/Hoist_0.5.23_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdwbjM5K2ZkZUFNdk9pcmFYd01IazU0RHI0eGJHdkw0RHVzRFZ4VW1OOUpEOGw0VWx2RWErSlJXUVVmUkVpZzlMQ0xHTU54T1lMYmE5WVFrV1BiR2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY0NDc0CWZpbGU6SG9pc3RfMC41LjI0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjQKTzU0T2xianVBMjJXbmUzR3ZKQUpLQXZaM2ZNMlZkOEFPZVJiNVdSRGxlZk9RYXo2SzB6bmwrNjE0RlJSbUo5SnNiQ2NpVDlnUXR5RitvdlU1eXZGRFE9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.24/Hoist_0.5.24_x64-setup.exe"
     }
   }
 }
