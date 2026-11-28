@@ -1,19 +1,19 @@
 {
-  "version": "0.5.22",
-  "notes": "\n- 파일 아이콘에도 모아가 들어왔습니다 — 종이 뒤에서 빼꼼 내다보며 앞발로 잡고 있습니다. 종류는 예전처럼 색과 그림으로 구분됩니다.",
-  "pub_date": "2026-11-28T08:39:47Z",
+  "version": "0.5.23",
+  "notes": "\n- 앱 이름이 기기 언어에 맞게 보입니다 — 한국어는 「호이스트」, 일본어는 「ホイスト」, 그 밖은 「Hoist」.",
+  "pub_date": "2026-11-28T09:50:38Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVSWFA3bnhlL0t2Y2dtYzRJWktZZFgxUjFRKzlUcG5wVUdwODhRd3VvcjRYbXd5emVXenR3RndxaDBTbE8vNUdSZDMvOXk2R1oyZ2h6Q1BGeGdDRXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU1MDA3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMgpTYWdnS2lVakNPalN3Qy85YWZ4NER3U1NacENVdFhYV2I0UWlTQzNDY3llRXNPaC9xZGVQc2poZjBUcmRtQzhnamtzaTNRWkdDY2UwWHNQVEZQYXRBdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.22/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo4bEdPbUZSMXJodFdPZ1JYZk90OXE5STcwZ2VGeElnQzZhNU1tRFFtZHN6Q2IyQ2FMVW9NVGFOT0diNHNlcFFYVnRyOWhFK1czaVhFOUM4N0tNZGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5MDA1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMwpJcll6TkVBdVEyOWF1Nk43U05laTZJZ1oyVTJxSU9ZNWRTTUM5dTMzU3phYlhBZ3NJMmY5bzdPc1BzbmFGMFV3dDQ5WUl2M0ZtMEJZbUVlbjVnK0xDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.23/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVSWFA3bnhlL0t2Y2dtYzRJWktZZFgxUjFRKzlUcG5wVUdwODhRd3VvcjRYbXd5emVXenR3RndxaDBTbE8vNUdSZDMvOXk2R1oyZ2h6Q1BGeGdDRXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU1MDA3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMgpTYWdnS2lVakNPalN3Qy85YWZ4NER3U1NacENVdFhYV2I0UWlTQzNDY3llRXNPaC9xZGVQc2poZjBUcmRtQzhnamtzaTNRWkdDY2UwWHNQVEZQYXRBdz09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.22/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHo4bEdPbUZSMXJodFdPZ1JYZk90OXE5STcwZ2VGeElnQzZhNU1tRFFtZHN6Q2IyQ2FMVW9NVGFOT0diNHNlcFFYVnRyOWhFK1czaVhFOUM4N0tNZGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5MDA1CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMwpJcll6TkVBdVEyOWF1Nk43U05laTZJZ1oyVTJxSU9ZNWRTTUM5dTMzU3phYlhBZ3NJMmY5bzdPc1BzbmFGMFV3dDQ5WUl2M0ZtMEJZbUVlbjVnK0xDZz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.23/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDA2MDFXSkF1bHdyVXFSYmNXRkszU1hXSVNSdXJHVUFtWWNUNzFzOG1jYzQxQitoZ1FqRWlwUUZlemZDMnhDOWhrb3lMamRkNzlOUFRCL0IvUUxQVFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU1MTcyCWZpbGU6SG9pc3RfMC41LjIyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjIKK1lvMDVCUnNZZXlJL0VFSng3ZDVPT3U3cUJEN1hEU3MrekV4ZTllM2FiOUVGYStjaFRhdThuaVdzbW9IRzRwWWRRRS9LSVl5eTl2RVdyTTlod29YQXc9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.22/Hoist_0.5.22_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHhzT0RoVkJGem5QQkdBVzNab0pqcUVQc2pJa0RqSGNWSmJhU2REY0h1V0ZpZG83L09Sczh2d3NHUVczOXYrL2pINzVFOHk5VHA2V25BZzBTNHNtbGdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU5NDI0CWZpbGU6SG9pc3RfMC41LjIzX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjMKK2ViL0h6VzRMVHlSODJhZXdJV2NpTVJXYS9EZ1JIQmk5aDF2eHpwc0R2NFBJWFZZUnI0VGNQWmdROWVKcTIxakVtdm9nc3FLZzF0RVpsQkJWcUVaRHc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.23/Hoist_0.5.23_x64-setup.exe"
     }
   }
 }
