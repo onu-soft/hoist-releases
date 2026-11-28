@@ -1,19 +1,19 @@
 {
-  "version": "0.5.21",
-  "notes": "\n- 앱 아이콘이 새로 바뀌었습니다 — 노란 고양이 「모아」가 폴더 상자 속에 앉아 있습니다.\n- 파일·폴더 아이콘을 다시 그렸습니다. 폴더인지, 사진·영상·문서 중 무엇인지 한눈에 보입니다.\n- 설정 › 디자인에 **스킨**을 넣었습니다. 강조색을 여섯 가지 중에서 고를 수 있습니다.\n- 캐스팅하는 중에 다른 영상을 고르면 TV 에서 안 나오던 문제를 고쳤습니다.\n- 아이폰은 세로 화면으로 고정하고, 영상을 볼 때만 가로로 돌아갑니다. 가로 플레이어 화면과 팝업을 다듬었습니다.\n- 아이폰에서 나스의 사진(jpg 등)이 안 열리던 문제를 고쳤습니다.\n- 사진 뷰어의 넘김 단추를 양 끝으로 옮겼고, 지금 보기 방식을 보여 주며 폴더마다 기억합니다.\n- 아이폰 설정·빈 화면에 모아가 함께합니다. 오픈소스 라이선스 화면을 라이선스별로 묶어 보기 쉽게 바꿨습니다.\n- 원격 영상 임시 저장분이 정해진 크기를 넘거나 디스크를 바닥내지 않게 고쳤습니다.\n- 아이폰·맥에서 '화질 개선' 을 켜고 오래 보다 앱이 꺼지던 문제를 고쳤습니다.\n- 아이폰 유튜브 창이 멈춘 채 '로딩' 에 굳으면 스스로 풀어 봅니다.\n- 아이폰 파일 화면의 도구 막대를 줄였습니다. 오른쪽으로 밀면 한 단계 위 폴더로, 맨 위에서는 서랍으로 갑니다.\n- 유튜브 광고 뒤 검은 화면이 길게 나오는 문제를 살피려고, 광고마다 걸린 시간을 기록에 남깁니다.",
-  "pub_date": "2026-11-28T08:10:57Z",
+  "version": "0.5.22",
+  "notes": "\n- 파일 아이콘에도 모아가 들어왔습니다 — 종이 뒤에서 빼꼼 내다보며 앞발로 잡고 있습니다. 종류는 예전처럼 색과 그림으로 구분됩니다.",
+  "pub_date": "2026-11-28T08:39:47Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZPdkswd21waHh1ZTd6TkIxcFhPTGsvRzM2NURjMHV6N2xyWEVrTEJNUEZvQURLb1kxbC80dWN6aENMTC8ydEdZV1ZLUmRyZDg1cU83SWFGRkx1VndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMDYxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMQpSaDBhY2g4ZUhtbFkzVjhBNVBzblEwSW0zU21kRElCZ3FWSStMYmJmV1NDd0k1OEY0dzdEQ0VoVmJ6ajBvOFRiZUIvb1NwRy9LMDRHeEd0eTFEdFNDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.21/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVSWFA3bnhlL0t2Y2dtYzRJWktZZFgxUjFRKzlUcG5wVUdwODhRd3VvcjRYbXd5emVXenR3RndxaDBTbE8vNUdSZDMvOXk2R1oyZ2h6Q1BGeGdDRXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU1MDA3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMgpTYWdnS2lVakNPalN3Qy85YWZ4NER3U1NacENVdFhYV2I0UWlTQzNDY3llRXNPaC9xZGVQc2poZjBUcmRtQzhnamtzaTNRWkdDY2UwWHNQVEZQYXRBdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.22/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDZPdkswd21waHh1ZTd6TkIxcFhPTGsvRzM2NURjMHV6N2xyWEVrTEJNUEZvQURLb1kxbC80dWN6aENMTC8ydEdZV1ZLUmRyZDg1cU83SWFGRkx1VndZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMDYxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMQpSaDBhY2g4ZUhtbFkzVjhBNVBzblEwSW0zU21kRElCZ3FWSStMYmJmV1NDd0k1OEY0dzdEQ0VoVmJ6ajBvOFRiZUIvb1NwRy9LMDRHeEd0eTFEdFNDUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.21/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVSWFA3bnhlL0t2Y2dtYzRJWktZZFgxUjFRKzlUcG5wVUdwODhRd3VvcjRYbXd5emVXenR3RndxaDBTbE8vNUdSZDMvOXk2R1oyZ2h6Q1BGeGdDRXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU1MDA3CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yMgpTYWdnS2lVakNPalN3Qy85YWZ4NER3U1NacENVdFhYV2I0UWlTQzNDY3llRXNPaC9xZGVQc2poZjBUcmRtQzhnamtzaTNRWkdDY2UwWHNQVEZQYXRBdz09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.22/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDFDZnJDMFFNdWxHLyt6aXJhVXNDckxaUVJJSGgrRytLR3MwUWx5cE0ycVhmOUcwTG42dHRQUWJzTGkySjQ1aVdJMnNGdWI3VjRaOHJJemVKaURPMkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODUzMzU2CWZpbGU6SG9pc3RfMC41LjIxX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjEKUGRKRExFK2NmL3I1TmJMQzc4SmZVWE1GMUMzcG9tbi9jUlpsTHJ3bkFmSHRObjl3NGpjek1qODFNQ3hpWEs5Z1JkODBBYStqVGRzUHZwdHlsNkliQVE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.21/Hoist_0.5.21_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDA2MDFXSkF1bHdyVXFSYmNXRkszU1hXSVNSdXJHVUFtWWNUNzFzOG1jYzQxQitoZ1FqRWlwUUZlemZDMnhDOWhrb3lMamRkNzlOUFRCL0IvUUxQVFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODU1MTcyCWZpbGU6SG9pc3RfMC41LjIyX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjIKK1lvMDVCUnNZZXlJL0VFSng3ZDVPT3U3cUJEN1hEU3MrekV4ZTllM2FiOUVGYStjaFRhdThuaVdzbW9IRzRwWWRRRS9LSVl5eTl2RVdyTTlod29YQXc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.22/Hoist_0.5.22_x64-setup.exe"
     }
   }
 }
