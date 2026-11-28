@@ -1,19 +1,19 @@
 {
-  "version": "0.5.24",
-  "notes": "\n- 원격 영상을 TV 로 오래 캐스팅하면 소리가 점점 늦어지던 것을 고쳤습니다.",
-  "pub_date": "2026-11-28T11:15:22Z",
+  "version": "0.5.25",
+  "notes": "\n- 맥: Finder·바탕화면과 호이스트 사이에 파일을 끌어다 놓을 수 있습니다. NAS 에 놓으면 올리고, NAS 파일을 Finder 에 놓으면 그 자리로 내려받습니다(끌어내면 늘 복사).",
+  "pub_date": "2026-11-28T13:30:30Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHpqektBaGRKTG81WTUrV3J4QkxSWURJSUZQTWw5ZldkUERzYksxTktDc3B4dEZyMWJTL09ERDYyWVdsVUx3eWlsd25lbDZBNFVpOGQ0aG5UVS9Fa1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY0MDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yNApPa0IyRk43VU1QaXNkVkI0MEQvQnpwL082eEJmdkhRY1NBTU5UZUo0RUJxemhmY2NiQVk3bm9lS1Ivb1RRWUZucnZET0RuSXVnVDYwc01LMzAvVzdEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.24/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVnb0puMjdEMitlaUdWUDlMTDBSWno1Q1BxWWptYld1MU1leXIzZnpWZk1vYVVpSytla2N5T0VRbERINkRuTkhMcW1kdzQvMHRSamllU2hDMlhrNEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODcxNzgxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yNQpJM3J6TVk0eVZIYVNlMkZweG84K2krRmYwaXNzbURPSlZXT21qMzhyM3RWSVdwb3ZVTkh5R094MmNNM1hPa2QvU1F0MmtuS00xWnkremhvMkV3WlFBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.25/Hoist.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWHpqektBaGRKTG81WTUrV3J4QkxSWURJSUZQTWw5ZldkUERzYksxTktDc3B4dEZyMWJTL09ERDYyWVdsVUx3eWlsd25lbDZBNFVpOGQ0aG5UVS9Fa1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY0MDg4CWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yNApPa0IyRk43VU1QaXNkVkI0MEQvQnpwL082eEJmdkhRY1NBTU5UZUo0RUJxemhmY2NiQVk3bm9lS1Ivb1RRWUZucnZET0RuSXVnVDYwc01LMzAvVzdEUT09Cg==",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.24/Hoist.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDVnb0puMjdEMitlaUdWUDlMTDBSWno1Q1BxWWptYld1MU1leXIzZnpWZk1vYVVpSytla2N5T0VRbERINkRuTkhMcW1kdzQvMHRSamllU2hDMlhrNEF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODcxNzgxCWZpbGU6SG9pc3QuYXBwLnRhci5negl2ZXJzaW9uOjAuNS4yNQpJM3J6TVk0eVZIYVNlMkZweG84K2krRmYwaXNzbURPSlZXT21qMzhyM3RWSVdwb3ZVTkh5R094MmNNM1hPa2QvU1F0MmtuS00xWnkremhvMkV3WlFBQT09Cg==",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.25/Hoist.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDdwbjM5K2ZkZUFNdk9pcmFYd01IazU0RHI0eGJHdkw0RHVzRFZ4VW1OOUpEOGw0VWx2RWErSlJXUVVmUkVpZzlMQ0xHTU54T1lMYmE5WVFrV1BiR2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODY0NDc0CWZpbGU6SG9pc3RfMC41LjI0X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjQKTzU0T2xianVBMjJXbmUzR3ZKQUpLQXZaM2ZNMlZkOEFPZVJiNVdSRGxlZk9RYXo2SzB6bmwrNjE0RlJSbUo5SnNiQ2NpVDlnUXR5RitvdlU1eXZGRFE9PQo=",
-      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.24/Hoist_0.5.24_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSMXVTbHVCTWljWDhCbE94enFOSHlKZzRUWmZDUTRkNDdTdFdVcEQ3TGxZVTBTSkdlbVhEMFVSdU55OWpnekQrbW9oSkhXeFJreTlIRXNZaXBxNGc1aUN4SzkrRUxBSUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1ODcyNTE1CWZpbGU6SG9pc3RfMC41LjI1X3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjUuMjUKSUJHUEg0SW9SdmZHQ05mZkN2NnBxQ1ZnSHhkV0xOY3dKWWlqQjVIajQ1UzZVdEVHT3NtR0hXRDVtQWYzS1hLUHJ4TW5odVgybWQ3dkJ4UXg1SDJoRGc9PQo=",
+      "url": "https://github.com/onu-soft/hoist-releases/releases/download/v0.5.25/Hoist_0.5.25_x64-setup.exe"
     }
   }
 }
